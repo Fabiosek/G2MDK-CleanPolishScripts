@@ -8,15 +8,6 @@
 
 func void B_AssessPlayer ()
 {
-	// EXIT IF
-		
-	// ------- TESTMODE: Levelinspektor wird ignoriert ------
-	var C_NPC PCL; PCL = Hlp_GetNpc(PC_Levelinspektor);
-	if (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCL))
-	{
-		return;
-	};
-	
 	// ------ SC im Dialog ------
 	if (other.aivar[AIV_INVINCIBLE] == TRUE) 
 	{

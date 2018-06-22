@@ -130,11 +130,7 @@ func void ADW_PORTALTEMPEL_FOCUS_FUNC ()//Joly: kommt, wenn ein Focusstein in ei
 	if (ADW_PORTALTEMPEL_FOCUS_FUNC_OneTime == FALSE)
 	&& (Npc_GetDistToWP(hero,"ADW_PORTALTEMPEL_TELEPORTSTATION") < 3000)
 	{
-		if ((Npc_IsDead(Stoneguardian_NailedPortalADW1))== FALSE)
-		&& (Stoneguardian_NailedPortalADW1.aivar[AIV_EnemyOverride] == TRUE)
-		{
-			Snd_Play ("THRILLJINGLE_02"); 
-		};
+		Snd_Play ("THRILLJINGLE_02"); 
 		ADW_PORTALTEMPEL_FOCUS_FUNC_OneTime = TRUE;
 	};
 };  

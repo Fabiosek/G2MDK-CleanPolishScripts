@@ -112,7 +112,6 @@ func void UseJOLY_Storyhelpletter ()
 
 	Wld_InsertNpc (Lurker,"ADW_PIRATECAMP_WATERHOLE_04");
 
-	Wld_InsertNpc (Gobbo_Warrior_Visir,"ADW_VALLEY_BIGCAVE_06");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_VALLEY_BIGCAVE_06");
 	Wld_InsertNpc (DragonSnapper,"ADW_VALLEY_BIGCAVE_15");
 
@@ -123,12 +122,12 @@ func void UseJOLY_Storyhelpletter ()
 	Wld_InsertNpc (Warg,"ADW_ENTRANCE_2_PIRATECAMP_13");
 	Wld_InsertNpc (Warg,"ADW_ENTRANCE_2_PIRATECAMP_13");
 
-	Wld_InsertNpc (Gobbo_Warrior_Visir,"ADW_ENTRANCE_2_PIRATECAMP_13");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_PIRATECAMP_13");
-	Wld_InsertNpc (Gobbo_Warrior_Visir,"ADW_ENTRANCE_2_PIRATECAMP_13");
+	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_PIRATECAMP_13");
+	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_PIRATECAMP_13");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_PIRATECAMP_13");
 
-	Wld_InsertNpc (Gobbo_Warrior_Visir,"ADW_ENTRANCE_2_VALLEY_10");
+	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_VALLEY_10");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_VALLEY_10");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_VALLEY_10");
 	Wld_InsertNpc (Gobbo_Warrior,"ADW_ENTRANCE_2_VALLEY_10");

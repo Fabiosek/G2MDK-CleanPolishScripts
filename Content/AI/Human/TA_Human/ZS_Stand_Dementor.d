@@ -22,11 +22,6 @@ func void ZS_Stand_Dementor()
 	Npc_PercEnable  	(self, 	PERC_ASSESSMAGIC		,	B_AssessMagic				);
 	Npc_PercEnable  	(self,	PERC_ASSESSDAMAGE		,	B_AssessDamage				); //geht in ZS_Attack oder in ZS_ReactToDamage (bei Freunden)
 
-	if (Hlp_GetInstanceID(self) != Hlp_GetInstanceID(DMT_1299_OberDementor_DI))	//Joly:soll erst mit SC Quatschen!
-		{
-			Npc_PercEnable  	(self, 	PERC_ASSESSFIGHTSOUND	,	B_AssessFightSound			); //geht in ZS_WatchFight oder ZS_Attack
-		};
-
 	Npc_PercEnable  	(self, 	PERC_ASSESSWARN			, 	B_AssessWarn 		 	 	); //geht in ZS_Attack
 	Npc_PercEnable  	(self, 	PERC_ASSESSTALK			,	B_AssessTalk 				); //geht in ZS_Talk
 	Npc_PercEnable  	(self, 	PERC_MOVEMOB			,	B_MoveMob					); //öffnet Türen, die auf dem Weg liegen

@@ -34,13 +34,6 @@ func void B_MM_AssessEnemy ()
 		return;
 	};
 	
-	// ------- TESTMODE: Levelinspektor wird ignoriert ------
-	var C_NPC PCL; PCL = Hlp_GetNpc(PC_Levelinspektor);
-	if (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCL))
-	{
-		return;
-	};
-	
 	// ------- Mag-Golem-Lares-Hack ------------
 	
 	

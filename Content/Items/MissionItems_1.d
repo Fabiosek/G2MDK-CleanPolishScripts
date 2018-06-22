@@ -939,7 +939,7 @@ INSTANCE Holy_Hammer_MIS (C_Item)
 
 	value 				=	Value_HolyHammer;
 
-	owner				=	Nov_608_Garwig;
+	//owner				=	Nov_608_Garwig;
 
 	damageTotal  		= 	Damage_HolyHammer;
 	damagetype 			=	DAM_BLUNT;

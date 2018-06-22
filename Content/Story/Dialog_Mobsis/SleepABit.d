@@ -44,10 +44,9 @@ func void PC_Sleep (var int t)
 func void SLEEPABIT_S1 ()
 {
 	var C_NPC her; 	her = Hlp_GetNpc(PC_Hero);
-	var C_NPC rock; rock = Hlp_GetNpc(PC_Rockefeller);
 
 	//***ALT** if	(Hlp_GetInstanceID (self)== Hlp_GetInstanceID (Hero)) // MH: geändert, damit kontrollierte NSCs nicht schlafen können!
-	if ( (Hlp_GetInstanceID(self)==Hlp_GetInstanceID(her))||(Hlp_GetInstanceID(self)==Hlp_GetInstanceID(rock)) )
+	if (Hlp_GetInstanceID(self)==Hlp_GetInstanceID(her))
 	{
 		self.aivar[AIV_INVINCIBLE]=TRUE;
 		PLAYER_MOBSI_PRODUCTION	=	MOBSI_SLEEPABIT;

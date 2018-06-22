@@ -7,58 +7,7 @@
 // ****************************************************
 
 func void B_AssessTalk ()
-{
-	// EXIT IF...
-	
-	// ------- FORBIDDEN: Levelinspektor oder Rockefeller wird ignoriert ------
-	var C_NPC PCL; PCL = Hlp_GetNpc(PC_Levelinspektor);
-	var C_NPC PCR; PCR = Hlp_GetNpc(PC_Rockefeller);
-	if (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCL))
-	|| (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCR))
-	{
-		PrintScreen (ConcatStrings("Stimme: ", IntToString(self.voice)), -1, 70, FONT_Screen, 2);
-		
-		PrintScreen ("KEIN HERO!", -1, -1, FONT_Screen, 2);	
-		PrintScreen (IntToString(self.aivar[AIV_FollowDist]), -1, 70, FONT_Screen, 2);
-		
-		if (C_NpcIsInQuarter (self) == Q_KASERNE)
-		{
-			PrintScreen ("Q_KASERNE", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_GALGEN)
-		{
-			PrintScreen ("Q_GALGEN", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_MARKT)
-		{
-			PrintScreen ("Q_MARKT", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_TEMPEL)
-		{
-			PrintScreen ("Q_TEMPEL", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_UNTERSTADT)
-		{
-			PrintScreen ("Q_UNTERSTADT", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_HAFEN)
-		{
-			PrintScreen ("Q_HAFEN", -1, 30, FONT_Screen, 2);
-		};
-		
-		if (C_NpcIsInQuarter (self) == Q_OBERSTADT)
-		{
-			PrintScreen ("Q_OBERSTADT", -1, 30, FONT_Screen, 2);
-		};
-		
-		return;
-	};
-	
+{	
 	// ------ Exit-Conditions NUR für Monster
 	if (self.guild > GIL_SEPERATOR_HUM)
 	{

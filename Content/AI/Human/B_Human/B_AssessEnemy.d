@@ -10,15 +10,6 @@
 
 func int B_AssessEnemy()
 {
-	// EXIT IF...
-		
-	// ------- TESTMODE: Levelinspektor wird ignoriert ------
-	var C_NPC PCL; PCL = Hlp_GetNpc(PC_Levelinspektor);
-	if (Hlp_GetInstanceID(other) == Hlp_GetInstanceID(PCL))
-	{
-		return FALSE;
-	};
-
 	//ADDON>
 	// ------- NoFightParker NPC kloppt sich nur mit Monstern oder dem Player, wird auch nie angegriffen ------
 	if ((Hlp_GetInstanceID(other) != Hlp_GetInstanceID(hero))
