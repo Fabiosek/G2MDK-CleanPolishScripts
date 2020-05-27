@@ -39,7 +39,8 @@ func void ZS_Unconscious ()
 	if (self.guild < GIL_SEPERATOR_HUM)
 	&& (Npc_IsPlayer(other))								
 	{
-		self.aivar[AIV_DefeatedByPlayer] = TRUE; //wird nur hier gesetzt, nie ver�ndert!		self.aivar[AIV_LastFightAgainstPlayer] = FIGHT_LOST;
+		self.aivar[AIV_DefeatedByPlayer] = TRUE; //wird nur hier gesetzt, nie ver�ndert!
+		self.aivar[AIV_LastFightAgainstPlayer] = FIGHT_LOST;
 		
 		if (self.aivar[AIV_LastPlayerAR] == AR_NONE)
 		&& (self.aivar[AIV_DuelLost] == FALSE) //also nur EINMAL
