@@ -111,8 +111,6 @@ STORY\B_Story\B_UseItem.d
 STORY\B_AssignAmbientInfos\B_LastWarningVatras.d
 STORY\B_AssignAmbientInfos\B_Addon_Myxir_TeachRequest.d
 STORY\B_AssignAmbientInfos\B_Addon_Riordian_TeachWisp.d
-STORY\B_AssignAmbientInfos\B_Bartok_ShitAnOrc.d
-STORY\B_AssignAmbientInfos\B_Koch_Hackebeil.d
 
 AI\HUMAN\B_Human\B_ValidateOther.d
 AI\HUMAN\B_Human\B_Say_Gold.d
