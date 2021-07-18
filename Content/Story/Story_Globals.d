@@ -145,32 +145,9 @@ var int Francis_ausgeschissen;				//bei Greg
 var int MIS_Brandon_BringHering;
 
 //Missing People
-var int Lares_CanBringScToPlaces;				//= TRUE Lares braucht die Boote im Hafen nicht mehr im Auge behalten.
-var int SC_HearedAboutMissingPeople;			//= TRUE SC weiß, dass in der Stadt Leute verschwinden.
-var int SC_KnowsDexterAsKidnapper;				//= TRUE SC weiß, dass Dexter in der Sache mit den verschwundenen Leuten mit drin hängt
-var int Ranger_SCKnowsDexter;					//= TRUE SC weiß, dass Dexter im Castlemine sitzt von einem AddonNPC
-var int Dexter_KnowsPatrick;					//= TRUE Dexter kennt Patrick
-var int SCKnowsFarimAsWilliamsFriend;			//= TRUE SC kann Farim nach dem verschwundenen William befragen
-var int SCKnowsSkipAsKidnapper;					//= TRUE die Spur führt den SC zu Skip
-var int SCKnowsMissingPeopleAreInAddonWorld;	//= TRUE die Spur führt den SC zur Addonworld
-var int SCKnowsExactlyWhereMissingPeopleAre;	//  wird nicht verwendet
-var int SCMetMissingPeople;						//	wird nicht verwendet
-var int MissingPeopleReturnedHome;				//= TRUE SC hat die Leute befreit und nach Hause gebracht.
-var int MIS_Akil_BringMissPeopleBack;			//Akil will Tonak und Telbor wieder zurück.
-var int MIS_Bengar_BringMissPeopleBack;			//Bengar will Pardos wieder zurück.
-var int MIS_Addon_Andre_MissingPeople;			//(nur MIL) Andre will die Leute zurück.
+var int SCKnowsMissingPeopleAreInAddonWorld;	//= true die Spur f?hrt den SC zur Addonworld
 var int MIS_Addon_Vatras_WhereAreMissingPeople;	//Vatras will wissen, was mit den Vermissten passiert ist.
-var int MIS_Bromor_LuciaStoleGold;				//= TRUE Bromor vermisst seine Ersparnisse. Lucia hat sie mitgehen lassen.
-var int Bromor_Hausverbot;						//= TRUE Bromor schmeißt den Spieler aus seinem Laden.
-var int MIS_Thorben_BringElvrichBack;			//= TRUE Thorben will Elvrich wieder zurück bei der Arbeit haben.
-var int Elvrich_GoesBack2Thorben;				//= TRUE Elvrich geht zurück zu Thorben
-var int MIS_LuciasLetter;						//= TRUE Elvrich hat den Abschiedsbrief von Lucia gelesen.
-var int MIS_Bartok_MissingTrokar;				//= TRUE Bartok will seinen Jägerfreund Trokar wieder haben.
-var int SC_KnowsLuciaCaughtByBandits;			//= TRUE Lucia ist mit den Banditen hinter Sekobs Hof verschwunden.
-var int Elvrich_SCKnowsPirats;					//= TRUE Elvrich erzählt von Skip!
-var int Dexter_NoMoreSmallTalk;					//= TRUE Noch einmal Dexter anlabern und Dexter greift an.
-var int Saturas_WillVertrauensBeweis;			//= TRUE saturas wartet auf antwort von Vatras!
-var int SC_GotPORTALTEMPELWALKTHROUGHKey;		//= TRUE SC kann die Tür PORTALTEMPELWALKTHROUGH in NW potentiel öffnen.
+var int MIS_LuciasLetter;						//= true Elvrich hat den Abschiedsbrief von Lucia gelesen.
 
 //Ranger 
 var int SC_KnowsRanger;							//= TRUE SC hat vom RING des Wassers gehört.
