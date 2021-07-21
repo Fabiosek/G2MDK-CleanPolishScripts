@@ -317,7 +317,6 @@ var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefäl
 
 // ------ KAPITEL 4 ------
 var int 	MIS_AllDragonsDead; 		//Die OW ist von den Drachen befreit.
-var int 	MIS_KilledDragons;			//Anzahl der schon getöteten Drachen 
 var int 	MIS_KillOrkOberst;			//Kill den Ork Oberst.
 
 // ------ KAPITEL 5 ------

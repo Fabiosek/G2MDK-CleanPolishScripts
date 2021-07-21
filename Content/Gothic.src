@@ -209,9 +209,7 @@ AI\MAGIC\Spell_ProcessMana_Release.d
 
 AI\MAGIC\ZS_Magic\ZS_*.d
 
-
 STORY\B_Story\B_GiveDeathInv.d
-STORY\B_Content\B_DragonKillCounter.d
 
 Story\Events\B_EVENT_PORTAL_EARTHQUAKE.d
 Story\Events\EVT_TELEPORTSTATION_FUNC.d
