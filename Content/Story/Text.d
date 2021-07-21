@@ -1052,7 +1052,6 @@ const string PRINT_XPGained				= "Doœwiadczenie + ";			// bei jedem Erfahrungsge
 const string PRINT_LevelUp				= "Kolejny poziom!";		// beim	Stufenaufstieg
 const string PRINT_NewLogEntry			= "Nowy wpis w dzienniku";
 const string PRINT_TeleportTooFarAway	= "Za daleko";
-const string PRINT_BiffsAnteil	= "Dzia³ka Biffa: ";
 const string PRINT_BiffGold		= " szt. z³ota";
 const string PRINT_Addon_SCIsWearingRangerRing = "Nosisz teraz charakterystyczny znak Wodnego Krêgu.";
 

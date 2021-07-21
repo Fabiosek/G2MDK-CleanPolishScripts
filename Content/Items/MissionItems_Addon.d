@@ -70,7 +70,6 @@ func void Use_SaturasFirstMessage ()
 func void Use_SaturasFirstMessage_Sealed ()
 {   
 	CreateInvItems (self, ItWr_SaturasFirstMessage_Addon,1);
-	SaturasFirstMessageOpened = TRUE;
 	Use_SaturasFirstMessage ();
 }; 
 
@@ -407,6 +406,7 @@ INSTANCE ItWr_RavensKidnapperMission_Addon		(C_Item)
 
 	
 };
+
 var int Use_RavensKidnapperMission_Addon_OneTime;
 func void Use_RavensKidnapperMission_Addon ()
 {   
@@ -418,8 +418,6 @@ func void Use_RavensKidnapperMission_Addon ()
 		//B_LogEntry (TOPIC_Addon_WhoStolePeople,"Teraz mam to na piœmie. Kruk, dawny magnat, stoi za porwaniami mieszkañców Khorinis. Jego kryjówka znajduje siê gdzieœ za górami, w pó³nocno-wschodniej czêœci Khorinis. Vatras powinien zobaczyæ ten dokument."); 
 		Use_RavensKidnapperMission_Addon_OneTime = TRUE;
 	};
-
- 	SCKnowsMissingPeopleAreInAddonWorld = TRUE;
 
 	var int nDocID;
 		
@@ -536,7 +534,7 @@ func void Use_LuciasLoveLetter_Addon ()
 	//Log_CreateTopic (TOPIC_Addon_Lucia, LOG_MISSION);
 	//Log_SetTopicStatus(TOPIC_Addon_Lucia, LOG_RUNNING);
 	//B_LogEntry (TOPIC_Addon_Lucia,"Lucia napisa³a list po¿egnalny dla Elvricha. Z pewnoœci¹ bêdzie chcia³ go przeczytaæ."); 
-	MIS_LuciasLetter = LOG_RUNNING;
+	
 	var int nDocID;
 		
 			nDocID = 	Doc_Create		()			  ;							// DocManager 

@@ -229,9 +229,6 @@ INSTANCE ItWr_CorneliusTagebuch_Mis(C_ITEM)
 
 FUNC VOID UseCorneliusTagebuch()
 {
-	Cornelius_IsLiar = TRUE;
-	//B_LogEntry (TOPIC_RESCUEBENNET,"Das Tagebuch ist der Beweis, den ich brauche um Bennet zu entlasten.");
-
 	var int nDocID;
 
 	nDocID = Doc_Create();						   // DocManager
@@ -625,10 +622,9 @@ INSTANCE ItWr_BabosDocs_MIS(C_Item)
 	TEXT[2] = "Kilka dokumentów";
 	TEXT[3] = "zwiniêtych w rulon.";
 };
+
 func void Use_BabosDocs()
 {
-	BaboSDocsOpen = TRUE;
-
 	CreateInvItems(self, ItWr_BabosLetter_MIS, 1);
 	CreateInvItems(self, ItWr_BabosPinUp_MIS, 1);
 };
@@ -897,8 +893,6 @@ INSTANCE ItSe_DiegosTreasure_Mis(C_Item)
 
 FUNC VOID Use_DiegosTreasure()
 {
-	OpenedDiegosBag = TRUE;
-
 	B_PlayerFindItem(ItMi_Gold, DiegosTreasure);
 };
 
@@ -945,6 +939,7 @@ INSTANCE ItWr_MinenAnteil_Mis(C_Item)
 	TEXT[5] = NAME_Value;
 	COUNT[5] = value;
 };
+
 func void Use_MinenAnteil_Mis()
 {
 	var int nDocID;
@@ -967,8 +962,6 @@ func void Use_MinenAnteil_Mis()
 	Doc_PrintLine(nDocID, 0, "");
 	Doc_PrintLine(nDocID, 0, "          Salandril");
 	Doc_Show(nDocID);
-
-	SC_KnowsProspektorSalandril = TRUE;
 
 	if (ItWr_MinenAnteil_Mis_OneTime == FALSE)
 	{
@@ -1062,8 +1055,6 @@ INSTANCE ItWr_RichterKomproBrief_MIS(C_Item)
 
 func void Use_RichterKomproBrief()
 {
-	SCKnowsRichterKomproBrief = TRUE;
-
 	var int nDocID;
 
 	nDocID = Doc_Create();   // DocManager

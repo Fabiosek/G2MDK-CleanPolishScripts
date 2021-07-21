@@ -517,10 +517,9 @@ INSTANCE ItWr_HalvorMessage	(C_Item)
 	description			= 	name;
 	TEXT[2]				=   "W rybie by³a schowana ta notatka.";
 };
+
 func void UseHalvorMessage ()
-{   
-		Knows_Halvor = TRUE;
-	
+{   	
 		var int nDocID;
 		
 		nDocID = 	Doc_Create		();
@@ -540,36 +539,7 @@ func void UseHalvorMessage ()
 					Doc_PrintLine	(nDocID,  0, "     Halvor");
 					Doc_Show		(nDocID);
 }; 
-//****************************************************************************
-//				Komischer Fisch von Halvor als Schweigegeld
-//			---------------------------------------------
-//****************************************************************************
-/*
-INSTANCE ItFo_HalvorFish (C_Item)
-{	
-	name 				=	"Seltsamer Fisch";
 
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_MISSION;
-	
-	value 				=	0;
-	
-	visual 				=	"ItFo_Fish.3DS";
-	material 			=	MAT_LEATHER;
-	scemeName			=	"MAPSEALED";
-	on_state[0]			=	Use_HalvorFish;
-
-	description			= 	"Seltsam aussehender Fisch";
-	TEXT[2]				= 	"Irgendwas ist in diesem Fisch versteckt";		
-	
-};
-
-	FUNC VOID Use_HalvorFish()
-	{
-		CreateInvItems (hero,ItMi_Nugget ,1);
-		PrintScreen		(PRINT_FoundOreNugget, -1, YPOS_LEVELUP, FONT_ScreenSmall, 2);
-	};
-*/
 //****************************************
 //	Alriks Schwert
 //****************************************
@@ -1060,21 +1030,10 @@ INSTANCE ItWr_BanditLetter_MIS	(C_Item)
 	TEXT[3]				=	"";
 	TEXT[4]				=   "";
 };
+
 func void UseBanditLetter ()
 {   
 		var int nDocID;
-	
-		/*
-		if (Bdt13_Dexter_verraten == FALSE)
-		{
-			Bdt13_Dexter_verraten = TRUE;
-		
-			//Log_CreateTopic (Topic_Bandits,LOG_MISSION);
-			//Log_SetTopicStatus (Topic_Bandits,LOG_RUNNING);
-			//B_LogEntry (Topic_Bandits,"Der Anführer der Banditen ist Dexter. Er versteckt sich bei einer Mine, beim Großbauer.");
-			//MIS_Steckbriefe = LOG_RUNNING;
-		};
-		*/
 		
 		nDocID = 	Doc_Create		();
 					Doc_SetPages	(nDocID,  1);

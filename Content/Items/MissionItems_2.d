@@ -220,7 +220,6 @@ INSTANCE ItMi_GornsTreasure_MIS(C_Item)
 FUNC VOID UseGornsTreasure ()
 {
 	B_PlayerFindItem (ItMi_Gold,250);   
-	Gorns_Beutel = TRUE;
 };
 //**********************************************************************************
 //	Schreiben von Silvestro

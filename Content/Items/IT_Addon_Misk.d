@@ -319,7 +319,6 @@ func void use_lennarpaket()
 {
 	b_playerfinditem(itke_lockpick,LENNAR_PICKLOCK_AMOUNT);
 	Snd_Play("Geldbeutel");
-	LENNARPAKET_OPEN = TRUE;
 };
 
 

@@ -78,13 +78,10 @@ var int Leather02_Equipped;
 
 var int MC_Equipped;
 //---------------------------------------------------
-var int MIS_Addon_Cavalorn_TheHut;					//SC soll nach Cavalorns Hütte sehen.
 var int MIS_Addon_Cavalorn_Letter2Vatras;			//übergebe Cavalorns Brief an Vatras
 var int MIS_Addon_Lares_Ornament2Saturas;			//Lares : bring datt ding zu SAturas
 var int MIS_Addon_Nefarius_BringMissingOrnaments;	//SC soll die 3 restlichen Ornamente finden.
-var int MIS_Addon_Cavalorn_GetOrnamentFromPAL;		//Hol das fehlende Ornament von Lord Hagen
-var int MIS_Addon_Lares_ComeToRangerMeeting;		//SC soll bei Orlan erscheinen um seine Rüstung zu kriegen.			
-var int SaturasFirstMessageOpened;				//= TRUE wenn den Brief geöffnet
+var int MIS_Addon_Cavalorn_GetOrnamentFromPAL;		//Hol das fehlende Ornament von Lord Hagen		
 var int GregLocation;							//Wo befindet sich Greg_NW gerade
 const int Greg_Farm1 	= 0;					//Vor der Stadt
 const int Greg_Taverne 	= 1;					//Orlans Kneipe
@@ -92,9 +89,7 @@ const int Greg_Bigcross	= 2;					//Auf den Feldern von Onar
 const int Greg_Dexter	= 3;					//Dexter
 
 //Missing People
-var int SCKnowsMissingPeopleAreInAddonWorld;	//= true die Spur f?hrt den SC zur Addonworld
 var int MIS_Addon_Vatras_WhereAreMissingPeople;	//Vatras will wissen, was mit den Vermissten passiert ist.
-var int MIS_LuciasLetter;						//= true Elvrich hat den Abschiedsbrief von Lucia gelesen.
 
 //Ranger 
 var int vatraspissedoffforever;
@@ -110,7 +105,6 @@ var int MIS_Vatras_FindTheBanditTrader;			//Vatras will den Namen des Händler a
 var int BanditTrader_Lieferung_Gelesen;			//= TRUE SC hat den Lieferungsschein gelesen.
 
 // Ornamnet Portal
-var int RitualRingRuns;							//= LOG_RUNNING Ritual den Ornamentring zu heilen.
 var int SCUsed_AllNWTeleporststones;			//= TRUE SC benutzte alle Teleportstationen in der Newworld
 var int SC_SAW_ORNAMENT_MAP;					//= TRUE  SC hat gesehen, wo er hin muss zu den teinkreisen
 var int Vatras2Saturas_FindRaven_Open;			//= TRUE SC hat den Brief von Vatras an Saturas geöffnet.
@@ -145,8 +139,7 @@ var int  	SC_FailedToEquipBeliarsWeapon;		//= TRUE SC hat versucht die Waffe anz
 var int  	BeliarsWeaponUpgrated;				//= TRUE SC hat die Waffe wenigstens einmal verbessert!
 
 //--------------Banditenlager (Addonwelt)------------------
-var int 	Player_HasTalkedToBanditCamp;				//Spieler war schon mal im BDT Camp
-var int 	LennarPaket_Open; //ist jetzt FISKs Paket				
+var int 	Player_HasTalkedToBanditCamp;				//Spieler war schon mal im BDT Camp			
 const int	Lennar_picklock_amount = 12; //Anzahl seiner dietriche
 var int 	Knows_MCELIXIER;
 
@@ -261,14 +254,6 @@ var int TheftGoldGlob; //Gold Anzahl die NSC in der Tasche hat
 //	Missionsvariablen		//sollten alle mit "MIS_" anfangen
 //*******************
 
-// ------ KAPITEL 1 ------
-var int Bdt13_Dexter_verraten;
-var int Knows_Dexter;		 	//Spieler hat bei Wache korrekt geantwortet 
-var int MIS_Steckbriefe;
-
-// ------ Farm 1 ------
-var int Wert_LobartsRuestung;
-
 //*********************
 //	Punkte für Aufnahme
 //********************* 
@@ -300,11 +285,6 @@ var int 	MIS_Ignaz_Charm;
 
 // --------- DIEBE & CO ---------------------------------
 var int 	MIS_Andre_GuildOfThieves;
-
-//---------- Halvor der Hehler ---------------------
-var int		Knows_Halvor;				//Spieler hat Zettel von Halvor gelesen
-var int 	Betrayal_Halvor;			//Spieler hat Halvor verraten
-var int     Halvor_Deal;				//Spieler ist Deal mit Halvor eingegangen (mehr Waren zum Kaufen)
 
 //----------Diebesgilde--------------------
 var int 	KnowsPaladins_Ore;			//Weiß warum die paladine da sind
@@ -361,31 +341,16 @@ var int 	MIS_OCGateOpen;				//== TRUE -> Das Tor vom OC ist geöffnet worden (OR
 //**************************
 // Allgemeine Hilfsvariablen
 //**************************
-
-// ------ KAPITEL 1 ------
-
-//--------Matteo und Gritta --------------
-var int Bartok_OrkGesagt;			
-			
+					
 // ------ KAPITEL 2 ------
-var int	Gorns_Beutel;
 var int GornsTreasure;			//Gorns Schatzversteck
 
 // ------ KAPITEL 3 ------
-var int BabosDocsOpen;				//Player hat sich Babos Schmuddelhelt angeguckt
-var int OpenedDiegosBag;			//Player hat den Sack geöffnet!
 const int DiegosTreasure	= 2000;	//Diegos Schatz!
-var int SC_KnowsProspektorSalandril;	//== TRUE MinanteilBetrug von Salandril ist aufgeflogen.
-var int Cornelius_IsLiar;
 const int Gold_BlessSword 	= 5000; //Soviel kostet die erste Segnung deines PalSchwertes (Hoshi: bei Änderung bitte auch in der Text.d ändern!!!!(const string Bless_Sword))
-var int SCKnowsRichterKomproBrief;
-var int TschuessBilgot;
 
 // ------ KAPITEL 4 ------
-var int DJG_BiffParty;			//SCs eigener kleiner Söldner.
-var int DJG_BiffSurvivedLastDragon;
 var int DragonTalk_Exit_Free;	
-var int BiffsAnteil;
 
 // ------ KAPITEL 5 ------
 var int PAL_KnowsAbout_FINAL_BLESSING; //Paladine Sc hat rezept für Finale Waffensegnung gelesen!
