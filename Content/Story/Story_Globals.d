@@ -203,7 +203,6 @@ const int 	GoldMob_20_AmounT_MAX = 19;
 
 //----------------Piratenlager (Addonwelt) -------------------------------
 var int MIS_KrokoJagd;							// Alligator Jagd mit Jack
-var int SC_MadeStunt;
 var int TowerBanditsDead;	
 var int Francis_HasProof;						//Player hat Beweise für Schmuggel
 var int MALCOMEXIDENT; //RAUS
@@ -227,9 +226,6 @@ var int 	Knows_Sumpfkrautschnaps;
 
 //---weitere Knows geschichten -----------------------------
 var int 	Knows_Banditenaxt;
-
-//--- Stunt Bonus ----
-var int StuntBonus_Once;
 
 //**************
 // Gothic 2
