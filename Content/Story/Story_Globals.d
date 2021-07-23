@@ -224,9 +224,6 @@ var int 	Knows_PiratenSchnaps;	//Weißer Rum
 var int 	Knows_Magierschnaps;
 var int 	Knows_Sumpfkrautschnaps;
 
-//---weitere Knows geschichten -----------------------------
-var int 	Knows_Banditenaxt;
-
 //**************
 // Gothic 2
 //**************
@@ -249,38 +246,8 @@ var int TheftGoldGlob; //Gold Anzahl die NSC in der Tasche hat
 //*******************
 //	Missionsvariablen		//sollten alle mit "MIS_" anfangen
 //*******************
-
-//*********************
-//	Punkte für Aufnahme
-//********************* 
-var int MIL_Aufnahme;
-var int SLD_Aufnahme;
-var int KDF_Aufnahme;
-var int NOV_Aufnahme;
-
-//******************************
-var int Player_IsApprentice;
-const int APP_NONE 			= 0;
-const int APP_Bosper 		= 1;
-const int APP_Harad			= 2;
-const int APP_Constantino 	= 3;
-
-//-------------------------------
-var int Bosper_Lehrling_Day;
-var int Harad_Lehrling_Day;
-var int Constantino_Lehrling_Day;
-//*******************************
-
-// ------ City ------
-var int 	Lothar_Regeln;
-var int 	MIS_Andre_REDLIGHT;
-var int 	MIS_Andre_WAREHOUSE;
-var int 	MIS_Andre_FISH;
 var int 	Charm_Test;
 var int 	MIS_Ignaz_Charm;
-
-// --------- DIEBE & CO ---------------------------------
-var int 	MIS_Andre_GuildOfThieves;
 
 //----------Diebesgilde--------------------
 var int 	KnowsPaladins_Ore;			//Weiß warum die paladine da sind

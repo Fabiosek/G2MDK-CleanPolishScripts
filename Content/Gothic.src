@@ -11,8 +11,6 @@ AI\AI_INTERN\Species.d
 AI\AI_INTERN\PrintDebug.d
 AI\AI_INTERN\PrintPlus.d
 
-STORY\Events\B_AWAKE_STONEGUARDIAN.d
-
 STORY\Log_Entries\Log_Constants_*.d
 STORY\XP_Constants.d
 STORY\Story_Globals.d

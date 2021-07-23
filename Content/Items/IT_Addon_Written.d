@@ -543,12 +543,9 @@ INSTANCE ItWr_Addon_AxtAnleitung (C_ITEM)
 	description			= 	name;
 	Text[0]				= 	"Instrukcja stworzenia lekkiego, ostrego topora";
 };
+
 func void UseAxtAnleitung ()
 {
-		if (Npc_GetTalentSkill 	(hero, NPC_TALENT_SMITH) >= 1)
-		{
-			Knows_Banditenaxt = TRUE;
-		};
 		var int nDocID;
 
 		nDocID = 	Doc_Create		()			  ;							// DocManager
