@@ -246,6 +246,10 @@ var int TheftGoldGlob; //Gold Anzahl die NSC in der Tasche hat
 //*******************
 //	Missionsvariablen		//sollten alle mit "MIS_" anfangen
 //*******************
+
+var int 	Player_IsApprentice;
+const int 	APP_NONE 			= 0;
+
 var int 	Charm_Test;
 var int 	MIS_Ignaz_Charm;
 
