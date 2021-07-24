@@ -587,27 +587,9 @@ INSTANCE ItWr_Addon_SUMMONANCIENTGHOST (C_ITEM)
 	description			= 	name;
 	Text[0]				=	"Za pomoc¹ tego zwoju mo¿esz przywo³aæ Quarhodrona.";
 };
+
 func void UseSummonAncientGhost ()
 {
-	if (SC_SummonedAncientGhost == FALSE)
-	{
-		 B_Say (self, self, "$ADDON_SUMMONANCIENTGHOST");
-		
-		if (Npc_GetDistToWP(self,"ADW_ANCIENTGHOST")<1000)  
-		{ 
-			//Wld_InsertNpc 	(NONE_ADDON_111_Quarhodron, "ADW_ANCIENTGHOST");
-	 		//Wld_PlayEffect("spellFX_Maya_Ghost",  NONE_ADDON_111_Quarhodron, NONE_ADDON_111_Quarhodron, 0, 0, 0, FALSE ); 
-	 		//Wld_PlayEffect("SPELLFX_LIGHTSTAR_WHITE",  NONE_ADDON_111_Quarhodron, NONE_ADDON_111_Quarhodron, 0, 0, 0, FALSE ); 
-	 		Snd_Play ("MFX_GhostVoice"); 
-	 		Snd_Play ("MFX_Firestorm_Cast"); 
-	 		Snd_Play ("MFX_Lightning_Origin");
-	 		SC_SummonedAncientGhost = TRUE;
-	    }
-		else
-		{
-			B_Say (self, self, "$ADDON_ANCIENTGHOST_NOTNEAR");
-		};
-	};
 };
 
 //////////////////////////////////////////////////////////////////////////////

@@ -126,12 +126,7 @@ var int SC_ADW_ActivatedAllTelePortStones;		//= TRUE Alle ADW Teleporter sind ak
 //ADDONWORLD KDW
 var int StPl_nDocID;
 var int 	ENTERED_ADDONWORLD;					//= TRUE war schon in der Addonworld
-var int 	Ghost_SCKnowsHow2GetInAdanosTempel;	//= TRUE Quarhodron erzählt SC wie man Ravens Tür aufmacht und in den Tempel kommt.
 var int 	SC_Knows_WeaponInAdanosTempel;		//= TRUE SC weiß vom Schwert im Tempel
-var int		SC_SummonedAncientGhost;			//= TRUE Quarhodron ist erschienen.
-var int 	GhostAttackWarn;
-var int 	SC_TookRhademesTrap;				//= TRUE SC ist an Rhademes vorbei gekommen
-var int 	SC_TalkedToRhademAfter;				//= TRUE SC hat danach nochmal mit Rhademes gesprochen
 var int 	RavenIsDead;						//= TRUE Raven ist tot und das Hauptziel vom Addon erreicht. 
 var int  	BeliarsWeaponSpecialDamage;			//Grundwert für Speziellen Schaden Beliars Klaue
 var int  	BeliarDamageChance;					//Chance auf Extraschaden
