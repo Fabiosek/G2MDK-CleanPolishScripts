@@ -36,7 +36,7 @@ instance MENUITEM_GAME_SUB_TITLES(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
 	text[0] = "Podpisy";
-	text[1] = "W³¹czenie/wy³¹czenie podpisów przy dialogach";
+	text[1] = "WÂ³Â¹czenie/wyÂ³Â¹czenie podpisÃ³w przy dialogach";
 	posx = 700;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 0);
 	dimx = 4600;
@@ -64,8 +64,8 @@ instance MENUITEM_GAME_SUB_TITLES_CHOICE(C_MENU_ITEM_DEF)
 instance MENUITEM_GAME_FIGHTFOCUS(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
-	text[0] = "Oznaczanie celów";
-	text[1] = "W³./wy³. wyró¿niania bierz¹cego celu w czasie walki";
+	text[0] = "Oznaczanie celÃ³w";
+	text[1] = "WÂ³./wyÂ³. wyrÃ³Â¿niania bieÅ¼Â¹cego celu w czasie walki";
 	posx = 700;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 1);
 	dimx = 4600;
@@ -78,7 +78,7 @@ instance MENUITEM_GAME_FIGHTFOCUS_CHOICE(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_CHOICE_BACK_PIC;
 	type = MENU_ITEM_CHOICEBOX;
-	text[0] = "Nie|Okienko|Podœwietlenie|Oba";
+	text[0] = "Nie|Okienko|PodÅ“wietlenie|Oba";
 	fontname = MENU_FONT_SMALL;
 	posx = 5400;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 1) + MENU_CHOICE_YPLUS;
@@ -93,8 +93,8 @@ instance MENUITEM_GAME_FIGHTFOCUS_CHOICE(C_MENU_ITEM_DEF)
 instance MENUITEM_GAME_INTERACTFOCUS(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
-	text[0] = "Podœwietlanie obiektów";
-	text[1] = "W³./wy³. podœwietlania przedmiotów w polu widzenia";
+	text[0] = "PodÅ“wietlanie obiektÃ³w";
+	text[1] = "WÂ³./wyÂ³. podÅ“wietlania przedmiotÃ³w w polu widzenia";
 	posx = 700;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 2);
 	dimx = 4600;
@@ -123,7 +123,7 @@ instance MENUITEM_GAME_LOOKAROUND_INVERSE(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
 	text[0] = "Zmiana pracy kamery";
-	text[1] = "W³¹czenie/wy³¹czenie odwróconych ruchów kamery";
+	text[1] = "WÂ³Â¹czenie/wyÂ³Â¹czenie odwrÃ³conych ruchÃ³w kamery";
 	posx = 700;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 3);
 	dimx = 4600;
@@ -180,8 +180,8 @@ instance MENUITEM_M_CHOICE(C_MENU_ITEM_DEF)
 instance MENUITEM_MSENSITIVITY(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
-	text[0] = "Czu³oœæ myszy";
-	text[1] = "Ustawienie czu³oœci myszy";
+	text[0] = "CzuÂ³oÅ“Ã¦ myszy";
+	text[1] = "Ustawienie czuÂ³oÅ“ci myszy";
 	posx = 700;
 	posy = MENU_START_Y + (MENU_SOUND_DY * 5);
 	dimx = 4600;
@@ -240,7 +240,7 @@ instance MENUITEM_GAME_OLDCONTROLS_CHOICE(C_MENU_ITEM_DEF)
 instance MENUITEM_GAME_BACK(C_MENU_ITEM_DEF)
 {
 	backpic = MENU_ITEM_BACK_PIC;
-	text[0] = "Wróæ";
+	text[0] = "WrÃ³Ã¦";
 	posx = 1000;
 	posy = MENU_BACK_Y;
 	dimx = 6192;
