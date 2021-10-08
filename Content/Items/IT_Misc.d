@@ -77,7 +77,7 @@ instance ITMI_RUNEBLANK(C_ITEM)
 
 instance ITMI_PLIERS(C_ITEM)
 {
-	name = "¯uwaczka";
+	name = "Â¯uwaczka";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_RUNEBLANK;
@@ -103,7 +103,7 @@ instance ITMI_FLASK(C_ITEM)
 
 instance ITMI_HAMMER(C_ITEM)
 {
-	name = "M³otek";
+	name = "MÂ³otek";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_HAMMER;
@@ -116,7 +116,7 @@ instance ITMI_HAMMER(C_ITEM)
 
 instance ITMI_SCOOP(C_ITEM)
 {
-	name = "£y¿ka";
+	name = "Â£yÂ¿ka";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_SCOOP;
@@ -155,7 +155,7 @@ instance ITMI_PANFULL(C_ITEM)
 
 instance ITMI_SAW(C_ITEM)
 {
-	name = "Pi³a";
+	name = "PiÂ³a";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_SAW;
@@ -181,7 +181,7 @@ instance ITMISWORDRAW(C_ITEM)
 
 instance ITMISWORDRAWHOT(C_ITEM)
 {
-	name = "Gor¹ca stal";
+	name = "GorÂ¹ca stal";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_SWORDRAWHOT;
@@ -194,7 +194,7 @@ instance ITMISWORDRAWHOT(C_ITEM)
 
 instance ITMISWORDBLADEHOT(C_ITEM)
 {
-	name = "Gor¹ce ostrze";
+	name = "GorÂ¹ce ostrze";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_SWORDBLADEHOT;
@@ -220,7 +220,7 @@ instance ITMISWORDBLADE(C_ITEM)
 
 instance ITMI_BROOM(C_ITEM)
 {
-	name = "Miot³a";
+	name = "MiotÂ³a";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_BROOM;
@@ -288,7 +288,7 @@ func void use_brush()
 
 instance ITMI_JOINT(C_ITEM)
 {
-	name = "£odyga bagiennego ziela";
+	name = "Â£odyga bagiennego ziela";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_JOINT;
@@ -334,7 +334,7 @@ func void usepacket()
 
 instance ITMI_POCKET(C_ITEM)
 {
-	name = "Skórzany mieszek";
+	name = "SkÃ³rzany mieszek";
 	mainflag = ITEM_KAT_NONE | ITEM_MULTI;
 	flags = 0;
 	value = 10;
@@ -343,8 +343,8 @@ instance ITMI_POCKET(C_ITEM)
 	material = MAT_LEATHER;
 	on_state[0] = usepocket;
 	description = name;
-	text[2] = "W¹ski, niezbyt";
-	text[3] = "ciê¿ki woreczek.";
+	text[2] = "WÂ¹ski, niezbyt";
+	text[3] = "ciÃªÂ¿ki woreczek.";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
@@ -360,7 +360,7 @@ func void usepocket()
 
 instance ITMI_NUGGET(C_ITEM)
 {
-	name = "Bry³ka rudy";
+	name = "BryÂ³ka rudy";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_NUGGET;
@@ -376,7 +376,7 @@ instance ITMI_NUGGET(C_ITEM)
 
 instance ITMI_GOLD(C_ITEM)
 {
-	name = "Z³oto";
+	name = "ZÂ³oto";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_GOLD;
@@ -404,7 +404,7 @@ instance ITMI_OLDCOIN(C_ITEM)
 
 instance ITMI_GOLDCANDLEHOLDER(C_ITEM)
 {
-	name = "Z³oty œwiecznik";
+	name = "ZÂ³oty Å“wiecznik";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_GOLDCANDLEHOLDER;
@@ -417,7 +417,7 @@ instance ITMI_GOLDCANDLEHOLDER(C_ITEM)
 
 instance ITMI_GOLDNECKLACE(C_ITEM)
 {
-	name = "Z³oty naszyjnik";
+	name = "ZÂ³oty naszyjnik";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_AMULET;
 	value = VALUE_GOLDNECKLACE;
@@ -431,7 +431,7 @@ instance ITMI_GOLDNECKLACE(C_ITEM)
 
 instance ITMI_SILVERRING(C_ITEM)
 {
-	name = "Srebrny pierœcieñ";
+	name = "Srebrny pierÅ“cieÃ±";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_RING;
 	value = VALUE_SILVERRING;
@@ -473,7 +473,7 @@ instance ITMI_SILVERPLATE(C_ITEM)
 
 instance ITMI_GOLDPLATE(C_ITEM)
 {
-	name = "Z³oty talerz";
+	name = "ZÂ³oty talerz";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_GOLDPLATE;
@@ -486,7 +486,7 @@ instance ITMI_GOLDPLATE(C_ITEM)
 
 instance ITMI_GOLDCUP(C_ITEM)
 {
-	name = "Z³oty puchar";
+	name = "ZÂ³oty puchar";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_GOLDCUP;
@@ -505,14 +505,14 @@ instance ITMI_BLOODCUP_MIS(C_ITEM)
 	value = VALUE_BLOODCUP;
 	visual = "ItMi_GoldCup.3DS";
 	material = MAT_METAL;
-	description = "Puchar pe³en krwi.";
+	description = "Puchar peÂ³en krwi.";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
 
 instance ITMI_GOLDRING(C_ITEM)
 {
-	name = "Z³oty pierœcieñ";
+	name = "ZÂ³oty pierÅ“cieÃ±";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_RING;
 	value = VALUE_GOLDRING;
@@ -541,7 +541,7 @@ instance ITMI_SILVERCHALICE(C_ITEM)
 
 instance ITMI_JEWELERYCHEST(C_ITEM)
 {
-	name = "Szkatu³ka z klejnotami";
+	name = "SzkatuÂ³ka z klejnotami";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_JEWELERYCHEST;
@@ -554,7 +554,7 @@ instance ITMI_JEWELERYCHEST(C_ITEM)
 
 instance ITMI_GOLDCHALICE(C_ITEM)
 {
-	name = "Z³ote naczynie";
+	name = "ZÂ³ote naczynie";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_GOLDCHALICE;
@@ -580,7 +580,7 @@ instance ITMI_GOLDCHEST(C_ITEM)
 
 instance ITMI_INNOSSTATUE(C_ITEM)
 {
-	name = "Pos¹¿ek Innosa";
+	name = "PosÂ¹Â¿ek Innosa";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_INNOSSTATUE;
@@ -606,7 +606,7 @@ instance ITMI_SEXTANT(C_ITEM)
 
 instance ITMI_SILVERCANDLEHOLDER(C_ITEM)
 {
-	name = "Srebrny œwiecznik";
+	name = "Srebrny Å“wiecznik";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_SILVERCANDLEHOLDER;
@@ -660,7 +660,7 @@ instance ITMI_QUARTZ(C_ITEM)
 
 instance ITMI_PITCH(C_ITEM)
 {
-	name = "Smo³a";
+	name = "SmoÂ³a";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_PITCH;
@@ -673,7 +673,7 @@ instance ITMI_PITCH(C_ITEM)
 
 instance ITMI_ROCKCRYSTAL(C_ITEM)
 {
-	name = "Ska³a krystaliczna";
+	name = "SkaÂ³a krystaliczna";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_ROCKCRYSTAL;
@@ -700,7 +700,7 @@ instance ITMI_AQUAMARINE(C_ITEM)
 
 instance ITMI_HOLYWATER(C_ITEM)
 {
-	name = "Woda œwiêcona";
+	name = "Woda Å“wiÃªcona";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_HOLYWATER;
@@ -713,7 +713,7 @@ instance ITMI_HOLYWATER(C_ITEM)
 
 instance ITMI_COAL(C_ITEM)
 {
-	name = "Wêgiel";
+	name = "WÃªgiel";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_COAL;
@@ -727,7 +727,7 @@ instance ITMI_COAL(C_ITEM)
 
 instance ITMI_DARKPEARL(C_ITEM)
 {
-	name = "Czarna per³a";
+	name = "Czarna perÂ³a";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = VALUE_DARKPEARL;
@@ -741,63 +741,63 @@ instance ITMI_DARKPEARL(C_ITEM)
 
 instance ITMI_APFELTABAK(C_ITEM)
 {
-	name = "Tytoñ jab³kowy";
+	name = "TytoÃ± jabÂ³kowy";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = value_itmi_apfeltabak;
 	visual = "ItMi_Pocket.3ds";
 	material = MAT_LEATHER;
 	description = name;
-	text[2] = "Tytoñ o smaku jab³kowym.";
+	text[2] = "TytoÃ± o smaku jabÂ³kowym.";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
 
 instance ITMI_PILZTABAK(C_ITEM)
 {
-	name = "Grzybowy tytoñ";
+	name = "Grzybowy tytoÃ±";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = value_itmi_pilztabak;
 	visual = "ItMi_Pocket.3ds";
 	material = MAT_LEATHER;
 	description = name;
-	text[2] = "Tytoñ o smaku grzybowym.";
+	text[2] = "TytoÃ± o smaku grzybowym.";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
 
 instance ITMI_DOPPELTABAK(C_ITEM)
 {
-	name = "Podwójne jab³ko";
+	name = "PodwÃ³jne jabÂ³ko";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = value_itmi_doppeltabak;
 	visual = "ItMi_Pocket.3ds";
 	material = MAT_LEATHER;
 	description = name;
-	text[2] = "Smakuje podobnie do zwyk³ego.";
+	text[2] = "Smakuje podobnie do zwykÂ³ego.";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
 
 instance ITMI_HONIGTABAK(C_ITEM)
 {
-	name = "Miodowy tytoñ";
+	name = "Miodowy tytoÃ±";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = value_itmi_honigtabak;
 	visual = "ItMi_Pocket.3ds";
 	material = MAT_LEATHER;
 	description = name;
-	text[2] = "S³odki tytoñ jab³kowy";
+	text[2] = "SÂ³odki tytoÃ± jabÂ³kowy";
 	text[5] = NAME_VALUE;
 	count[5] = value;
 };
 
 instance ITMI_SUMPFTABAK(C_ITEM)
 {
-	name = "Tytoñ zio³owy";
+	name = "TytoÃ± zioÂ³owy";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = value_itmi_sumpftabak;
