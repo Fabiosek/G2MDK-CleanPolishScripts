@@ -99,11 +99,6 @@ FUNC void ZS_Talk ()
 		
 		// ------ Heiltrank geben können ------
 		if (self.aivar[AIV_PARTYMEMBER] == TRUE)
-		//&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff))
-		//&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff_NW))
-		//&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff_DI))
-		//&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Pardos))
-		//&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Pardos_NW))
 		{
 			B_Addon_GivePotion(self);
 		};
