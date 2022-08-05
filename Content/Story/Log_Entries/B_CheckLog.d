@@ -5,7 +5,7 @@
 func void B_CheckLog ()	
 {	
 
-	B_CloseTopics_Hoshi ();
+	//B_CloseTopics_Hoshi ();
 
 };
 
