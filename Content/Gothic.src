@@ -49,7 +49,6 @@ STORY\Dialog_Mobsis\B_PlayerMap.d
 AI\HUMAN\B_Human\B_Say.d
 AI\HUMAN\B_Human\B_Say_Overlay.d
 STORY\Log_Entries\B_CloseTopic.d
-STORY\Log_Entries\B_CloseTopics_*.d
 STORY\Log_Entries\B_Checklog.d
 
 STORY\B_Story\B_GivePlayerXP.d
