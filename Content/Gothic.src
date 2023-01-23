@@ -33,7 +33,6 @@ STORY\B_Story\B_GetDayPlus.d
 STORY\B_Story\B_BlessAttribute.d
 STORY\B_Story\B_StartOtherRoutine.d
 
-STORY\B_Content\B_SCObsession.d
 STORY\B_Content\B_Extro_Avi.d
 STORY\B_Content\B_LieselMaeh.d
 STORY\B_Content\B_IrrlichtBeep.d
@@ -170,7 +169,6 @@ AI\HUMAN\B_Human\B_AssessTheft.d
 AI\HUMAN\B_Human\B_AssessThreat.d
 AI\HUMAN\B_Human\B_AssessUseMob.d
 AI\HUMAN\B_Human\B_AssessWarn.d
-STORY\B_AssignAmbientInfos\B_AssignDementorTalk.d
 STORY\B_AssignAmbientInfos\B_AssignSchiffswachenTalk.d
 AI\HUMAN\B_Human\B_AssessPlayer.d
 AI\HUMAN\B_Human\B_MoveMob.d

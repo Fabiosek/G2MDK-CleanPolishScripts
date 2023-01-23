@@ -987,7 +987,6 @@ const STRING Print_InnosEyeGet					= "Otrzyma³eœ Oko Innosa";
 
 const string PRINT_GotFourItems					= "Otrzyma³eœ 4 przedmioty ";
 const string PRINT_OrcEliteRingEquip			= "Czujesz siê os³abiony.";
-const string PRINT_SCIsObsessed					= "Czujesz, ¿e coœ ciê ciœnie i dusi!";
 const string PRINT_ClearSCObsession				= "Czujesz ulgê.";
 const string PRINT_NumberLeft					= "  pozosta³o";
 const string PRINT_NovizenLeft					= "  nowicjuszy pozosta³o";

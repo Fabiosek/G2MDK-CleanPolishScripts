@@ -729,7 +729,6 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 	CreateInvItems (self, ItWr_XardasBookForPyrokar_Mis,1);
 	CreateInvItems (self, ItKe_CHEST_SEKOB_XARDASBOOK_MIS,1);
 	CreateInvItems (self, ItWr_CorneliusTagebuch_Mis,1);
-	CreateInvItems (self, ITWR_DementorObsessionBook_MIS,1);
 	CreateInvItems (self, ItWr_PyrokarsObsessionList,1);
 	CreateInvItems (self, ItPo_HealHilda_MIS,1);
 	CreateInvItems (self, ItMw_MalethsGehstock_MIS,1);
@@ -740,7 +739,6 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 	CreateInvItems (self, ItWr_BabosDocs_MIS,1);
 	CreateInvItems (self, ItKe_IgarazChest_Mis,1);
 	CreateInvItems (self, ItWr_Astronomy_Mis,1);
-	CreateInvItems (self, ItPo_HealObsession_MIS,1);
 	CreateInvItems (self, ItSe_Golemchest_Mis,1);
 	CreateInvItems (self, ItWr_ShatteredGolem_MIS,1);
 	CreateInvItems (self, ItWr_DiegosLetter_MIS,1);	
