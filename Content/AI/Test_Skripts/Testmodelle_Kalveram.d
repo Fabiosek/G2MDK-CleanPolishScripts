@@ -68,7 +68,7 @@ instance Itemhoshi (Npc_Default)
 	// ------ NSC ------
 	name 		= "Itemhoshi";
 	guild 		= GIL_MIL;
-	id 			= 1500;
+	id 			= 6666;
 	voice 		= 3;
 	flags       = NPC_FLAG_IMMORTAL;																	//NPC_FLAG_IMMORTAL oder 0
 	npctype		= NPCTYPE_MAIN;
@@ -581,7 +581,7 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItMi_Rake,1);
 	CreateInvItems(self,ItMi_Hammer,1);
 	CreateInvItems(self,ItMi_Scoop,1);
-	CreateInvItems(self,ItMi_Nugget,1);
+	CreateInvItems(self,ItMiNugget,1);
 	CreateInvItems(self,ItMi_Joint,1);
 	CreateInvItems(self,ItMi_Lute,1);
 	CreateInvItems (self,ItMi_Gold, 1000);
@@ -942,19 +942,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItPo_PotionOfDeath_02_Mis,1);
 	CreateInvItems(self,ItAm_AmulettOfDeath_Mis,1);
 	CreateInvItems(self,ItPo_HealRandolph_MIS,1);
-	CreateInvItems(self,ItSe_XardasNotfallBeutel_MIS,1);
-	CreateInvItems(self,ItWr_XardasErmahnungFuerIdioten_MIS,1);
-	CreateInvItems(self,ItWr_Krypta_Garon,1);
-	CreateInvItems(self,ItKe_OrkKnastDI_MIS,1);
-	CreateInvItems(self,ItKe_EVT_UNDEAD_01,1);
-	CreateInvItems(self,ItKe_EVT_UNDEAD_02,1);
-	CreateInvItems(self,ItKe_LastDoorToUndeadDrgDI_MIS,1);
-	CreateInvItems(self,ItWr_LastDoorToUndeadDrgDI_MIS,1);
-	CreateInvItems(self,ItKe_ChestMasterDementor_MIS,1);
-	CreateInvItems(self,ItWr_Rezept_MegaDrink_MIS,1);
-	CreateInvItems(self,ItWr_Diary_BlackNovice_MIS,1);
-	CreateInvItems(self,ItWr_ZugBruecke_MIS,1);
-	CreateInvItems(self,ItMi_PowerEye,1);
 //Addon
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon_Sealed,1);
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon,1);
@@ -1033,7 +1020,7 @@ instance TA_Testmodell (Npc_Default)
 	// ------ NSC ------
 	name 		= "TA_Testmodell";
 	guild 		= GIL_SLD;
-	id 			= 1500;
+	id 			= 6666;
 	voice 		= 3;
 	flags       = NPC_FLAG_IMMORTAL;																	//NPC_FLAG_IMMORTAL oder 0
 	npctype		= NPCTYPE_MAIN;
@@ -1068,10 +1055,10 @@ instance TA_Testmodell (Npc_Default)
 		
 
 	// ------ TA anmelden ------
-	daily_routine 		= Rtn_Start_1500;
+	daily_routine 		= Rtn_Start_6666;
 };
 
-FUNC VOID Rtn_Start_1500 ()
+FUNC VOID Rtn_Start_6666 ()
 {
 	TA_Cook_Cauldron   	(00,00,00,15,"WP_COOK_CAULDRON");
 	TA_Pee				(00,15,00,30,"WP_WASH");
@@ -1116,13 +1103,13 @@ FUNC VOID Rtn_Start_1500 ()
 	TA_Pick_FP			(10,15,24,00,"WP_PRAY");				
 };
 
-FUNC VOID Rtn_Guide_1500 ()
+FUNC VOID Rtn_Guide_6666 ()
 {
 	TA_Guide_Player	(06,00,18,00,"WP_GUIDE_PLAYER");
 	TA_Guide_Player	(18,00,06,00,"WP_GUIDE_PLAYER");
 };
 
-FUNC VOID Rtn_Follow_1500 ()
+FUNC VOID Rtn_Follow_6666 ()
 {
 	TA_Follow_Player	(06,00,18,00,"WP_FOLLOW_PLAYER");
 	TA_Follow_Player	(18,00,06,00,"WP_FOLLOW_PLAYER");

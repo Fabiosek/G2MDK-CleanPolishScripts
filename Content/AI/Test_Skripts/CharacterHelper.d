@@ -337,7 +337,7 @@ FUNC int  CH_kriegen_Condition()
 FUNC VOID  CH_kriegen_Info()
 {
 	
-	B_GiveInvItems (other, self, Itmi_Nugget, 1);
+	B_GiveInvItems (other, self, ItmiNugget, 1);
 };
 //***************************************************************************
 //	Rahmen-Infos
@@ -367,7 +367,7 @@ FUNC int  CH_Geben_Condition()
 };
 FUNC VOID  CH_Geben_Info()
 {
-	//B_GiveInvItems (self, other, Itmi_Nugget, 2);
+	//B_GiveInvItems (self, other, ItmiNugget, 2);
 	
 		 AI_PrintScreen ("Honig gegeben",	 -1, 34, FONT_ScreenSmall, 2);
 		 AI_PrintScreen ("Brot gegeben",	 -1, 37, FONT_ScreenSmall, 2);
