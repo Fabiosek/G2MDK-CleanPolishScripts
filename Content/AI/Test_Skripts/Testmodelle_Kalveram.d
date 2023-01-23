@@ -927,21 +927,7 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItPo_DragonEggDrinkNeoras_MIS,1);
 	CreateInvItems(self,ItWr_Map_Orcelite_MIS,1);
 	CreateInvItems(self,ItWr_Map_Caves_MIS,1);
-	CreateInvItems(self,ItWr_XardasLetterToOpenBook_MIS,1);
-	CreateInvItems(self,ItKe_MonastarySecretLibrary_Mis,1);
-	CreateInvItems(self,ItWr_HallsofIrdorath_Mis,1);
-	CreateInvItems(self,ItWr_HallsofIrdorath_Open_Mis,1);
-	CreateInvItems(self,ItWr_XardasSeamapBook_Mis,1);
-	CreateInvItems(self,ItWr_UseLampIdiot_Mis,1);
-	CreateInvItems(self,ItWr_Seamap_Irdorath,1);
 	CreateInvItems(self,ItMi_KerolothsGeldbeutel_MIS,1);
-	CreateInvItems(self,ITWr_ForgedShipLetter_MIS,1);
-	CreateInvItems(self,ITKE_OC_MAINGATE_MIS,1);
-	CreateInvItems(self,ITKE_SHIP_LEVELCHANGE_MIS,1);
-	CreateInvItems(self,ItPo_PotionOfDeath_01_Mis,1);
-	CreateInvItems(self,ItPo_PotionOfDeath_02_Mis,1);
-	CreateInvItems(self,ItAm_AmulettOfDeath_Mis,1);
-	CreateInvItems(self,ItPo_HealRandolph_MIS,1);
 //Addon
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon_Sealed,1);
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon,1);

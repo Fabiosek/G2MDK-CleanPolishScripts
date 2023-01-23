@@ -765,20 +765,4 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 	CreateInvItems (self, ItPo_DragonEggDrinkNeoras_MIS,1);
 	CreateInvItems (self, ItWr_Map_Orcelite_MIS,1);
 	CreateInvItems (self, ItWr_Map_Caves_MIS,1);
-//----------------------------------------
-//	MissionItems_5.d
-//----------------------------------------
-	CreateInvItems (self, ItWr_XardasLetterToOpenBook_MIS,1);
-	CreateInvItems (self, ItKe_MonastarySecretLibrary_Mis,1);
-	CreateInvItems (self, ItWr_HallsofIrdorath_Mis,1);
-	CreateInvItems (self, ItWr_HallsofIrdorath_Open_Mis,1);
-	CreateInvItems (self, ItWr_XardasSeamapBook_Mis,1);
-	CreateInvItems (self, ItWr_Seamap_Irdorath,1);
-	CreateInvItems (self, ITWr_ForgedShipLetter_MIS,1);
-	CreateInvItems (self, ITKE_OC_MAINGATE_MIS,1);
-	CreateInvItems (self, ITKE_SHIP_LEVELCHANGE_MIS,1);
-	CreateInvItems (self, ItPo_PotionOfDeath_01_Mis,1);
-	CreateInvItems (self, ItPo_PotionOfDeath_02_Mis,1);
-	CreateInvItems (self, ItAm_AmulettOfDeath_Mis,1);
-	CreateInvItems (self, ItPo_HealRandolph_MIS,1);
 };
