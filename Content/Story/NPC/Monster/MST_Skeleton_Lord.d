@@ -1,5 +1,5 @@
 
-PROTOTYPE Mst_Skeleton_Lord	(C_NPC)
+prototype Mst_Skeleton_Lord	(C_NPC)
 {
 	//----- Monster ----
 	name							=	"Wojownik cienia";
@@ -68,61 +68,11 @@ func void B_SetVisuals_Skeleton_Lord()
 	B_SetNpcVisual 		(self, MALE, "Ske_Head", 0, 0, ITAR_PAL_SKEL);
 };
 
-
 //**************************************************************
 //	Schattenlord 	
 //**************************************************************
 
-INSTANCE Skeleton_Lord	(Mst_Skeleton_Lord)
+instance Skeleton_Lord	(Mst_Skeleton_Lord)
 {
 	B_SetVisuals_Skeleton_Lord ();
 };
-
-//**************************************************************
-//	Schattenlord Inubis	
-//**************************************************************
-
-INSTANCE Crypt_Skeleton_Lord	(Mst_Skeleton_Lord)
-{
-	name		=	"Pan cienia Inubis";
-
-	B_SetVisuals_Skeleton_Lord ();
-	
-	CreateInvItems	(self,ItMi_Gold,500);
-	CreateInvItems 	(self,ItPo_Mana_03,2);
-	CreateInvItems 	(self,ItPo_Health_03,2);
-};
-
-
-//**************************************************************
-//	Schattenlord Archol	//Joly: Endgegner auf der DI
-//**************************************************************
-
-INSTANCE Skeleton_Lord_Archol	(Mst_Skeleton_Lord)
-{
-	name			=	"Pan cienia, Archol";
-	level			=	60;
-
-	//----- Attribute ----	
-	attribute	[ATR_STRENGTH]		=	150; 
-	attribute	[ATR_DEXTERITY]		=	150;
-	attribute	[ATR_HITPOINTS_MAX]	=	400;
-	attribute	[ATR_HITPOINTS]		=	400;
-	attribute	[ATR_MANA_MAX] 		=	0;
-	attribute	[ATR_MANA] 			=	0;
-
-	//----- Protection ----
-	protection	[PROT_BLUNT]		=	10;
-	protection	[PROT_EDGE]			=	20;
-	protection	[PROT_POINT]		=	1000; 
-	protection	[PROT_FIRE]			=	10;
-	protection	[PROT_FLY]			=	10;
-	protection	[PROT_MAGIC]		=	10;	
-
-	B_SetVisuals_Skeleton_Lord ();
-	
-	CreateInvItems	(self,ItMi_Gold,650);
-	CreateInvItems	(self,ItKe_EVT_UNDEAD_01,1);
-	
-};
-

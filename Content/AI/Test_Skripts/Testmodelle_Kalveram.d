@@ -942,19 +942,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItPo_PotionOfDeath_02_Mis,1);
 	CreateInvItems(self,ItAm_AmulettOfDeath_Mis,1);
 	CreateInvItems(self,ItPo_HealRandolph_MIS,1);
-	CreateInvItems(self,ItSe_XardasNotfallBeutel_MIS,1);
-	CreateInvItems(self,ItWr_XardasErmahnungFuerIdioten_MIS,1);
-	CreateInvItems(self,ItWr_Krypta_Garon,1);
-	CreateInvItems(self,ItKe_OrkKnastDI_MIS,1);
-	CreateInvItems(self,ItKe_EVT_UNDEAD_01,1);
-	CreateInvItems(self,ItKe_EVT_UNDEAD_02,1);
-	CreateInvItems(self,ItKe_LastDoorToUndeadDrgDI_MIS,1);
-	CreateInvItems(self,ItWr_LastDoorToUndeadDrgDI_MIS,1);
-	CreateInvItems(self,ItKe_ChestMasterDementor_MIS,1);
-	CreateInvItems(self,ItWr_Rezept_MegaDrink_MIS,1);
-	CreateInvItems(self,ItWr_Diary_BlackNovice_MIS,1);
-	CreateInvItems(self,ItWr_ZugBruecke_MIS,1);
-	CreateInvItems(self,ItMi_PowerEye,1);
 //Addon
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon_Sealed,1);
 	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon,1);
