@@ -16,14 +16,6 @@ func int B_GetBestPlayerMap()
 		{
 			return ItWr_Map_Caves_MIS;
 		}
-		else if(Npc_HasItems(hero,ItWr_Map_NewWorld_Ornaments_Addon) >= 1)
-		{
-			return ItWr_Map_NewWorld_Ornaments_Addon;
-		}
-		else if(Npc_HasItems(hero,ItWr_Map_NewWorld_Dexter) >= 1)
-		{
-			return ItWr_Map_NewWorld_Dexter;
-		}
 		else if(Npc_HasItems(hero,ItWr_ShatteredGolem_MIS) >= 1)
 		{
 			return ItWr_ShatteredGolem_MIS;
@@ -56,10 +48,6 @@ func int B_GetBestPlayerMap()
 		if(Npc_HasItems(hero,ItWr_Map_AddonWorld) >= 1)
 		{
 			return ItWr_Map_AddonWorld;
-		}
-		else if(Npc_HasItems(hero,ItWR_Addon_TreasureMap) >= 1)
-		{
-			return ItWR_Addon_TreasureMap;
 		};
 	};
 	return 0;
@@ -78,14 +66,6 @@ func int B_GetAnyPlayerMap()
 	else if(Npc_HasItems(hero,ItWr_Map_Caves_MIS) >= 1)
 	{
 		return ItWr_Map_Caves_MIS;
-	}
-	else if(Npc_HasItems(hero,ItWr_Map_NewWorld_Ornaments_Addon) >= 1)
-	{
-		return ItWr_Map_NewWorld_Ornaments_Addon;
-	}
-	else if(Npc_HasItems(hero,ItWr_Map_NewWorld_Dexter) >= 1)
-	{
-		return ItWr_Map_NewWorld_Dexter;
 	}
 	else if(Npc_HasItems(hero,ItWr_ShatteredGolem_MIS) >= 1)
 	{
@@ -110,11 +90,8 @@ func int B_GetAnyPlayerMap()
 	else if(Npc_HasItems(hero,ItWr_Map_AddonWorld) >= 1)
 	{
 		return ItWr_Map_AddonWorld;
-	}
-	else if(Npc_HasItems(hero,ItWR_Addon_TreasureMap) >= 1)
-	{
-		return ItWR_Addon_TreasureMap;
 	};
+	
 	return 0;
 };
 
@@ -131,7 +108,7 @@ func int player_hotkey_screen_map()
 	NewInstance = OldInstance;
 	if(CurrentLevel != NEWWORLD_ZEN)
 	{
-		if((OldInstance == ItWr_Map_Caves_MIS) || (OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City) || (OldInstance == ItWr_Map_NewWorld_Dexter) || (OldInstance == ItWr_Map_NewWorld_Ornaments_Addon) /*|| (OldInstance == ItWr_Map_Orcelite_MIS)*/ || (OldInstance == ItWr_Map_Shrine_MIS) || (OldInstance == ItWr_ShatteredGolem_MIS))
+		if((OldInstance == ItWr_Map_Caves_MIS) || (OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City) || (OldInstance == ItWr_Map_Shrine_MIS) || (OldInstance == ItWr_ShatteredGolem_MIS))
 		{
 			NewInstance = 0;
 		};
@@ -143,24 +120,29 @@ func int player_hotkey_screen_map()
 			NewInstance = 0;
 		};
 	};
+	
 	if(CurrentLevel != DRAGONISLAND_ZEN)
 	{
 	};
+	
 	if(CurrentLevel != ADDONWORLD_ZEN)
 	{
-		if((OldInstance == ItWr_Map_AddonWorld) || (OldInstance == ItWR_Addon_TreasureMap))
+		if (OldInstance == ItWr_Map_AddonWorld)
 		{
 			NewInstance = 0;
 		};
 	};
+	
 	if(NewInstance <= 0)
 	{
 		NewInstance = B_GetBestPlayerMap();
 	};
+	
 	if((NewInstance <= 0) && (OldInstance <= 0))
 	{
 		NewInstance = B_GetAnyPlayerMap();
 	};
+	
 	if(NewInstance > 0)
 	{
 		B_SetPlayerMap(NewInstance);

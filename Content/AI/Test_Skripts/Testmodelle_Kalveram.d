@@ -929,53 +929,11 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItWr_Map_Caves_MIS,1);
 	CreateInvItems(self,ItMi_KerolothsGeldbeutel_MIS,1);
 //Addon
-	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon_Sealed,1);
-	CreateInvItems(self,ItWr_SaturasFirstMessage_Addon,1);
-	CreateInvItems(self,ItMi_Ornament_Addon,1);
-	CreateInvItems(self,ItMi_Ornament_Addon_Vatras,1);
-	CreateInvItems(self,ItWr_Map_NewWorld_Ornaments_Addon,1);
-	CreateInvItems(self,ItWr_Map_NewWorld_Dexter,1);
-	CreateInvItems(self,ItRi_Ranger_Lares_Addon,1);
-	CreateInvItems(self,ItRi_Ranger_Addon,1);
-	CreateInvItems(self,ItRi_LanceRing,1);
-	CreateInvItems(self,ItMi_PortalRing_Addon,1);
-	CreateInvItems(self,ItWr_Martin_MilizEmpfehlung_Addon,1);
-	CreateInvItems(self,ItWr_RavensKidnapperMission_Addon,1);
-	CreateInvItems(self,ItWr_Vatras_KDFEmpfehlung_Addon,1);
-	CreateInvItems(self,ItMi_LostInnosStatue_Daron,1);
-	CreateInvItems(self,ItWr_LuciasLoveLetter_Addon,1);
 	CreateInvItems(self,ItMi_AmbossEffekt_Addon,1);
 	CreateInvItems(self,ItMi_OrnamentEffekt_FARM_Addon,1);
 	CreateInvItems(self,ItMi_OrnamentEffekt_FOREST_Addon,1);
 	CreateInvItems(self,ItMi_OrnamentEffekt_BIGFARM_Addon,1);
-	CreateInvItems(self,ItMi_Rake,1);
-	CreateInvItems(self,ItRi_Addon_BanditTrader,1);
-	CreateInvItems(self,ItWr_Addon_BanditTrader,1);
-	CreateInvItems(self,ItWr_Vatras2Saturas_FindRaven,1);
-	CreateInvItems(self,ItWr_Vatras2Saturas_FindRaven_opened,1);
-	CreateInvItems(self,ItAm_Addon_WispDetector,1);
-	CreateInvItems(self,ItFo_Addon_Krokofleisch_Mission,1);
-	CreateInvItems(self,ItRi_Addon_MorgansRing_Mission,1);
-	CreateInvItems(self,ItMi_Focus,1);
-	CreateInvItems(self,ItMi_Addon_Steel_Paket,1);
-	CreateInvItems(self,ItWr_StonePlateCommon_Addon,1);
-	CreateInvItems(self,ItMi_Addon_Stone_01,1);
-	CreateInvItems(self,ItMi_Addon_Stone_05,1);
-	CreateInvItems(self,ItMi_Addon_Stone_03,1);
-	CreateInvItems(self,ItMi_Addon_Stone_04,1);
-	CreateInvItems(self,ItMi_Addon_Stone_02,1);
-	CreateInvItems(self,ItMI_Addon_Kompass_Mis,1);	
-	CreateInvItems(self,ItSE_Addon_FrancisChest,1);
-	CreateInvItems(self,ITWR_Addon_FrancisAbrechnung_Mis,1);
-	CreateInvItems(self,ITWR_Addon_GregsLogbuch_Mis,1);
-	CreateInvItems(self,ITKE_Addon_Bloodwyn_01,1);
-	CreateInvItems(self,ITKE_Addon_Heiler,1);
-	CreateInvItems(self,ItMi_TempelTorKey,1);
-	CreateInvItems(self,ItMi_Addon_Bloodwyn_Kopf,1);
-	CreateInvItems(self,ItWR_Addon_TreasureMap,1);
-	CreateInvItems(self,ItMi_Addon_GregsTreasureBottle_MIS,1);
-	CreateInvItems(self,itmi_erolskelch,1);
-	
+	CreateInvItems(self,ItMi_Rake,1);	
 		
 	// ------ visuals ------																			//Muss NACH Attributen kommen, weil in B_SetNpcVisual die Breite abh. v. STR skaliert wird
 	B_SetNpcVisual 		(self, MALE, "Hum_Head_FatBald", Face_N_OldBald_Jeremiah, BodyTex_N, 0);	
