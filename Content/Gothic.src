@@ -205,8 +205,6 @@ AI\MAGIC\ZS_Magic\ZS_*.d
 
 STORY\B_Story\B_GiveDeathInv.d
 
-Story\Events\B_EVENT_PORTAL_EARTHQUAKE.d
-
 AI\HUMAN\TA.d
 AI\HUMAN\TA_Human\ZS*.d
 
