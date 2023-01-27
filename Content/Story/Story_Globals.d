@@ -82,7 +82,6 @@ var int MIS_Addon_Cavalorn_Letter2Vatras;			//übergebe Cavalorns Brief an Vatra
 var int MIS_Addon_Lares_Ornament2Saturas;			//Lares : bring datt ding zu SAturas
 var int MIS_Addon_Nefarius_BringMissingOrnaments;	//SC soll die 3 restlichen Ornamente finden.
 var int MIS_Addon_Cavalorn_GetOrnamentFromPAL;		//Hol das fehlende Ornament von Lord Hagen		
-var int GregLocation;							//Wo befindet sich Greg_NW gerade
 const int Greg_Farm1 	= 0;					//Vor der Stadt
 const int Greg_Taverne 	= 1;					//Orlans Kneipe
 const int Greg_Bigcross	= 2;					//Auf den Feldern von Onar

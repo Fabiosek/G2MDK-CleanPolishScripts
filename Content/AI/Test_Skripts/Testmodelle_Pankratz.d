@@ -202,39 +202,7 @@ func void UseJOLY_Storyhelpletter ()
 	Wld_InsertNpc 	(MinecrawlerWarrior, 			"ADW_CANYON_PATH_TO_BANDITS_19");
 };
 	
-INSTANCE J2 (C_Item)
-{	
-	name 				=	"Greg_Taverne";
 
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	0;
-
-	visual 				=	"ItWr_Scroll_01.3DS";
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   UseJOLY2_Storyhelpletter;
-	scemeName			=	"MAP";
-	description			=   name;
-};
-
-func void UseJOLY2_Storyhelpletter ()
-{   
-	//B_StartOtherRoutine	(PIR_1300_Addon_Greg_NW,"Taverne");
-	GregLocation = Greg_Taverne;
-};
-/*	
-	PLAYER_TALENT_WISPDETECTOR[WISPSKILL_FF] 			= TRUE;
-	PLAYER_TALENT_WISPDETECTOR[WISPSKILL_NONE] 			= TRUE;
-	PLAYER_TALENT_WISPDETECTOR[WISPSKILL_RUNE] 			= TRUE;
-	PLAYER_TALENT_WISPDETECTOR[WISPSKILL_FOOD] 			= TRUE;
-	PLAYER_TALENT_WISPDETECTOR[WISPSKILL_POTIONS] 		= TRUE;
-	B_StartOtherRoutine	(KDW_1400_Addon_Saturas_NW,"OpenPortal");
-	B_StartOtherRoutine	(KDW_1401_Addon_Cronos_NW,"OpenPortal");
-	B_StartOtherRoutine	(KDW_1402_Addon_Nefarius_NW,"OpenPortal");
-	B_StartOtherRoutine	(KDW_1403_Addon_Myxir_NW,"OpenPortal");
-	B_StartOtherRoutine	(KDW_1404_Addon_Riordian_NW,"OpenPortal");
-	B_StartOtherRoutine	(KDW_1405_Addon_Merdarion_NW,"OpenPortal");*/
 
 
 INSTANCE J3 (C_Item)
