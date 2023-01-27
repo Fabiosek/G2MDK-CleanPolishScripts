@@ -91,7 +91,6 @@ const int Greg_Dexter	= 3;					//Dexter
 var int MIS_Addon_Vatras_WhereAreMissingPeople;	//Vatras will wissen, was mit den Vermissten passiert ist.
 
 //Ranger 
-var int vatraspissedoffforever;
 var int SC_KnowsRanger;							//= TRUE SC hat vom RING des Wassers gehört.
 var int SC_IsRanger;							//= TRUE  Name ist programm
 var int SaturasKnows_SC_IsRanger;				//= TRUE  Saturas akzeptiert die Aufnahme des SC bei den Rangern
@@ -289,12 +288,10 @@ var int 	ItWr_SCReadsHallsofIrdorath; //SC hat das Buch durchgelesen
 var int 	PlayerGetsAmulettOfDeath;
 var int 	PlayergetsFinalDJGArmor;
 var int 	MIS_SCvisitShip;
-var int 	Crewmember_Count;			//Die Anzahl der Crewmitglieder
 const int 	Max_Crew = 9;				//Max. Crewmitglieder
 const int   Min_Crew = 5;				//Min. Crewmitglieder //Joly: wenn dieser Wert geändert wird, müssen auch die Dialoge angepasst werden!!!!!!!!!
 
 // Crewmembers
-var int		Vatras_IsOnBoard;			//Ist Vatras an Bord?		-> == LOG_SUCCESS
 var int 	MIS_ShipIsFree;				//Das Schiff ist frei und SC kann mit seinen Jungs draufgehen.
 var int 	MIS_OCGateOpen;				//== TRUE -> Das Tor vom OC ist geöffnet worden (ORCSturm)
 
