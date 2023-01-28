@@ -78,17 +78,6 @@ var int Leather02_Equipped;
 
 var int MC_Equipped;
 //---------------------------------------------------
-var int MIS_Addon_Cavalorn_Letter2Vatras;			//übergebe Cavalorns Brief an Vatras
-var int MIS_Addon_Lares_Ornament2Saturas;			//Lares : bring datt ding zu SAturas
-var int MIS_Addon_Nefarius_BringMissingOrnaments;	//SC soll die 3 restlichen Ornamente finden.
-var int MIS_Addon_Cavalorn_GetOrnamentFromPAL;		//Hol das fehlende Ornament von Lord Hagen		
-const int Greg_Farm1 	= 0;					//Vor der Stadt
-const int Greg_Taverne 	= 1;					//Orlans Kneipe
-const int Greg_Bigcross	= 2;					//Auf den Feldern von Onar
-const int Greg_Dexter	= 3;					//Dexter
-
-//Missing People
-var int MIS_Addon_Vatras_WhereAreMissingPeople;	//Vatras will wissen, was mit den Vermissten passiert ist.
 
 //Ranger 
 var int SC_KnowsRanger;							//= TRUE SC hat vom RING des Wassers gehört.
@@ -261,11 +250,6 @@ var	int		KNOWS_FIRE_CONTEST;			//Spieler kennt das alte Gesetz
 var int		MIS_Torlof_BengarMilizKlatschen; 	//SC soll Hof 4 von den Milizen befeien.
 var int 	Hammer_Taken;				//Spieler hat Hammer Innos geklaut
 
-// ------ KAPITEL 2 ------
-var int		MIS_ScoutMine;				// AL Kommandant Garond schickt SC in die neue Mine!
-var int 	MIS_OLDWORLD; 			// HAUPT- MISSION KAPITEL2 Lord Hagen schickt den Spieler in die alte Welt
-var int 	MIS_ReadyForChapter3; 	//Mit dieser Varible in den Levelchange zur NW -> Kapitel 3
-
 // ------ KAPITEL 3 ------
 var int 	MIS_RitualInnosEyeRepair; 			//Vatras wartet auf Xardas und Pyrokar am Sonnenkreis 
 var int 	MIS_ReadyforChapter4; 				//Mit dieser Varible in den Levelchange zur OW -> Kapitel 4
@@ -276,7 +260,6 @@ var int		MIS_Ulthar_HeileSchreine_PAL;		//Ulthar schickt dich los die verhexten 
 var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefälschten Minenanteile einzusammeln. KDF
 
 // ------ KAPITEL 4 ------
-var int 	MIS_AllDragonsDead; 		//Die OW ist von den Drachen befreit.
 var int 	MIS_KillOrkOberst;			//Kill den Ork Oberst.
 
 // ------ KAPITEL 5 ------
