@@ -12,13 +12,6 @@
 func void B_MM_AssessEnemy ()
 {
 	// EXIT IF...
-
-	// ------- Drache greift nicht an, wenn SC LaberAmulett hat ------
-	if (self.guild == GIL_DRAGON)
-	&& (Npc_HasItems (hero, ItMi_InnosEye_Mis) >= 1)
-	{
-		return;
-	}; 
 	
 	// ------- OVERRIDE für menschliche Enemies ------
 	if ((self.aivar[AIV_NoFightParker] == TRUE)	//werden nie angegriffen und greifen auch selbst nicht an.

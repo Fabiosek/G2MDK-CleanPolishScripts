@@ -899,7 +899,6 @@ const string PRINT_SleepOverObsessed		= "Koszmary senne nie pozwalaj¹ ci nale¿yc
 const string PRINT_SmithSuccess				= "Stworzy³eœ broñ!";
 const string PRINT_RuneSuccess				= "Stworzy³eœ runê!";
 const string PRINT_AlchemySuccess			= "Uwarzy³eœ miksturê!";
-const string PRINT_AlchemySuccessInnoseye	= "Oko Innosa pulsuje energi¹!";
 const string PRINT_ProdItemsMissing			= "Za ma³o sk³adników!";
 const string PRINT_TabakSuccess				= "Uda³o ci siê stworzyæ trochê tytoniu!";
 const string PRINT_JointSuccess				= "Zwin¹³eœ skrêta z bagiennego ziela!";
