@@ -30,14 +30,8 @@ func int B_GetBestPlayerMap()
 	}
 	else if(CurrentLevel == DRAGONISLAND_ZEN)
 	{
-	}
-	else if(CurrentLevel == ADDONWORLD_ZEN)
-	{
-		if(Npc_HasItems(hero,ItWr_Map_AddonWorld) >= 1)
-		{
-			return ItWr_Map_AddonWorld;
-		};
 	};
+	
 	return 0;
 };
 
@@ -58,12 +52,8 @@ func int B_GetAnyPlayerMap()
 	else if(Npc_HasItems(hero,ItWr_Map_OldWorld_Oremines_MIS) >= 1)
 	{
 		return ItWr_Map_OldWorld_Oremines_MIS;
-	}
-	else if(Npc_HasItems(hero,ItWr_Map_AddonWorld) >= 1)
-	{
-		return ItWr_Map_AddonWorld;
 	};
-	
+
 	return 0;
 };
 
@@ -96,15 +86,7 @@ func int player_hotkey_screen_map()
 	if(CurrentLevel != DRAGONISLAND_ZEN)
 	{
 	};
-	
-	if(CurrentLevel != ADDONWORLD_ZEN)
-	{
-		if (OldInstance == ItWr_Map_AddonWorld)
-		{
-			NewInstance = 0;
-		};
-	};
-	
+		
 	if(NewInstance <= 0)
 	{
 		NewInstance = B_GetBestPlayerMap();

@@ -1,49 +1,7 @@
 //**********************************************************************************
-//	Brief von Lucia an William
-//**********************************************************************************
-INSTANCE ITWr_Addon_Hinweis_02		(C_Item)
-{
-	name 				=	"Wa¿na wiadomoœæ";
-
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	250;
-
-	visual 				=	"ItWr_Scroll_01.3DS";	
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   Use_Hinweis_02;
-	scemeName			=	"MAP";
-	description			= 	name;
-	TEXT[0]				=  "Z gospody w obozie bandytów";
-};
-func void Use_Hinweis_02 ()
-{
-		var int nDocID;
-	
-		nDocID = 	Doc_Create		()			  ;							// DocManager
-					Doc_SetPages	( nDocID,  1 	);                         //wieviel Pages
-					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
-					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
-					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Hej ludzie,");
-					Doc_PrintLines	( nDocID,  0, "");	
-					Doc_PrintLines	( nDocID,  0, "Lou znikn¹³ na bagnie. Pewnikiem ze¿ar³y go wê¿e.");	
-					Doc_PrintLines	( nDocID,  0, "Co gorsza, wraz z nim znikn¹³ klucz do drzwi."					);
-					Doc_PrintLines	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Ten, kto go znajdzie, bêdzie móg³ zatrzymaæ rzeczy Lou.");	
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Snaf");
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_Show		( nDocID );
-};
-//**********************************************************************************
 //	Heiltrunk
 //**********************************************************************************
-INSTANCE ITWr_Addon_Health_04		(C_Item)
+instance ITWr_Addon_Health_04		(C_Item)
 {
 	name 				=	"Mikstura lecznicza – przepis";
 
@@ -64,15 +22,16 @@ INSTANCE ITWr_Addon_Health_04		(C_Item)
 	TEXT[5]			= NAME_Value;
 	COUNT[5]		= value;
 };
+
 func void Use_Heilrezept_04 ()
 {
 		var int nDocID;
 		
 		if Npc_IsPlayer (self)
 		{
-			if (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == TRUE)
+			if (PLAYER_TALENT_ALCHEMY[POTION_Health_03] == true)
 			{
-				PLAYER_TALENT_ALCHEMY[POTION_Health_04] = TRUE;
+				PLAYER_TALENT_ALCHEMY[POTION_Health_04] = true;
 				Snd_Play ("LevelUP");
 				B_LogEntry (TOPIC_TalentAlchemy,"Do przygotowania mikstury leczniczej potrzebne s¹ 3 esencje lecznicze oraz 1 rdest polny.");
 			};
@@ -97,10 +56,11 @@ func void Use_Heilrezept_04 ()
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
+
 //**********************************************************************************
 //	Manatrunk
 //**********************************************************************************
-INSTANCE ITWr_Addon_Mana_04		(C_Item)
+instance ITWr_Addon_Mana_04		(C_Item)
 {
 	name 				=	"Mikstura many – przepis";
 
@@ -122,15 +82,16 @@ INSTANCE ITWr_Addon_Mana_04		(C_Item)
 	TEXT[5]			= NAME_Value;
 	COUNT[5]		= value;
 };
+
 func void Use_Manarezept_04 ()
 {
 		var int nDocID;
 		
 		if Npc_IsPlayer (self)
 		{
-			if (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == TRUE)
+			if (PLAYER_TALENT_ALCHEMY[POTION_Mana_03] == true)
 			{
-				PLAYER_TALENT_ALCHEMY[POTION_Mana_04] = TRUE;
+				PLAYER_TALENT_ALCHEMY[POTION_Mana_04] = true;
 				Snd_Play ("LevelUP");
 				B_LogEntry (TOPIC_TalentAlchemy,"Do przygotowania mikstury many potrzebne s¹ 3 esencje many oraz 1 rdest polny.");
 			};
@@ -155,94 +116,11 @@ func void Use_Manarezept_04 ()
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
-//**********************************************************************************
-//	Brief von Lucia an William
-//**********************************************************************************
-INSTANCE ITWr_Addon_Hinweis_01		(C_Item)
-{
-	name 				=	"Wa¿na wiadomoœæ";
 
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	250;
-
-	visual 				=	"ItWr_Scroll_01.3DS";	
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   Use_Hinweis_01;
-	scemeName			=	"MAP";
-	description			= 	name;
-	TEXT[0]				=  "Wisia³a w chacie na bagnie";
-};
-func void Use_Hinweis_01 ()
-{
-		var int nDocID;
-	
-		nDocID = 	Doc_Create		()			  ;							// DocManager
-					Doc_SetPages	( nDocID,  1 	);                         //wieviel Pages
-					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
-					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
-					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Hej ludzie,");
-					Doc_PrintLines	( nDocID,  0, "Rzeczy z tych skrzyñ s¹ tylko na nag³e wypadki.");	
-					Doc_PrintLines	( nDocID,  0, "I s¹ dla nas WSZYSTKICH. Wiêc siêgajcie tam tylko wtedy, kiedy naprawdê musicie.");	
-					Doc_PrintLines	( nDocID,  0, "I nie bierzcie wiêcej, ni¿ potrzebujecie."					);
-					Doc_PrintLines	( nDocID,  0, "Uda siê, jeœli wszyscy bêdziemy siê tego trzymaæ."					);
-					Doc_PrintLines	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Fletcher");
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_Show		( nDocID );
-};
-//**********************************************************************************
-//	Brief von Lucia an William
-//**********************************************************************************
-INSTANCE ITWr_Addon_William_01		(C_Item)
-{
-	name 				=	"Liœcik";
-
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	250;
-
-	visual 				=	"ItWr_Scroll_01.3DS";	
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   Use_William_01;
-	scemeName			=	"MAP";
-	description			= 	name;
-	Text[0]				=	"Ten list mia³ przy sobie rybak William.";
-};
-func void Use_William_01 ()
-{
-		var int nDocID;
-	
-		nDocID = 	Doc_Create		()			  ;							// DocManager
-					Doc_SetPages	( nDocID,  1 	);                         //wieviel Pages
-					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
-					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
-					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "Williamie,");
-					Doc_PrintLines	( nDocID,  0, "Kiedy ksiê¿yc jest w pe³ni, stra¿nicy s¹ rozkojarzeni.");	
-					Doc_PrintLines	( nDocID,  0, "Przekradnij siê – ale b¹dŸ ostro¿ny!");	
-					Doc_PrintLines	( nDocID,  0, "Jeœli bêdziesz iœæ drewnian¹ tam¹, uda ci siê wydostaæ z bagna."					);
-					Doc_PrintLines	( nDocID,  0, "Obóz piratów jest po drugiej stronie doliny, daleko na zachodzie."					);
-					Doc_PrintLines	( nDocID,  0, "Kiedy tam dotrzesz, z ³atwoœci¹ uciekniesz ³odzi¹.");	
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLine	( nDocID,  0, "Ktoœ, kto dobrze Ci ¿yczy");	
-					Doc_Show		( nDocID );
-};
 //**********************************************************************************
 //	Rezept von Miguel (Minecrawler Trank)
 //**********************************************************************************
-INSTANCE ITWr_Addon_MCELIXIER_01		(C_Item)
+instance ITWr_Addon_MCELIXIER_01		(C_Item)
 {
 	name 				=	"Przepis";
 
@@ -259,9 +137,10 @@ INSTANCE ITWr_Addon_MCELIXIER_01		(C_Item)
 	Text[0]				= 	"Przepis mikstury przemiany duszy";
 	Text[1]				= 	"Ta mikstura przywraca utracone wspomnienia.";
 };
+
 func void Use_MCELIXIER_01 ()
 {
-		Knows_MCELIXIER = TRUE;
+		Knows_MCELIXIER = true;
 		var int nDocID;
 	
 		nDocID = 	Doc_Create		()			  ;							// DocManager
@@ -282,53 +161,11 @@ func void Use_MCELIXIER_01 ()
 					Doc_PrintLine	( nDocID,  0, "");	
 					Doc_Show		( nDocID );
 };
-//**********************************************************************************
-//	Deal Brief von Esteban an zwei Piraten
-//**********************************************************************************
-INSTANCE ITWr_Addon_Pirates_01		(C_Item)
-{
-	name 				=	"Brudny papier";
 
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	250;
-
-	visual 				=	"ItWr_Scroll_01.3DS";	
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   Use_Pirates_01;
-	scemeName			=	"MAP";
-	description			= 	name;
-	TEXT[0]				=	"Ten papier by³ w kieszeni Angusa.";
-};
-func void Use_Pirates_01 ()
-{
-	Read_JuansText = TRUE;
-	
-	var int nDocID;
-	
-		nDocID = 	Doc_Create		()			  ;							// DocManager
-					Doc_SetPages	( nDocID,  1 	);                         //wieviel Pages
-					Doc_SetPage 	( nDocID,  0, "letters.TGA"  , 0 		);
-					Doc_SetFont 	( nDocID,  0, FONT_BookHeadline  			); 	// -1 -> all pages
-					Doc_SetMargins	( nDocID, -1, 50, 50, 50, 50, 1   		);  //  0 -> margins are in pixels
-					Doc_PrintLine	( nDocID,  0, "Ihr Piraten,"					);
-					Doc_SetFont 	( nDocID,  0, FONT_Book		); 	// -1 -> all pages
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_PrintLine	( nDocID,  0, "");
-					Doc_PrintLines	( nDocID,  0, "Za³atwcie dla nas ostatni ³adunek.");	
-					Doc_PrintLine	( nDocID,  0, "PrzywieŸcie go do jaskini. Tam siê spotkamy.");	
-					Doc_PrintLines	( nDocID,  0, "Zap³acê wam w z³ocie. Podwójn¹ cenê."					);
-					Doc_PrintLine	( nDocID,  0, ""					);
-					Doc_PrintLines	( nDocID,  0, "Tak w³aœnie zrobimy.");	
-					Doc_PrintLine	( nDocID,  0, "Tom");	
-					Doc_PrintLine	( nDocID,  0, "");	
-					Doc_Show		( nDocID );
-};
 //**********************************************************************************
 //	Rezept für grünene Novizen
 //**********************************************************************************
-INSTANCE ITWr_Addon_Joint_01		(C_Item)
+instance ITWr_Addon_Joint_01		(C_Item)
 {
 	name 				=	"Zielony nowicjusz";
 
@@ -344,11 +181,12 @@ INSTANCE ITWr_Addon_Joint_01		(C_Item)
 	description			= 	name;
 	TEXT[0]				= 	"Le¿a³ w skrzyni Fortuna";
 };
+
 func void Use_Joint_Rezept_01 ()
 {
 		var int nDocID;
 	
-		Green_Extrem = TRUE;
+		Green_Extrem = true;
 		
 		
 		nDocID = 	Doc_Create		()			  ;							// DocManager
@@ -372,7 +210,7 @@ func void Use_Joint_Rezept_01 ()
 //**********************************************************************************
 //	Schnapsbrennen Rezept
 //**********************************************************************************
-INSTANCE ITWr_Addon_Lou_Rezept		(C_Item)
+instance ITWr_Addon_Lou_Rezept		(C_Item)
 {
 	name 				=	"Przepis na M³ot Lou";
 
@@ -388,9 +226,10 @@ INSTANCE ITWr_Addon_Lou_Rezept		(C_Item)
 	description			= 	name;
 	Text[0]				= 	"Jak przygotowaæ M³ot Lou.";
 };
+
 func void UseLouRezept ()
 {
-		Knows_LousHammer = TRUE;
+		Knows_LousHammer = true;
 		
 		
 		var int nDocID;
@@ -419,7 +258,7 @@ func void UseLouRezept ()
 //**********************************************************************************
 //	Doppelhammer
 //**********************************************************************************
-INSTANCE ITWr_Addon_Lou_Rezept2		(C_Item)
+instance ITWr_Addon_Lou_Rezept2		(C_Item)
 {
 	name 				=	"Przepis na podwójny M³ot Lou";
 
@@ -435,9 +274,10 @@ INSTANCE ITWr_Addon_Lou_Rezept2		(C_Item)
 	description			= 	name;
 	Text[0]				= 	"Jak przygotowaæ podwójny M³ot Lou.";
 };
+
 func void UseLouRezept2 ()
 {
-		Knows_SchlafHammer = TRUE;
+		Knows_SchlafHammer = true;
 		
 		var int nDocID;
 
@@ -462,7 +302,7 @@ func void UseLouRezept2 ()
 //**********************************************************************************
 //	Piratentod
 //**********************************************************************************
-INSTANCE ITWr_Addon_Piratentod		(C_Item)
+instance ITWr_Addon_Piratentod		(C_Item)
 {
 	name 				=	"Szybki œledŸ";
 
@@ -480,7 +320,7 @@ INSTANCE ITWr_Addon_Piratentod		(C_Item)
 };
 func void UseRezeptPiratentod ()
 {
-		Knows_SchnellerHering = TRUE;
+		Knows_SchnellerHering = true;
 		
 		
 		var int nDocID;
@@ -504,8 +344,9 @@ func void UseRezeptPiratentod ()
 					Doc_Show		( nDocID );
 
 };
+
 //------------------------------------------------------------------------------------------
-INSTANCE Fakescroll_Addon (C_Item)
+instance Fakescroll_Addon (C_Item)
 {	
 	name 					=	"Kawa³ek papieru";
 
@@ -526,8 +367,9 @@ INSTANCE Fakescroll_Addon (C_Item)
 	TEXT[5]					= NAME_Value;
 	COUNT[5]				= value;
 };
+
 //------------------------------------------------------------------------------------------
-INSTANCE ItWr_Addon_AxtAnleitung (C_ITEM)
+instance ItWr_Addon_AxtAnleitung (C_ITEM)
 {	
 	name 				=	"Przepis na bandycki topór";
 
@@ -568,73 +410,3 @@ func void UseAxtAnleitung ()
 					Doc_PrintLines	( nDocID,  0, "obra¿enia.");	
 					Doc_Show		( nDocID );
 };
-
-
-//------------------------------------------------------------------------------------------
-INSTANCE ItWr_Addon_SUMMONANCIENTGHOST (C_ITEM)
-{	
-	name 				=	"Przywo³anie Quarhodrona";
-
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	250;
-
-	visual 				=	"ItWr_Scroll_01.3DS";	
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   UseSummonAncientGhost;
-	scemeName			=	"MAP";
-	description			= 	name;
-	Text[0]				=	"Za pomoc¹ tego zwoju mo¿esz przywo³aæ Quarhodrona.";
-};
-
-func void UseSummonAncientGhost ()
-{
-};
-
-//////////////////////////////////////////////////////////////////////////////
-//
-//	MAPS
-//
-//////////////////////////////////////////////////////////////////////////////
-
-instance ItWr_Map_AddonWorld (C_Item)
-{
-	name 		= "Zapomniana dolina budowniczych";  
-
-	mainflag 	= ITEM_KAT_DOCS;
-	flags 		= ITEM_MISSION|ITEM_MULTI;
-
-	value 		= 250;
-
-	visual 		= "ItWr_Map_01.3DS";
-	material 	= MAT_LEATHER;
-
-	scemeName	= "MAP";
-	on_state[0]	= Use_Map_AddonWorld;
-
-	description	= name;
-	TEXT[0]		= "";
-	TEXT[1]		= "";
-	TEXT[5]		= NAME_Value;
-	COUNT[5]	= value;
-};
-
-	func void Use_Map_AddonWorld ()
-	{
-		if (Npc_IsPlayer(self))
-		{
-			B_SetPlayerMap(ItWr_Map_AddonWorld);
-		};
-
-		var int Document;
-		Document =	Doc_CreateMap		();
-					Doc_SetPages		(Document, 1);
-					Doc_SetPage 		(Document, 0, "Map_AddonWorld.tga", TRUE);  // TRUE = scale to fullscreen
- 				    Doc_SetLevel        (Document, "Addon\AddonWorld.zen");
-   					Doc_SetLevelCoords  (Document, -47783, 36300, 43949, -32300);
-   			 //Joly:Doc_SetLevelCoords  (Document, -47783, 36300, 43949, -32300);
-   			 //Nico:Doc_SetLevelCoords  (Document, -43000, 39000, 43000, -29000);
-					Doc_Show			(Document);
-	};
-	

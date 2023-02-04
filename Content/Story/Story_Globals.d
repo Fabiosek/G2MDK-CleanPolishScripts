@@ -243,7 +243,6 @@ var int 	SOLD;
 //---------------------------
 //	KLOSTER
 //---------------------------
-var int 	MIS_ParlanFegen; 			//Novizenkammern ausfegen
 var int 	MIS_MardukBeten;			//Marduk fordert den Spieler zum Gebet auf
 var int 	Fire_Contest;
 var	int		KNOWS_FIRE_CONTEST;			//Spieler kennt das alte Gesetz 

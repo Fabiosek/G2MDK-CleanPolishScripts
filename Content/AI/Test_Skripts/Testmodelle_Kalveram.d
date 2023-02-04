@@ -451,21 +451,15 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItWr_CrsBowStonePlate1_Addon,1);
 	CreateInvItems(self,ItWr_CrsBowStonePlate2_Addon,1);
 	CreateInvItems(self,ItWr_CrsBowStonePlate3_Addon,1);
-	CreateInvItems(self,ITWr_Addon_Hinweis_02,1);
 	CreateInvItems(self,ITWr_Addon_Health_04,1);
 	CreateInvItems(self,ITWr_Addon_Mana_04,1);
-	CreateInvItems(self,ITWr_Addon_Hinweis_01,1);
-	CreateInvItems(self,ITWr_Addon_William_01,1);
 	CreateInvItems(self,ITWr_Addon_MCELIXIER_01,1);
-	CreateInvItems(self,ITWr_Addon_Pirates_01,1);
 	CreateInvItems(self,ITWr_Addon_Joint_01,1);
 	CreateInvItems(self,ITWr_Addon_Lou_Rezept,1);
 	CreateInvItems(self,ITWr_Addon_Lou_Rezept2,1);
 	CreateInvItems(self,ITWr_Addon_Piratentod,1);
 	CreateInvItems(self,Fakescroll_Addon,1);
 	CreateInvItems(self,ItWr_Addon_AxtAnleitung,1);
-	CreateInvItems(self,ItWr_Addon_SUMMONANCIENTGHOST,1);
-	CreateInvItems(self,ItWr_Map_AddonWorld,1);
 	
 	CreateInvItems(self,ITWR_Addon_Runemaking_KDW_CIRC1,1);
 	CreateInvItems(self,ITWR_Addon_Runemaking_KDW_CIRC2,1);

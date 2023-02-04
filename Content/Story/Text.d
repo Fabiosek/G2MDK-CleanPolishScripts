@@ -1,139 +1,134 @@
 // *****************************************************************************************
 // Mobsi-Fokusnamen
 // *****************************************************************************************
-
-CONST STRING MOBNAME_CRATE			= "Skrzynia";				//Kisten
-CONST STRING MOBNAME_CHEST			= "Kufer";					//Truhen
-CONST STRING MOBNAME_BED			= "£ó¿ko";					//Betten
-CONST STRING MOBNAME_DOOR			= "Drzwi";					//Türen
-CONST STRING MOBNAME_CAMPFIRE		= "";						//Lagerfeuer
-CONST STRING MOBNAME_TORCH			= "";						//Fackel
-CONST STRING MOBNAME_TORCHHOLDER	= "";						//Fackelhalter
-CONST STRING MOBNAME_BARBQ_SCAV		= "";						//Scavebger	am Spiess
-CONST STRING MOBNAME_BARBQ_SHEEP	= "";						//Schafe am	Spiess
-CONST STRING MOBNAME_BENCH			= "";						//Bank
-CONST STRING MOBNAME_ANVIL			= "Kowad³o";				//Amboss
-CONST STRING MOBNAME_BUCKET			= "Wiadro wody";			//Wassereimer
-CONST STRING MOBNAME_FORGE			= "Ogieñ w kuŸni";			//Schmiede
-CONST STRING MOBNAME_GRINDSTONE		= "Ose³ka";					//Schleifstein
-CONST STRING MOBNAME_WHEEL			= "Ko³owrót";				//Winde
-CONST STRING MOBNAME_LAB			= "Stó³ alchemiczny";		//Alchemietisch
-CONST STRING MOBNAME_BOOKSTAND		= "Rega³ na ksi¹¿ki";		//Buchständer
-CONST STRING MOBNAME_BOOKSBOARD		= "Rega³ na ksi¹¿ki";		//Kommode mit Buch
-CONST STRING MOBNAME_CHAIR			= "";						//Stühle
-CONST STRING MOBNAME_CAULDRON		= "Kocio³";					//Kochkessel
-CONST STRING MOBNAME_SEAT			= "";						//Sessel
-CONST STRING MOBNAME_THRONE			= "";						//Thron
-CONST STRING MOBNAME_PAN			= "Patelnia";				//Lagerfeuer mit Pfanne
-CONST STRING MOBNAME_REPAIR			= "";						//Repair Mobsi
-CONST STRING MOBNAME_WATERPIPE		= "Rura";					//Blubber
-CONST STRING MOBNAME_SWITCH			= "Prze³¹cznik";			//alle Schalter
-CONST STRING MOBNAME_ORE			= "Bry³ka rudy";			//Erzmobsi
-CONST STRING MOBNAME_WINEMAKER		= "";						//Weinstampfe
-CONST STRING MOBNAME_ORCDRUM		= "";						//Orkische Kriegstrommel
-CONST STRING MOBNAME_STOVE			= "Kuchnia";				//HerdMobsi
-CONST STRING MOBNAME_INNOS			= "Pos¹g Innosa";			//Innos	Staue
-CONST STRING MOBNAME_RUNEMAKER		= "Stó³ runiczny";			//Runentisch
-CONST STRING MOBNAME_SAW			= "Pi³a do drewna";			//Sägemobsi
-CONST STRING MOBNAME_ARMCHAIR		= "Fotel";
-CONST STRING MOBNAME_LIBRARYLEVER	= "Lampa";
-CONST STRING MOBNAME_SECRETSWITCH	= "";
-CONST STRING MOBNAME_BIBLIOTHEK		= "Biblioteka";
-CONST STRING MOBNAME_VORRATSKAMMER	= "Spi¿arnia";
-CONST STRING MOBNAME_SCHATZKAMMER	= "Skarbiec";
-CONST STRING MOBNAME_IGARAZ			= "Kufer Igaraza";
+const string MOBNAME_CRATE			= "Skrzynia";				//Kisten
+const string MOBNAME_CHEST			= "Kufer";					//Truhen
+const string MOBNAME_BED			= "£ó¿ko";					//Betten
+const string MOBNAME_DOOR			= "Drzwi";					//Türen
+const string MOBNAME_CAMPFIRE		= "";						//Lagerfeuer
+const string MOBNAME_TORCH			= "";						//Fackel
+const string MOBNAME_TORCHHOLDER	= "";						//Fackelhalter
+const string MOBNAME_BARBQ_SCAV		= "";						//Scavebger	am Spiess
+const string MOBNAME_BARBQ_SHEEP	= "";						//Schafe am	Spiess
+const string MOBNAME_BENCH			= "";						//Bank
+const string MOBNAME_ANVIL			= "Kowad³o";				//Amboss
+const string MOBNAME_BUCKET			= "Wiadro wody";			//Wassereimer
+const string MOBNAME_FORGE			= "Ogieñ w kuŸni";			//Schmiede
+const string MOBNAME_GRINDSTONE		= "Ose³ka";					//Schleifstein
+const string MOBNAME_WHEEL			= "Ko³owrót";				//Winde
+const string MOBNAME_LAB			= "Stó³ alchemiczny";		//Alchemietisch
+const string MOBNAME_BOOKSTAND		= "Rega³ na ksi¹¿ki";		//Buchständer
+const string MOBNAME_BOOKSBOARD		= "Rega³ na ksi¹¿ki";		//Kommode mit Buch
+const string MOBNAME_CHAIR			= "";						//Stühle
+const string MOBNAME_CAULDRON		= "Kocio³";					//Kochkessel
+const string MOBNAME_SEAT			= "";						//Sessel
+const string MOBNAME_THRONE			= "";						//Thron
+const string MOBNAME_PAN			= "Patelnia";				//Lagerfeuer mit Pfanne
+const string MOBNAME_REPAIR			= "";						//Repair Mobsi
+const string MOBNAME_WATERPIPE		= "Rura";					//Blubber
+const string MOBNAME_SWITCH			= "Prze³¹cznik";			//alle Schalter
+const string MOBNAME_ORE			= "Bry³ka rudy";			//Erzmobsi
+const string MOBNAME_WINEMAKER		= "";						//Weinstampfe
+const string MOBNAME_ORCDRUM		= "";						//Orkische Kriegstrommel
+const string MOBNAME_STOVE			= "Kuchnia";				//HerdMobsi
+const string MOBNAME_INNOS			= "Pos¹g Innosa";			//Innos	Staue
+const string MOBNAME_RUNEMAKER		= "Stó³ runiczny";			//Runentisch
+const string MOBNAME_SAW			= "Pi³a do drewna";			//Sägemobsi
+const string MOBNAME_ARMCHAIR		= "Fotel";
+const string MOBNAME_LIBRARYLEVER	= "Lampa";
+const string MOBNAME_SECRETSWITCH	= "";
+const string MOBNAME_BIBLIOTHEK		= "Biblioteka";
+const string MOBNAME_VORRATSKAMMER	= "Spi¿arnia";
+const string MOBNAME_SCHATZKAMMER	= "Skarbiec";
+const string MOBNAME_IGARAZ			= "Kufer Igaraza";
 const string MOBNAME_ALMANACH		= "Almanach";
-//Wegweiser
-CONST STRING MOBNAME_CITY			= "Do Khorinis";
-CONST STRING MOBNAME_TAVERN			= "Do gospody";
-CONST STRING MOBNAME_GR_PEASANT		= "Do maj¹tku ziemskiego";
-CONST STRING MOBNAME_MONASTERY		= "Do klasztoru";
-CONST STRING MOBNAME_PASSOW			= "Do prze³êczy";
-CONST STRING MOBNAME_CITY2			= "Do gospody";//
-CONST STRING MOBNAME_LIGHTHOUSE		= "Do latarni morskiej";
-CONST STRING MOBNAME_MONASTERY2		= "Do gospody";//
-CONST STRING MOBNAME_PRISON			= "Do kolonii wiêziennej";
-CONST STRING MOBNAME_GR_PEASANT2	= "Do tawerny";//
-CONST STRING MOBNAME_INCITY01		= "Do portu";
-CONST STRING MOBNAME_INCITY02		= "Do targowiska";
-CONST STRING MOBNAME_INCITY03		= "Do górnego miasta";
-CONST STRING MOBNAME_INCITY04		= "Do ulicy kupców";
-CONST STRING MOBNAME_INCITY05		= "Do placu œwi¹tynnego";
 
+//Wegweiser
+const string MOBNAME_CITY			= "Do Khorinis";
+const string MOBNAME_TAVERN			= "Do gospody";
+const string MOBNAME_GR_PEASANT		= "Do maj¹tku ziemskiego";
+const string MOBNAME_MONASTERY		= "Do klasztoru";
+const string MOBNAME_PASSOW			= "Do prze³êczy";
+const string MOBNAME_CITY2			= "Do gospody";//
+const string MOBNAME_LIGHTHOUSE		= "Do latarni morskiej";
+const string MOBNAME_MONASTERY2		= "Do gospody";//
+const string MOBNAME_PRISON			= "Do kolonii wiêziennej";
+const string MOBNAME_GR_PEASANT2	= "Do tawerny";//
+const string MOBNAME_INCITY01		= "Do portu";
+const string MOBNAME_INCITY02		= "Do targowiska";
+const string MOBNAME_INCITY03		= "Do górnego miasta";
+const string MOBNAME_INCITY04		= "Do ulicy kupców";
+const string MOBNAME_INCITY05		= "Do placu œwi¹tynnego";
 
 //Ladenschilder
-CONST STRING MOBNAME_BOW_01			= "£uczarz 'Pod Zabójcz¹ Strza³¹'";
-CONST STRING MOBNAME_MIX_01			= "Sklep Mattea";
-CONST STRING MOBNAME_MIX_02			= "Sklep rybny Halvora 'Pod Oœlizg³¹ Meduz¹'";
-CONST STRING MOBNAME_SMITH_01		= "Œwietliste Kowad³o";
-CONST STRING MOBNAME_BAR_01			= "Gospoda 'Pod Kuternog¹'";
-CONST STRING MOBNAME_BAR_02			= "Gospoda 'Pod T³ustym Cielaczkiem'";
-CONST STRING MOBNAME_Hotel_01		= "Gospoda 'Pod Senn¹ Sakiewk¹'";
-CONST STRING MOBNAME_Hotel_02		= "Czerwona Latarnia";
-CONST STRING MOBNAME_TAVERN_01		= "Martwa Harpia";
-CONST STRING MOBNAME_SALANDRIL		= "Mikstury Salandrila";
-
+const string MOBNAME_BOW_01			= "£uczarz 'Pod Zabójcz¹ Strza³¹'";
+const string MOBNAME_MIX_01			= "Sklep Mattea";
+const string MOBNAME_MIX_02			= "Sklep rybny Halvora 'Pod Oœlizg³¹ Meduz¹'";
+const string MOBNAME_SMITH_01		= "Œwietliste Kowad³o";
+const string MOBNAME_BAR_01			= "Gospoda 'Pod Kuternog¹'";
+const string MOBNAME_BAR_02			= "Gospoda 'Pod T³ustym Cielaczkiem'";
+const string MOBNAME_Hotel_01		= "Gospoda 'Pod Senn¹ Sakiewk¹'";
+const string MOBNAME_Hotel_02		= "Czerwona Latarnia";
+const string MOBNAME_TAVERN_01		= "Martwa Harpia";
+const string MOBNAME_SALANDRIL		= "Mikstury Salandrila";
 
 //Grabsteine TEAM
-CONST STRING MOBNAME_GRAVETEAM_01	 = "Snoelk - 'Patrzcie - prze³¹cznik'";
-CONST STRING MOBNAME_GRAVETEAM_02	 = "Oelk - 'NIIIIIIIEEEEEEEEEE'";
-CONST STRING MOBNAME_GRAVETEAM_03	 = "Hodges - 'Wszystko bêdzie w porzo'";
-CONST STRING MOBNAME_GRAVETEAM_04	 = "Hosh - 'Ale gó...o'";
-CONST STRING MOBNAME_GRAVETEAM_05	 = "Chase - 'I co wy na to, ziomki?'";
-CONST STRING MOBNAME_GRAVETEAM_06	 = "Björn - 'No to jazda!'";
-CONST STRING MOBNAME_GRAVETEAM_07	 = "Michael - 'Ja wcale nie œpiê!'";
-CONST STRING MOBNAME_GRAVETEAM_08	 = "Kairo - 'Chwilunia...'";
-CONST STRING MOBNAME_GRAVETEAM_09	 = "Wujo Dobra Rada - 'Nareszcie z³apa³ tego skorpiona'";
-CONST STRING MOBNAME_GRAVETEAM_10	 = "NicoDE - 'Witaj, œwiecie!'";
-CONST STRING MOBNAME_GRAVETEAM_11	 = "Sascha - 'Postaci brak psychologicznej motywacji...'";
-CONST STRING MOBNAME_GRAVETEAM_12	 = "Andre - 'Jak szybko opada przeciêtny ¿agiel?'";
-CONST STRING MOBNAME_GRAVETEAM_13	 = "Mihai - 'ChodŸ dziecinko, coœ ci poka¿ê...'";
-CONST STRING MOBNAME_GRAVETEAM_14	 = "Uwe - 'Na którym poziomie masz tego paladyna?'";
-
+const string MOBNAME_GRAVETEAM_01	 = "Snoelk - 'Patrzcie - prze³¹cznik'";
+const string MOBNAME_GRAVETEAM_02	 = "Oelk - 'NIIIIIIIEEEEEEEEEE'";
+const string MOBNAME_GRAVETEAM_03	 = "Hodges - 'Wszystko bêdzie w porzo'";
+const string MOBNAME_GRAVETEAM_04	 = "Hosh - 'Ale gó...o'";
+const string MOBNAME_GRAVETEAM_05	 = "Chase - 'I co wy na to, ziomki?'";
+const string MOBNAME_GRAVETEAM_06	 = "Björn - 'No to jazda!'";
+const string MOBNAME_GRAVETEAM_07	 = "Michael - 'Ja wcale nie œpiê!'";
+const string MOBNAME_GRAVETEAM_08	 = "Kairo - 'Chwilunia...'";
+const string MOBNAME_GRAVETEAM_09	 = "Wujo Dobra Rada - 'Nareszcie z³apa³ tego skorpiona'";
+const string MOBNAME_GRAVETEAM_10	 = "NicoDE - 'Witaj, œwiecie!'";
+const string MOBNAME_GRAVETEAM_11	 = "Sascha - 'Postaci brak psychologicznej motywacji...'";
+const string MOBNAME_GRAVETEAM_12	 = "Andre - 'Jak szybko opada przeciêtny ¿agiel?'";
+const string MOBNAME_GRAVETEAM_13	 = "Mihai - 'ChodŸ dziecinko, coœ ci poka¿ê...'";
+const string MOBNAME_GRAVETEAM_14	 = "Uwe - 'Na którym poziomie masz tego paladyna?'";
 
 //Grabsteine
-CONST STRING MOBNAME_GRAVE_01	 = "Baron Heinrich von Stahl 551 - 589 'Przyby³em i wypi³em'";
-CONST STRING MOBNAME_GRAVE_02	 = "Bertran 465 - 480 'Bycie ¿abojadem wcale nie jest fajne'";
-CONST STRING MOBNAME_GRAVE_03	 = "Izolda 525 - 550";
-CONST STRING MOBNAME_GRAVE_04	 = "Nieznany";
-CONST STRING MOBNAME_GRAVE_05	 = "Dex Cantionis 325 - 431 'Mam problemy z ¿o³¹dkiem'";
-CONST STRING MOBNAME_GRAVE_06	 = "Uthar Lichtbringer 205 - 531";
-CONST STRING MOBNAME_GRAVE_07	 = "Yasmin 510 - 545";
-CONST STRING MOBNAME_GRAVE_08	 = "Onurb 634 - 579 - 'Dózrp an ³yt'";
-CONST STRING MOBNAME_GRAVE_09	 = "Nieznany ¿o³nierz";
-CONST STRING MOBNAME_GRAVE_10	 = "Potê¿ny Krasnolud z Kosmosu 2894-3787 - 'To k³amstwo!'";
-CONST STRING MOBNAME_GRAVE_11	 = "Teodor 220 - 310 - 'Oby jego dusza zazna³a spokoju'";
-CONST STRING MOBNAME_GRAVE_12	 = "Veranim Sadea 390 - 'Król miejscowego pó³œwiatka'";
-CONST STRING MOBNAME_GRAVE_13	 = "Serano Ukara 234 - 298 'Stra¿nik wie¿y'";
-CONST STRING MOBNAME_GRAVE_14	 = "Victimo Sorn 456 - 512 'Tylko feniks móg³ go powstrzymaæ'";
-CONST STRING MOBNAME_GRAVE_15	 = " +432 'Heristunem go zwano, który z morza wyszed³'";
-CONST STRING MOBNAME_GRAVE_16	 = "Ernesto Ortoj 350 - 410 'Na zawsze z tob¹'";
-CONST STRING MOBNAME_GRAVE_17	 = "Arthag Amashrog 730 - 756";
-CONST STRING MOBNAME_GRAVE_18	 = "Iotar 721 - 762";
-CONST STRING MOBNAME_GRAVE_19	 = "Midos 757 - 759";
-CONST STRING MOBNAME_GRAVE_20	 = "Oskar Sorn 703 - 736";
-CONST STRING MOBNAME_GRAVE_21	 = "Marta Ukara 732 - 771";
-CONST STRING MOBNAME_GRAVE_22	 = "Wilfied Ukara 722 - 764";
-CONST STRING MOBNAME_GRAVE_23	 = "Viktorus Stahl 741 - 755";
-CONST STRING MOBNAME_GRAVE_24	 = "Seb 725 - 773";
-CONST STRING MOBNAME_GRAVE_25	 = "Nieznany";
-CONST STRING MOBNAME_GRAVE_26	 = "Mart Mulgo 721 - 779";
-CONST STRING MOBNAME_GRAVE_27	 = "Zahra 713 - 752";
-CONST STRING MOBNAME_GRAVE_28	 = "Baron Simbus z Kahr 120 - 212";
-CONST STRING MOBNAME_GRAVE_29	 = "Hrabia Anieb z Waldfried 117 - 212";
-CONST STRING MOBNAME_GRAVE_30	 = "Hrabia Lazar z Siegburg 156 - 212";
-CONST STRING MOBNAME_GRAVE_31	 = "Mistrz miecza Asub Ukara 145 - 212";
-CONST STRING MOBNAME_GRAVE_32	 = "Mistrz miecza Dietmar Ukara 112 - 212";
-CONST STRING MOBNAME_GRAVE_33	 = "Stra¿nik honorowy Uthar Seranis 178 - 212";
-
+const string MOBNAME_GRAVE_01	 = "Baron Heinrich von Stahl 551 - 589 'Przyby³em i wypi³em'";
+const string MOBNAME_GRAVE_02	 = "Bertran 465 - 480 'Bycie ¿abojadem wcale nie jest fajne'";
+const string MOBNAME_GRAVE_03	 = "Izolda 525 - 550";
+const string MOBNAME_GRAVE_04	 = "Nieznany";
+const string MOBNAME_GRAVE_05	 = "Dex Cantionis 325 - 431 'Mam problemy z ¿o³¹dkiem'";
+const string MOBNAME_GRAVE_06	 = "Uthar Lichtbringer 205 - 531";
+const string MOBNAME_GRAVE_07	 = "Yasmin 510 - 545";
+const string MOBNAME_GRAVE_08	 = "Onurb 634 - 579 - 'Dózrp an ³yt'";
+const string MOBNAME_GRAVE_09	 = "Nieznany ¿o³nierz";
+const string MOBNAME_GRAVE_10	 = "Potê¿ny Krasnolud z Kosmosu 2894-3787 - 'To k³amstwo!'";
+const string MOBNAME_GRAVE_11	 = "Teodor 220 - 310 - 'Oby jego dusza zazna³a spokoju'";
+const string MOBNAME_GRAVE_12	 = "Veranim Sadea 390 - 'Król miejscowego pó³œwiatka'";
+const string MOBNAME_GRAVE_13	 = "Serano Ukara 234 - 298 'Stra¿nik wie¿y'";
+const string MOBNAME_GRAVE_14	 = "Victimo Sorn 456 - 512 'Tylko feniks móg³ go powstrzymaæ'";
+const string MOBNAME_GRAVE_15	 = " +432 'Heristunem go zwano, który z morza wyszed³'";
+const string MOBNAME_GRAVE_16	 = "Ernesto Ortoj 350 - 410 'Na zawsze z tob¹'";
+const string MOBNAME_GRAVE_17	 = "Arthag Amashrog 730 - 756";
+const string MOBNAME_GRAVE_18	 = "Iotar 721 - 762";
+const string MOBNAME_GRAVE_19	 = "Midos 757 - 759";
+const string MOBNAME_GRAVE_20	 = "Oskar Sorn 703 - 736";
+const string MOBNAME_GRAVE_21	 = "Marta Ukara 732 - 771";
+const string MOBNAME_GRAVE_22	 = "Wilfied Ukara 722 - 764";
+const string MOBNAME_GRAVE_23	 = "Viktorus Stahl 741 - 755";
+const string MOBNAME_GRAVE_24	 = "Seb 725 - 773";
+const string MOBNAME_GRAVE_25	 = "Nieznany";
+const string MOBNAME_GRAVE_26	 = "Mart Mulgo 721 - 779";
+const string MOBNAME_GRAVE_27	 = "Zahra 713 - 752";
+const string MOBNAME_GRAVE_28	 = "Baron Simbus z Kahr 120 - 212";
+const string MOBNAME_GRAVE_29	 = "Hrabia Anieb z Waldfried 117 - 212";
+const string MOBNAME_GRAVE_30	 = "Hrabia Lazar z Siegburg 156 - 212";
+const string MOBNAME_GRAVE_31	 = "Mistrz miecza Asub Ukara 145 - 212";
+const string MOBNAME_GRAVE_32	 = "Mistrz miecza Dietmar Ukara 112 - 212";
+const string MOBNAME_GRAVE_33	 = "Stra¿nik honorowy Uthar Seranis 178 - 212";
 
 //ADDON>
-
 const string MOBNAME_ADDON_SOCKEL				= "Piedesta³";
 const string MOBNAME_ADDON_FORTUNO				= "Skrzynia Fortuna"; 
 const string MOBNAME_ADDON_IDOL					= "Pos¹g Beliara"; 
 const string MOBNAME_ADDON_GOLD					= "Samorodek z³ota";
-CONST STRING MOBNAME_ADDON_STONEBOOK			= "Pulpit";
+const string MOBNAME_ADDON_STONEBOOK			= "Pulpit";
 const string MOBNAME_ADDON_ORNAMENT				= "Okr¹g³y mechanizm";
 const string MOBNAME_ADDON_ORNAMENTSWITCH		= "Przycisk";
 const string MOBNAME_ADDON_WACKELBAUM			= "Kamienne drzewo";
@@ -149,10 +144,10 @@ const string MOBNAME_ADDON_TELEPORT_05 = "Do kanionu";
 //ADDON<
 
 // *****************************************************************************************
-// Gildennamen
+// Nazwy gildii
 // *****************************************************************************************
 
-CONST STRING TXT_GUILDS	[GIL_MAX] =	{
+const string TXT_GUILDS	[GIL_MAX] =	{
 // - Charakterblatt	(Text der Spielergilde)
 // - Debuganzeige (Taste "G")
 
@@ -305,7 +300,7 @@ const string TXT_SPELLS[MAX_SPELL] =
 	"Armia ciemnoœci",			// 45	SPL_ArmyOfDarkness
 	"Zmniejszenie",				// 46	SPL_Shrink
 
-	// Scrolls
+	// Zwoje
 	"Owca",						// 47	SPL_TrfSheep
 	"Œcierwojad",				// 48	SPL_TrfScavenger
 	"Olbrzymi szczur",			// 49	SPL_TrfGiantRat
@@ -517,7 +512,7 @@ const string NAME_SPL_Reserved_99			= "NAME_SPL_RESERVED_99";
 // Charakterbogen-Texte: TALENTE
 // *****************************************************************************************
 
-CONST STRING TXT_TALENTS [NPC_TALENT_MAX] =
+const string TXT_TALENTS [NPC_TALENT_MAX] =
 {
 	"",							//NPC_TALENT_UNKNOWN			= 0;
 	"Br. jednorêczna",			//NPC_TALENT_1H					= 1;
@@ -544,7 +539,7 @@ CONST STRING TXT_TALENTS [NPC_TALENT_MAX] =
 };
 
 
-CONST STRING TXT_TALENTS_SKILLS	[NPC_TALENT_MAX] =
+const string TXT_TALENTS_SKILLS	[NPC_TALENT_MAX] =
 {
 	"",															//NPC_TALENT_UNKNOWN			= 0;
 	"Zielony|Wojownik|Mistrz",									//NPC_TALENT_1H					= 1;
@@ -575,7 +570,7 @@ CONST STRING TXT_TALENTS_SKILLS	[NPC_TALENT_MAX] =
 // Inventory-Kategorien
 // *****************************************************************************************
 
-CONST STRING TXT_INV_CAT [INV_CAT_MAX] = {
+const string TXT_INV_CAT [INV_CAT_MAX] = {
 	"",
 	"Broñ",
 	"Pancerz",
@@ -592,24 +587,24 @@ CONST STRING TXT_INV_CAT [INV_CAT_MAX] = {
 // Fokusnamen der Ambient-NSCs
 // ***************************************************************************************
 
-CONST STRING NAME_Paladin		= "Paladyn";
-CONST STRING NAME_Miliz			= "Stra¿nik miejski";
-CONST STRING NAME_Torwache		= "Stra¿nik bramy";
-CONST STRING NAME_Tuerwache		= "Stra¿nik wrót";
-CONST STRING NAME_Stadtwache	= "Stra¿nik miejski";
-CONST STRING NAME_Arbeiter		= "Robotnik";
-CONST STRING NAME_Ritter		= "Rycerz";
-CONST STRING NAME_Wache			= "Stra¿nik";
+const string NAME_Paladin		= "Paladyn";
+const string NAME_Miliz			= "Stra¿nik miejski";
+const string NAME_Torwache		= "Stra¿nik bramy";
+const string NAME_Tuerwache		= "Stra¿nik wrót";
+const string NAME_Stadtwache	= "Stra¿nik miejski";
+const string NAME_Arbeiter		= "Robotnik";
+const string NAME_Ritter		= "Rycerz";
+const string NAME_Wache			= "Stra¿nik";
 const string NAME_Buerger		= "Obywatel";
 const string NAME_Buergerin		= "Obywatelka";
 const string NAME_Magd			= "S³u¿ka";
 const string NAME_Magier		= "Mag";
-CONST STRING NAME_Novize		= "Nowicjusz";
+const string NAME_Novize		= "Nowicjusz";
 const string NAME_Drachenjaeger	= "£owca smoków";
 const string NAME_ToterDrachenjaeger = "Martwy ³owca smoków";
-CONST STRING NAME_Soeldner		= "Najemnik";
-CONST STRING NAME_Bauer			= "Farmer";
-CONST STRING NAME_Baeuerin		= "Farmerka";
+const string NAME_Soeldner		= "Najemnik";
+const string NAME_Bauer			= "Farmer";
+const string NAME_Baeuerin		= "Farmerka";
 const string NAME_Bandit		= "Bandyta";
 const string NAME_Halsabschneider	= "No¿ownik";
 const string NAME_Straefling	= "Skazaniec";
@@ -640,11 +635,11 @@ const string NAME_Addon_Undead_Mud		=	"B³otniak-o¿ywieniec";
 const string NAME_Addon_Summoned_Mud	=	"Przywo³any b³otniak";	
 
 // *************************************************************
-// DIALOG OPTIONEN
+// OPCJE DIALOGOWE
 // *************************************************************
 
-CONST STRING DIALOG_ENDE		= "KONIEC";
-CONST STRING DIALOG_BACK		= "WRÓÆ";
+const string DIALOG_ENDE		= "KONIEC";
+const string DIALOG_BACK		= "WRÓÆ";
 const string DIALOG_TRADE		= "(Handel)";
 const string DIALOG_PICKPOCKET	= "(Kradzie¿ kiesz.)";
 
@@ -818,7 +813,7 @@ const string PRINT_LP						= " PN";
 const string PRINT_NotEnoughLP				= "Za ma³o Punktów Nauki!";
 const string PRINT_NoLearnOverPersonalMAX	= "Maksimum dla tego nauczyciela wynosi ";
 
-// ------ Attribute	------------------------------------------------------------------------------
+// ------ Atrybuty	------------------------------------------------------------------------------
 const string PRINT_LearnSTR					= "Si³a + ";
 const string PRINT_LearnDEX					= "Zrêcznoœæ + ";
 const string PRINT_LearnMANA_MAX			= "Mana + ";
@@ -952,19 +947,12 @@ const string Pray_Paladin4					= "...a¿ po zwyciêstwo lub œmieræ, którekolwiek c
 //--- Addon ------------------------------
 
 //---------- Dialoge Banditenlager -----------------
-const string DIALOG_ADDON_ATTENTAT_DESCRIPTION 		= "Co wiesz o próbie zabójstwa Estebana?";
-const string DIALOG_ADDON_ATTENTAT_PRO 				= "Zabijê tych zdrajców.";
-const string DIALOG_ADDON_ATTENTAT_CONTRA 			= "Chcê znaleŸæ tych ludzi, by wyst¹piæ przeciwko Estebanowi.";
-
-const string DIALOG_ADDON_MINE_DESCRIPTION			= "Potrzebuj¹ ciê w kopalni. (Daj czerwony kamieñ)";
 const string DIALOG_ADDON_GOLD_DESCRIPTION			= "Co muszê wiedzieæ o wydobyciu z³ota?";
 const string PRINT_ADDON_KNOWSBF					= "Zdobyto wiedzê na temat ¿¹d³owej wydzieliny";	
 const string PRINT_ADDON_HACKCHANCE					= "Zwiêkszy³a siê umiejêtnoœæ wydobywania z³ota! (+";		
 const string PRINT_ADDON_STUNTBONUS					= "Premia za wyczyn";
 const string PRINT_ADDON_EXPLOITBONUS				= "Kara za oszustwa";	
-	
-	
-const string PRINT_ADDON_ENOUGHTALK					= "Dosyæ gadania. Walczmy!";	
+		
 // ------ allgemeine ------
 const string PRINT_FullyHealed					= "Ca³kowicie wyleczony.";
 const string PRINT_Eat1							= "Czujesz siê znacznie bardziej œwie¿o.";
@@ -981,20 +969,12 @@ const string Print_DiegosTreasure				= "Otrzyma³eœ 2000 szt. z³ota.";
 const string PRINT_IrdorathBookDoesntOpen		= "Nie mo¿na otworzyæ ok³adki tej ksiêgi.";
 const string PRINT_IrdorathBookHiddenKey		= "W ok³adce tej ksiêgi schowano klucz!";
 const string PRINT_FishLetter					= "W tej rybie schowano jak¹œ notatkê.";
-const string Print_InnoseyeGiven				= "Odda³eœ Oko Innosa";
-const STRING Print_InnosEyeGet					= "Otrzyma³eœ Oko Innosa";
 
 const string PRINT_GotFourItems					= "Otrzyma³eœ 4 przedmioty ";
 const string PRINT_OrcEliteRingEquip			= "Czujesz siê os³abiony.";
 const string PRINT_ClearSCObsession				= "Czujesz ulgê.";
 const string PRINT_NumberLeft					= "  pozosta³o";
 const string PRINT_NovizenLeft					= "  nowicjuszy pozosta³o";
-
-//------ Addon-----
-const string PRINT_Addon_CanyonRazorsLeft				= "  - pozosta³e brzytwiaki";
-//-----------------
-
-const string PRINT_DragKillCount				= "Wróg pokonany. Tym razem nie bêdê gniæ pod ska³ami, wracam na okrêt.";
 
 // ------ Smith	Weapon ------
 const string PRINT_Smith_1H_Special_01			= " (1 bry³ka rudy)";
@@ -1006,13 +986,9 @@ const string PRINT_Smith_2H_Special_03			= " (4 bry³ki rudy)";
 const string PRINT_Smith_1H_Special_04			= " (4 bry³ki rudy, 5 porcji smoczej krwi)";
 const string PRINT_Smith_2H_Special_04			= " (5 bry³ek rudy, 5 porcji smoczej krwi)";
 
-
 const string NAME_MageScroll			= "Zwój";
 
-
-
 //----------- Items	in Items finden	--------------------
-
 const string PRINT_FoundRing					= "Znaleziono pierœcieñ";
 const string PRINT_FoundAmulett					= "Znaleziono amulet";
 const string PRINT_FoundScroll					= "Znaleziono magiczny zwój";
@@ -1030,8 +1006,6 @@ const string PRINT_HannasBeutel					= "Ma³y klucz i kilka wytrychów...";
 const string PRINT_GotPlants					= "Znaleziono trochê zió³";
 
 //-------------
-const string PRINT_NoSweeping					= "Posprz¹tanie wszystkich komnat zajmie ca³e wieki!";
-
 const string PRINT_Mandibles					= "Wydzielina zdaje siê nie dzia³aæ.";
 const string PRINT_Bloodfly						= "Gorzki smak - smak trucizny.";
 // ***************************************************************************************
@@ -1046,22 +1020,11 @@ const string PRINT_KRAUT 	= "Tytoñ zio³owy";
 // sonstige	PrintScreen	Texte
 // ***************************************************************************************
 
-const string PRINT_XPGained				= "Doœwiadczenie + ";			// bei jedem Erfahrungsgewinn
-const string PRINT_LevelUp				= "Kolejny poziom!";		// beim	Stufenaufstieg
-const string PRINT_NewLogEntry			= "Nowy wpis w dzienniku";
-const string PRINT_TeleportTooFarAway	= "Za daleko";
-const string PRINT_BiffGold		= " szt. z³ota";
-const string PRINT_Addon_SCIsWearingRangerRing = "Nosisz teraz charakterystyczny znak Wodnego Krêgu.";
-
-// ***************************************************************************************
-// variable	Item Inventory Texte
-// ***************************************************************************************
-
-var	string TEXT_Innoseye_Setting;
-
-const string TEXT_Innoseye_Setting_Broken	= "Oprawa amuletu jest pêkniêta.";
-const string TEXT_Innoseye_Setting_Repaired	= "Oprawa amuletu jest ca³a.";
-const string TEXT_Innoseye_Gem		= "Klejnot jest martwy i pozbawiony mocy.";
+const string PRINT_XPGained						= "Doœwiadczenie + ";			// bei jedem Erfahrungsgewinn
+const string PRINT_LevelUp						= "Kolejny poziom!";		// beim	Stufenaufstieg
+const string PRINT_NewLogEntry					= "Nowy wpis w dzienniku";
+const string PRINT_TeleportTooFarAway			= "Za daleko";
+const string PRINT_Addon_SCIsWearingRangerRing	= "Nosisz teraz charakterystyczny znak Wodnego Krêgu.";
 
 // ***************************************************************************************
 // Diebtstahl Text Konstanten

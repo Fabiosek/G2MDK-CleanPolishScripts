@@ -233,14 +233,8 @@ instance ITMI_BROOM(C_ITEM)
 	count[5] = value;
 };
 
-
 func void use_broom()
 {
-	if(Npc_IsPlayer(self) && (Wld_GetPlayerPortalGuild() == GIL_NOV) && (MIS_PARLANFEGEN == LOG_RUNNING))
-	{
-		b_say(self,self,"$NOSWEEPING");
-		Print(PRINT_NOSWEEPING);
-	};
 };
 
 
@@ -259,11 +253,9 @@ instance ITMI_LUTE(C_ITEM)
 	count[5] = value;
 };
 
-
 func void use_lute()
 {
 };
-
 
 instance ITMI_BRUSH(C_ITEM)
 {
