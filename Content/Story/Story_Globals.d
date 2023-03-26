@@ -258,9 +258,6 @@ var int 	MIS_RescueBennet;					//Berfreie Bennet aus dem Knast
 var int		MIS_Ulthar_HeileSchreine_PAL;		//Ulthar schickt dich los die verhexten Schreine zu heilen. 			PAL oder MIL
 var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefälschten Minenanteile einzusammeln. KDF
 
-// ------ KAPITEL 4 ------
-var int 	MIS_KillOrkOberst;			//Kill den Ork Oberst.
-
 // ------ KAPITEL 5 ------
 var int 	MIS_Xardas_SCCanOpenIrdorathBook; //SC kann Buch "Die Hallen von Irdorath" lesen
 var int 	MIS_SCKnowsWayToIrdorath;	//SC weiß jetzt, dass er das Schiff braucht und kennt den Weg zur Dracheninsel

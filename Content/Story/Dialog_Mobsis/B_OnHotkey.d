@@ -8,10 +8,7 @@ func int B_GetBestPlayerMap()
 		{
 			return ItWr_Map_NewWorld;
 		}
-		else if(Npc_HasItems(hero,ItWr_Map_Caves_MIS) >= 1)
-		{
-			return ItWr_Map_Caves_MIS;
-		}
+
 		else if(Npc_HasItems(hero,ItWr_Map_NewWorld_City) >= 1)
 		{
 			return ItWr_Map_NewWorld_City;
@@ -70,7 +67,7 @@ func int player_hotkey_screen_map()
 	NewInstance = OldInstance;
 	if(CurrentLevel != NEWWORLD_ZEN)
 	{
-		if((OldInstance == ItWr_Map_Caves_MIS) || (OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City))
+		if ((OldInstance == ItWr_Map_NewWorld) || (OldInstance == ItWr_Map_NewWorld_City))
 		{
 			NewInstance = 0;
 		};

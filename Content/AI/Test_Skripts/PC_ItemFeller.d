@@ -724,18 +724,4 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 //----------------------------------------
 	CreateInvItems (self, ItMi_Moleratlubric_MIS,1);
 	CreateInvItems (self, ItMi_KarrasBlessedStone_Mis,1);
-//----------------------------------------
-//	MissionItems_4.d
-//----------------------------------------
-	CreateInvItems (self, ItAm_Mana_Angar_MIS,1);
-	CreateInvItems (self, ItMW_1H_FerrosSword_Mis,1);
-	CreateInvItems (self, ItMi_KerolothsGeldbeutel_MIS,1);
-	CreateInvItems (self, ItMi_KerolothsGeldbeutelLeer_MIS,1);
-	CreateInvItems (self, ItRw_SengrathsArmbrust_MIS,1);
-	CreateInvItems (self, ItAt_TalbinsLurkerSkin,1);
-	CreateInvItems (self, ItAt_DragonEgg_MIS,1);
-	CreateInvItems (self, ItRi_OrcEliteRing,1);
-	CreateInvItems (self, ItPo_DragonEggDrinkNeoras_MIS,1);
-	CreateInvItems (self, ItWr_Map_Orcelite_MIS,1);
-	CreateInvItems (self, ItWr_Map_Caves_MIS,1);
 };
