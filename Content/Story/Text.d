@@ -857,7 +857,6 @@ const string PRINT_LearnAlchemyInnosEye		= "Nauka: na³adowanie Oka Innosa";
 const string PRINT_LearnTakeAnimalTrophy	= "Nauka: zbieranie trofeów zwierzêcych";
 const string PRINT_LearnForeignLanguage		= "Nauka: jêzyk budowniczych";//ADDON
 const string PRINT_LearnWispDetector		= "Zwiêkszy³y siê umiejêtnoœci ognika";//ADDON
-const string PRINT_LearnPalTeleportSecret	= "Nauka: tworzenie tajnej runy teleportu";
 
 const string PRINT_NotEnoughLearnPoints		= "Za ma³o Punktów Nauki!";
 
