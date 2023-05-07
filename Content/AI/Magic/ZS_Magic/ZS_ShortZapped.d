@@ -33,7 +33,7 @@ func void B_StopShortZapped()
 // NSC wird von ChargeZap getroffen
 // **********************************
 
-func int ZS_ShortZapped()
+func void ZS_ShortZapped()
 {
 	Npc_PercEnable		(self, PERC_ASSESSSTOPMAGIC, 	B_StopShortZapped);
 	

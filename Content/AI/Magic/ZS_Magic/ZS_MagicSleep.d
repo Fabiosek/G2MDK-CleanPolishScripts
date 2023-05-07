@@ -5,7 +5,7 @@
 // wenn SPL_Time_Sleep vorbei ist
 // **************************************
 
-func int B_StopMagicSleep()
+func void B_StopMagicSleep()
 {
 	Npc_PercDisable	(self,	PERC_ASSESSDAMAGE); //weil Wahrnehmung unten auf B_StopMagicSleep verweist
 

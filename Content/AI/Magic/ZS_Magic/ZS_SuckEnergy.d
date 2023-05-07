@@ -38,7 +38,7 @@ func void B_StopSuckEnergy()
 // ZS_SuckEnergy
 // **************
 
-func int ZS_SuckEnergy()
+func void ZS_SuckEnergy()
 {
 	
 	Npc_PercEnable		(self, PERC_ASSESSMAGIC, B_RestartSuckEnergy); 		// falls ein NSC nochmal von einem Freezespell getroffen wurde, so muss die State Time reseted werden

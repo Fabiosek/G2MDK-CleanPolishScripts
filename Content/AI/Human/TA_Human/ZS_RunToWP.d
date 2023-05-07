@@ -41,7 +41,7 @@ func int ZS_RunToWP_Loop ()
 	return LOOP_CONTINUE;
 };
 	
-func int ZS_RunToWP_End ()
+func void ZS_RunToWP_End ()
 {	
 	
 };

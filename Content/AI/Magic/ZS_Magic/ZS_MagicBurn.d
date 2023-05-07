@@ -56,7 +56,7 @@ func void B_RestartBurn()
 };
 
 
-func int ZS_MagicBurn()
+func void ZS_MagicBurn()
 {
 	// ein PERC_ASSESSSTOPMAGIC beendet evtl. den ZS, kann im Loop aber auch manuell geschehen
 	Npc_PercEnable		(self, PERC_ASSESSSTOPMAGIC, B_StopMagicBurn); 

@@ -43,7 +43,7 @@ func int ZS_FleeToWp_Loop ()
 	return LOOP_CONTINUE;
 };
 	
-func int ZS_FleeToWp_End ()
+func void ZS_FleeToWp_End ()
 {	
 	
 };
