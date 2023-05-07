@@ -245,6 +245,7 @@ var int 	SOLD;
 //---------------------------
 var int 	MIS_MardukBeten;			//Marduk fordert den Spieler zum Gebet auf
 var int 	Fire_Contest;
+var	int		KNOWS_FIRE_CONTEST;			//Spieler kennt das alte Gesetz 
 var int		MIS_Torlof_BengarMilizKlatschen; 	//SC soll Hof 4 von den Milizen befeien.
 var int 	Hammer_Taken;				//Spieler hat Hammer Innos geklaut
 
@@ -263,6 +264,8 @@ var int 	MIS_SCKnowsWayToIrdorath;	//SC weiß jetzt, dass er das Schiff braucht 
 var int 	MIS_PyrokarClearDemonTower;	//Pyrokar will, dass SC dem DT aufräumt, als Tribut für Jorgens freilassung.->==LOG_SUCCESS Jorgen kann nun als Kapitän angeheuert werden.
 var int 	ItWr_HallsofIrdorathIsOpen;	//SC hat das Buch geöffnet
 var int 	ItWr_SCReadsHallsofIrdorath; //SC hat das Buch durchgelesen
+var int 	PlayerGetsAmulettOfDeath;
+var int 	PlayergetsFinalDJGArmor;
 var int 	MIS_SCvisitShip;
 const int 	Max_Crew = 9;				//Max. Crewmitglieder
 const int   Min_Crew = 5;				//Min. Crewmitglieder //Joly: wenn dieser Wert geändert wird, müssen auch die Dialoge angepasst werden!!!!!!!!!
@@ -286,6 +289,7 @@ const int Gold_BlessSword 	= 5000; //Soviel kostet die erste Segnung deines PalS
 var int DragonTalk_Exit_Free;	
 
 // ------ KAPITEL 5 ------
+var int PAL_KnowsAbout_FINAL_BLESSING; //Paladine Sc hat rezept für Finale Waffensegnung gelesen!
 
 // ------ KAPITEL 6 ------
 var int UndeadDragonIsDead;			//UndeadDragon ist tot
