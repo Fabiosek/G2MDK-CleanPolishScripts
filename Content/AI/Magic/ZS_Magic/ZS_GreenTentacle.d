@@ -41,7 +41,7 @@ func void B_StopGreententacle()
 // ZS_Greententacle
 // **************
 
-func int ZS_Greententacle()
+func void ZS_Greententacle()
 {
 	Npc_PercEnable		(self, PERC_ASSESSMAGIC, B_RestartGreententacle); 		// falls ein NSC nochmal von einem Freezespell getroffen wurde, so muss die State Time reseted werden
 	Npc_PercEnable		(self, PERC_ASSESSDAMAGE, B_AssessDamage);
@@ -61,9 +61,9 @@ func int ZS_Greententacle()
 			var int randy;
 			//randy = Hlp_Random (3);
 	
-			if (randy == 0)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEA_VICTIM",	 BS_UNCONSCIOUS);		};
-			if (randy == 1)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEB_VICTIM",	 BS_UNCONSCIOUS);		};
-			if (randy == 2)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEC_VICTIM",	 BS_UNCONSCIOUS);		};
+			if (randy == 0)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEA_VICTIM",	 BS_UNCONSCIOUS);		}
+			else if (randy == 1)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEB_VICTIM",	 BS_UNCONSCIOUS);		}
+			else if (randy == 2)		{		AI_PlayAniBS (self,	"T_STAND_2_GREENTENTACLEC_VICTIM",	 BS_UNCONSCIOUS);		};
 		}
 		else
 		{

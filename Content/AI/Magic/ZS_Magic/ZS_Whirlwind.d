@@ -34,7 +34,7 @@ func void B_StopWhirlwind()
 // ZS_Whirlwind
 // **************
 
-func int ZS_Whirlwind()
+func void ZS_Whirlwind()
 {
 	Npc_PercEnable		(self, PERC_ASSESSMAGIC, B_RestartWhirlwind); 		// falls ein NSC nochmal von einem Freezespell getroffen wurde, so muss die State Time reseted werden
 	

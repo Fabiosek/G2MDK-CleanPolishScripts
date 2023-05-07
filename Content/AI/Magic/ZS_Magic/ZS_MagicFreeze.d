@@ -35,7 +35,7 @@ func void B_StopMagicFreeze()
 // ZS_MagicFreeze
 // **************
 
-func int ZS_MagicFreeze()
+func void ZS_MagicFreeze()
 {
 	Npc_PercEnable		(self, PERC_ASSESSMAGIC, B_RestartFreeze); 		// falls ein NSC nochmal von einem Freezespell getroffen wurde, so muss die State Time reseted werden
 	

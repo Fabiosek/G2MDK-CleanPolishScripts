@@ -54,7 +54,7 @@ func void B_RestartBurnShort()
 };
 
 
-func int ZS_MagicBurnShort()
+func void ZS_MagicBurnShort()
 {
 	// ein PERC_ASSESSSTOPMAGIC beendet evtl. den ZS, kann im Loop aber auch manuell geschehen
 	Npc_PercEnable		(self, PERC_ASSESSSTOPMAGIC, B_StopMagicBurnShort); 

@@ -34,7 +34,7 @@ func void B_StopSwarm()
 // ZS_Swarm
 // **************
 
-func int ZS_Swarm()
+func void ZS_Swarm()
 {
 	Npc_PercEnable		(self, PERC_ASSESSMAGIC, B_RestartSwarm); 		// falls ein NSC nochmal von einem Freezespell getroffen wurde, so muss die State Time reseted werden
 	

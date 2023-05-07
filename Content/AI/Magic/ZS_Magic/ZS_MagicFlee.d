@@ -13,7 +13,7 @@
 // wenn SPL_Time_Sleep vorbei ist
 // **************************************
 
-func int B_StopMagicFlee()
+func void B_StopMagicFlee()
 {
 	Npc_PercDisable	(self,	PERC_ASSESSDAMAGE); //weil Wahrnehmung unten auf B_StopMagicSleep verweist
 
@@ -74,9 +74,9 @@ func void ZS_MagicFlee ()
 	{
 		randy = Hlp_Random (3);
 
-		if (randy == 0)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM1",	 BS_STAND);		};
-		if (randy == 1)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM2",	 BS_STAND);		};
-		if (randy == 2)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM3",	 BS_STAND);		};
+		if (randy == 0)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM1",	 BS_STAND);		}
+		else if (randy == 1)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM2",	 BS_STAND);		}
+		else if (randy == 2)		{		AI_PlayAniBS (self,	"T_STAND_2_FEAR_VICTIM3",	 BS_STAND);		};
 	};
 
 
