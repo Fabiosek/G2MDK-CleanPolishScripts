@@ -38,15 +38,7 @@ func void ZS_RansackBody_End ()
 		CreateInvItems		(self, Holy_Hammer_MIS, 1);
 		Npc_RemoveInvItems	(other,Holy_Hammer_MIS, 1);	
 	};
-	
-	if (Npc_HasItems(other, ItMw_2h_Rod) > 0)
-	&& (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Rod))
-	{
-		CreateInvItems		(self, ItMw_2h_Rod, 1);
-		Npc_RemoveInvItems	(other,ItMw_2h_Rod, 1);	
-		AI_EquipBestMeleeWeapon (self);
-	};
-	
+		
 	if (Npc_HasItems(other, ITKE_Greg_ADDON_MIS))
 	&& (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Francis))
 	{

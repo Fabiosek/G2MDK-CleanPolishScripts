@@ -640,60 +640,14 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 //----------------------------------------
 //	MissionItems_1.d
 //----------------------------------------
-	CreateInvItems (self, ItKe_Xardas,1);
-	CreateInvItems (self, ItWr_Canthars_KomproBrief_MIS,1);
-	CreateInvItems (self, ItMw_2h_Rod,1);
-	CreateInvItems (self, ItMi_CoragonsSilber,1);
-	CreateInvItems (self, ItMi_TheklasPaket,1);
-	CreateInvItems (self, ItMi_MariasGoldPlate,1);
-	CreateInvItems (self, ItRi_ValentinosRing,1);
-	CreateInvItems (self, ItKe_Dexter,1);
-	CreateInvItems (self, ItWr_Kraeuterliste,1);
-	CreateInvItems (self, ItWr_ManaRezept,1);
-	CreateInvItems (self, ItWr_Passierschein,1);
-	CreateInvItems (self, ItMi_HerbPaket,1);
-	CreateInvItems (self, ItKe_Storage,1);
 	CreateInvItems (self, ItFo_SmellyFish,1);
-	CreateInvItems (self, ItFo_HalvorFish_MIS,1);
-	CreateInvItems (self, ItWr_HalvorMessage,1);
-	CreateInvItems (self, ItMw_AlriksSword_Mis,1);
-	CreateInvItems (self, ItWr_VatrasMessage,1);
-	CreateInvItems (self, ItWr_VatrasMessage_Open,1);
-	CreateInvItems (self, ItKe_Hotel,1);
-	CreateInvItems (self, ItKe_ThiefGuildKey_MIS,1);
-	CreateInvItems (self, ItKe_ThiefGuildKey_Hotel_MIS,1);
-	CreateInvItems (self, ItKe_Innos_MIS,1);
-	CreateInvItems (self, ItKe_KlosterSchatz,1);
-	CreateInvItems (self, ItKe_KlosterStore,1);
-	CreateInvItems (self, ItKe_KDFPlayer,1);
-	CreateInvItems (self, ItKe_KlosterBibliothek,1);
 	CreateInvItems (self, ItFo_Schafswurst,1);
 	CreateInvItems (self, ItPo_Perm_LittleMana,1);
 	CreateInvItems (self, Holy_Hammer_MIS,1);
-	CreateInvItems(self,ItKe_MagicChest,1);	
-	CreateInvItems(self,ItWr_Passage_MIS,1);
-	CreateInvItems(self,ItWr_BanditLetter_MIS,1);
-	CreateInvItems(self,ItWr_Poster_MIS,1);
-	CreateInvItems(self,ItKe_Bandit,1);
 	CreateInvItems(self,ItMi_BaltramPaket,1);
 	CreateInvItems(self,ItRw_Bow_L_03_MIS,1);
-	CreateInvItems(self,ItRi_Prot_Point_01_MIS,1);
-	CreateInvItems(self,ItMi_EddasStatue,1);
-	CreateInvItems(self,ItKe_EVT_CRYPT_01,1);
-	CreateInvItems(self,ItKe_EVT_CRYPT_02,1);
-	CreateInvItems(self,ItKe_EVT_CRYPT_03,1);
-	CreateInvItems(self,ITAR_PAL_SKEL,1);
-	CreateInvItems(self,ItKe_Valentino,1);
-	CreateInvItems(self,ItKe_Buerger,1);
-	CreateInvItems(self,ItKe_Richter,1);
-	CreateInvItems(self,ItKe_Salandril,1);
-	CreateInvItems(self,ItKe_PaladinTruhe,1);
-	CreateInvItems(self,ItKe_ThiefTreasure,1);
-	CreateInvItems(self,ItKe_Fingers,1);
-	CreateInvItems(self,ItWr_Schuldenbuch,1);
+	CreateInvItems(self,ITAR_PAL_SKEL,1);;
 	CreateInvItems(self,ItPl_Sagitta_Herb_MIS,1);
-	CreateInvItems(self,ITKE_ORLAN_HOTELZIMMER,1);
-	CreateInvItems(self,ItRw_DragomirsArmbrust_MIS,1);
 //----------------------------------------
 //	MissionItems_2.d
 //----------------------------------------
