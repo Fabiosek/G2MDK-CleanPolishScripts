@@ -2,7 +2,6 @@
 // ZS_Circle für Auge Innos Beschwörung
 // ************************************
 
-
 func void ZS_Circle	() 	
 {
 	Perception_Set_Normal();
@@ -37,6 +36,7 @@ func int ZS_Circle_Loop ()
 				AI_PlayAni (self,"T_PRACTICEMAGIC5");	
 		};	
 	}
+	
 	else if (self.guild == GIL_KDW)//ADDON:  KDW 
 	{
 		randyKDW = Hlp_Random (2500);
@@ -55,36 +55,13 @@ func int ZS_Circle_Loop ()
 				{ 
 					Wld_PlayEffect("spellFX_RingRitual1",  ItMi_AmbossEffekt_Addon, ItMi_AmbossEffekt_Addon, 0, 0, 0, FALSE );
 				}
+				
 				else if (randyKDW_Lightstar == 1)
 				{
 					Wld_PlayEffect("spellFX_LIGHTSTAR_RingRitual",  ItMi_AmbossEffekt_Addon, ItMi_AmbossEffekt_Addon, 0, 0, 0, FALSE );
 				};
 			};
 	} ;
-	/*else if (MIS_RitualInnosEyeRepair != LOG_SUCCESS)
-	{
-		randy = Hlp_Random (1000);
-
-			if (Npc_GetStateTime(self) > randy)
-				{
-					Npc_SetStateTime (self, 0);
-					Wld_PlayEffect("FX_EarthQuake",  self, self, 0, 0, 0, FALSE );
-					AI_PlayAni (self,"T_PRACTICEMAGIC5");	
-						
-					if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Xardas))
-					{
-						Wld_PlayEffect("spellFX_INCOVATION_VIOLET",  self, self, 0, 0, 0, FALSE );
-					}
-					else if (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Pyrokar))
-					{
-						Wld_PlayEffect("spellFX_INCOVATION_RED",  self, self, 0, 0, 0, FALSE );
-					}
-					else // Vatras 
-					{
-						Wld_PlayEffect("spellFX_INCOVATION_BLUE",  self, self, 0, 0, 0, FALSE );
-					};
-				};	
-	};*/
 	
 	return LOOP_CONTINUE;
 };

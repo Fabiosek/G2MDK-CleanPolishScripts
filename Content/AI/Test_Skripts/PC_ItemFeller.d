@@ -644,7 +644,6 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 	CreateInvItems (self, ItFo_Schafswurst,1);
 	CreateInvItems (self, ItPo_Perm_LittleMana,1);
 	CreateInvItems (self, Holy_Hammer_MIS,1);
-	CreateInvItems(self,ItMi_BaltramPaket,1);
 	CreateInvItems(self,ItRw_Bow_L_03_MIS,1);
 	CreateInvItems(self,ITAR_PAL_SKEL,1);;
 	CreateInvItems(self,ItPl_Sagitta_Herb_MIS,1);

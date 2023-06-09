@@ -965,7 +965,6 @@ const string Print_ReadAstronomy				= "Przepe³nia ciê wra¿enie obcowania z istot
 const string PRINT_GornsTreasure				= "Otrzyma³eœ 100 szt. z³ota.";
 const string PRINT_KerolothsGeldBeutel			= "Otrzyma³eœ 300 szt. z³ota.";
 const string PRINT_MalethBanditsGold			= "Otrzyma³eœ 300 szt. z³ota.";
-const string Print_DiegosTreasure				= "Otrzyma³eœ 2000 szt. z³ota.";
 const string PRINT_IrdorathBookDoesntOpen		= "Nie mo¿na otworzyæ ok³adki tej ksiêgi.";
 const string PRINT_IrdorathBookHiddenKey		= "W ok³adce tej ksiêgi schowano klucz!";
 
@@ -999,7 +998,6 @@ const string PRINT_FoundGold25					= "Znaleziono 25 szt. z³ota";
 const string PRINT_FoundGold50					= "Znaleziono 50 szt. z³ota";
 const string PRINT_FoundGold100					= "Znaleziono 100 szt. z³ota";
 const string PRINT_FoundRuneBlank				= "Znaleziono runê";
-const string PRINT_FoundOreNugget				= "Znaleziono bry³kê rudy";
 const string PRINT_FoundLockpick				= "Znaleziono wytrych";
 const string PRINT_GotPlants					= "Znaleziono trochê zió³";
 

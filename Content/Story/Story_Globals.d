@@ -79,11 +79,6 @@ var int Leather02_Equipped;
 var int MC_Equipped;
 //---------------------------------------------------
 
-// Ornamnet Portal
-var int SCUsed_AllNWTeleporststones;			//= TRUE SC benutzte alle Teleportstationen in der Newworld
-var int SC_SAW_ORNAMENT_MAP;					//= TRUE  SC hat gesehen, wo er hin muss zu den teinkreisen
-var int Vatras2Saturas_FindRaven_Open;			//= TRUE SC hat den Brief von Vatras an Saturas geöffnet.
-
 //Teleportsteine
 var int SCUsed_TELEPORTER;						//= TRUE SC benutzte irgendeinen Teleporter
 var int SCUsed_NW_TELEPORTSTATION_CITY;			//= TRUE SC benutzte die Teleportstation bei...
@@ -99,7 +94,6 @@ var int SCUsed_ADW_TELEPORTSTATION_PIRATES_JACKSMONSTER;//= TRUE Monster gespawn
 var int SC_ADW_ActivatedAllTelePortStones;		//= TRUE Alle ADW Teleporter sind aktiviert.
 
 //ADDONWORLD KDW
-var int StPl_nDocID;
 var int  	BeliarsWeaponSpecialDamage;			//Grundwert für Speziellen Schaden Beliars Klaue
 var int  	BeliarDamageChance;					//Chance auf Extraschaden
 var int  	SC_FailedToEquipBeliarsWeapon;		//= TRUE SC hat versucht die Waffe anzulegen. -> Blitz in Arsch.
@@ -107,7 +101,6 @@ var int  	BeliarsWeaponUpgrated;				//= TRUE SC hat die Waffe wenigstens einmal 
 
 //--------------Banditenlager (Addonwelt)------------------
 var int 	Player_HasTalkedToBanditCamp;				//Spieler war schon mal im BDT Camp			
-const int	Lennar_picklock_amount = 12; //Anzahl seiner dietriche
 var int 	Knows_MCELIXIER;
 
 //----Fortuno-----
@@ -207,26 +200,22 @@ var int 	Charm_Test;
 var int 	MIS_Ignaz_Charm;
 
 //----------Diebesgilde--------------------
-var int 	KnowsPaladins_Ore;			//Weiß warum die paladine da sind
 var int 	Sld_Duelle_gewonnen;	//In ZS_Unconscious 
 var int 	SOLD;
 
 //---------------------------
 //	KLOSTER
 //---------------------------
-var int 	MIS_MardukBeten;			//Marduk fordert den Spieler zum Gebet auf
 var int 	Fire_Contest;
 var	int		KNOWS_FIRE_CONTEST;			//Spieler kennt das alte Gesetz 
 var int		MIS_Torlof_BengarMilizKlatschen; 	//SC soll Hof 4 von den Milizen befeien.
 var int 	Hammer_Taken;				//Spieler hat Hammer Innos geklaut
 
 // ------ KAPITEL 3 ------
-var int 	MIS_RitualInnosEyeRepair; 			//Vatras wartet auf Xardas und Pyrokar am Sonnenkreis 
 var int 	MIS_ReadyforChapter4; 				//Mit dieser Varible in den Levelchange zur OW -> Kapitel 4
 var int 	MIS_RescueBennet;					//Berfreie Bennet aus dem Knast
 
 //Gildenabhängig
-var int		MIS_Ulthar_HeileSchreine_PAL;		//Ulthar schickt dich los die verhexten Schreine zu heilen. 			PAL oder MIL
 var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefälschten Minenanteile einzusammeln. KDF
 
 // ------ KAPITEL 5 ------
@@ -250,10 +239,6 @@ var int 	MIS_OCGateOpen;				//== TRUE -> Das Tor vom OC ist geöffnet worden (OR
 // ------ KAPITEL 2 ------
 var int GornsTreasure;			//Gorns Schatzversteck
 
-// ------ KAPITEL 3 ------
-const int DiegosTreasure	= 2000;	//Diegos Schatz!
-const int Gold_BlessSword 	= 5000; //Soviel kostet die erste Segnung deines PalSchwertes (Hoshi: bei Änderung bitte auch in der Text.d ändern!!!!(const string Bless_Sword))
-
 // ------ KAPITEL 5 ------
 var int PAL_KnowsAbout_FINAL_BLESSING; //Paladine Sc hat rezept für Finale Waffensegnung gelesen!
 
@@ -268,4 +253,5 @@ var int GoblinBlack_Randomizer;
 var int Orc_Randomizer;
 
 var int CurrentLevel; 	//Newworld_zen, Oldworld_Zen, Dragonisland_zen -> Level in dem sich der Player befindet!
+
 

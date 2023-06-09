@@ -1,4 +1,3 @@
-
 const int VALUE_GOLDNUGGET = 18;
 const int VALUE_WHITEPEARL = 120;
 const int VALUE_ADDON_JOINT_01 = 60;
@@ -47,7 +46,6 @@ instance ITMI_ADDON_JOINT_01(C_ITEM)
 	inv_zbias = INVCAM_ENTF_RING_STANDARD;
 };
 
-
 var int firstjoint;
 
 func void use_addon_joint_01()
@@ -62,79 +60,6 @@ func void use_addon_joint_01()
 		Wld_PlayEffect("SLOW_TIME",self,self,0,0,0,FALSE);
 	};
 };
-
-
-instance ITMI_BALTRAMPAKET(C_ITEM)
-{
-	name = "Dostawa Beltrama";
-	mainflag = ITEM_KAT_NONE;
-	flags = ITEM_MISSION;
-	value = 200;
-	visual = "ItMi_Packet.3ds";
-	material = MAT_LEATHER;
-	description = name;
-	text[2] = "Ciężka paczka";
-	text[3] = "pełna dobrych rzeczy";
-	text[4] = "od farmera Akila.";
-};
-
-instance ITMI_PACKET_BALTRAM4SKIP_ADDON(C_ITEM)
-{
-	name = "Paczka dla Skipa";
-	mainflag = ITEM_KAT_NONE;
-	flags = ITEM_MISSION;
-	value = 200;
-	visual = "ItMi_Packet.3ds";
-	material = MAT_LEATHER;
-	description = name;
-	text[2] = "Ta ciężka paczka";
-	text[3] = "pełna dobrych rzeczy";
-	text[4] = "ma trafić do pirata Skipa.";
-};
-
-instance ITMI_BROMORSGELD_ADDON(C_ITEM)
-{
-	name = "Złota misa Bromora";
-	mainflag = ITEM_KAT_NONE;
-	flags = ITEM_MULTI | ITEM_MISSION;
-	value = VALUE_NUGGET;
-	visual = "ItMi_GoldChalice.3DS";
-	material = MAT_METAL;
-	description = name;
-	text[2] = "Na dnie misy";
-	text[3] = "ostrym narzędziem ";
-	text[4] = "wydrapano imię 'Bromor'.";
-	text[5] = NAME_VALUE;
-	count[5] = value;
-};
-
-instance ITSE_ADDON_CAVALORNSBEUTEL(C_ITEM)
-{
-	name = "Skórzana torba Cavalorna";
-	mainflag = ITEM_KAT_NONE;
-	flags = ITEM_MULTI | ITEM_MISSION;
-	value = VALUE_NUGGET;
-	visual = "ItMi_Pocket.3ds";
-	scemename = "MAPSEALED";
-	material = MAT_LEATHER;
-	on_state[0] = use_cavalornsbeutel;
-	description = name;
-	text[0] = "";
-	text[1] = "Przywiązana jest do niej wywieszka";
-	text[2] = "z imieniem 'Cavalorn',";
-	text[3] = "a w środku jest bryła rudy.";
-	text[4] = "";
-	text[5] = NAME_VALUE;
-	count[5] = value;
-};
-
-
-func void use_cavalornsbeutel()
-{
-	CreateInvItems(hero,itmi_nugget,1);
-	Print(PRINT_FOUNDORENUGGET);
-};
-
 
 instance ITMI_SKULL(C_ITEM)
 {
@@ -294,33 +219,6 @@ instance ITMI_IELAUTE(C_ITEM)
 func void use_laute()
 {
 };
-
-
-instance ITMI_ADDON_LENNAR_PAKET(C_ITEM)
-{
-	name = "Brzęcząca paczka";
-	mainflag = ITEM_KAT_NONE;
-	flags = ITEM_MISSION;
-	value = 300;
-	visual = "ItMi_Packet.3ds";
-	scemename = "MAPSEALED";
-	on_state[0] = use_lennarpaket;
-	material = MAT_LEATHER;
-	description = name;
-	text[2] = "W środku są wytrychy,";
-	text[3] = "dużo wytrychów.";
-	text[4] = " ";
-	text[5] = NAME_VALUE;
-	count[5] = value;
-};
-
-
-func void use_lennarpaket()
-{
-	b_playerfinditem(itke_lockpick,LENNAR_PICKLOCK_AMOUNT);
-	Snd_Play("Geldbeutel");
-};
-
 
 instance ITMI_ZEITSPALT_ADDON(C_ITEM)
 {

@@ -612,10 +612,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItMi_GoldNugget_Addon,10);
 	CreateInvItems(self,ItMi_Addon_WhitePearl,10);
 	CreateInvItems(self,ItMi_Addon_Joint_01,10);
-	CreateInvItems(self,ItMi_BaltramPaket,10);
-	CreateInvItems(self,ItMi_Packet_Baltram4Skip_Addon,1);
-	CreateInvItems(self,ItMi_BromorsGeld_Addon,10);
-	CreateInvItems(self,ItSe_ADDON_CavalornsBeutel,10);
 	CreateInvItems(self,ItMi_Skull,1);
 	CreateInvItems(self,ItMi_Addon_Shell_01,10);
 	CreateInvItems(self,ItMi_Addon_Shell_02,10);
