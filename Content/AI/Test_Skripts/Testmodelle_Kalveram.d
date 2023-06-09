@@ -545,16 +545,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItKe_City_Tower_04,1);
 	CreateInvItems(self,ItKe_City_Tower_05,1);
 	CreateInvItems(self,ItKe_City_Tower_06,1);
-//Addon	
-	CreateInvItem(self,ITKE_PORTALTEMPELWALKTHROUGH_ADDON);
-	CreateInvItem(self,ITKE_Greg_ADDON_MIS);
-	CreateInvItem(self,ITKE_Addon_Tavern_01);
-	CreateInvItem(self,ITKE_Addon_Esteban_01);
-	CreateInvItem(self,ITKE_ORLAN_TELEPORTSTATION);
-	CreateInvItem(self,ITKE_CANYONLIBRARY_HIERARCHY_BOOKS_ADDON);
-	CreateInvItem(self,ITKE_ADDON_BUDDLER_01);
-	CreateInvItem(self,ITKE_ADDON_SKINNER);
-	CreateInvItem(self,ITKE_Addon_Thorus);
 //------------------------------------------------------------
 //	Alle Fackeln
 //------------------------------------------------------------

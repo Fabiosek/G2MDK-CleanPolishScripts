@@ -39,12 +39,6 @@ func void ZS_RansackBody_End ()
 		Npc_RemoveInvItems	(other,Holy_Hammer_MIS, 1);	
 	};
 		
-	if (Npc_HasItems(other, ITKE_Greg_ADDON_MIS))
-	&& (Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Francis))
-	{
-		CreateInvItems		(self, ITKE_Greg_ADDON_MIS, 1);
-		Npc_RemoveInvItems	(other,ITKE_Greg_ADDON_MIS, 1);
-	};	
 	*/
 	// ------ Gold nehmen ------
 	if (Npc_HasItems (other, ItMi_Gold) > 0)
