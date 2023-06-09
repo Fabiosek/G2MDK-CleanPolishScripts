@@ -1022,7 +1022,6 @@ const string PRINT_XPGained						= "Doœwiadczenie + ";			// bei jedem Erfahrungs
 const string PRINT_LevelUp						= "Kolejny poziom!";		// beim	Stufenaufstieg
 const string PRINT_NewLogEntry					= "Nowy wpis w dzienniku";
 const string PRINT_TeleportTooFarAway			= "Za daleko";
-const string PRINT_Addon_SCIsWearingRangerRing	= "Nosisz teraz charakterystyczny znak Wodnego Krêgu.";
 
 // ***************************************************************************************
 // Diebtstahl Text Konstanten

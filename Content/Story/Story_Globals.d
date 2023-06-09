@@ -79,18 +79,6 @@ var int Leather02_Equipped;
 var int MC_Equipped;
 //---------------------------------------------------
 
-//Ranger 
-var int SC_KnowsRanger;							//= TRUE SC hat vom RING des Wassers gehört.
-var int SC_IsRanger;							//= TRUE  Name ist programm
-var int SaturasKnows_SC_IsRanger;				//= TRUE  Saturas akzeptiert die Aufnahme des SC bei den Rangern
-var int SCIsWearingRangerRing;					//= TRUE  Name ist programm
-var int RangerRingIsLaresRing;					//= TRUE  Name ist programm
-var int RangerHelp_OrnamentForest;				//= TRUE Lares Boxt SC durch den Medium Wald
-var int RangerMeetingRunning;					//= TRUE Die Ranger meeten in Orlans Taverne
-var int Lares_ComeToRangerMeeting;				//= TRUE Lares schickt den Spieler zum Rangermeeting.
-var int MIS_Vatras_FindTheBanditTrader;			//Vatras will den Namen des Händler aus dem oberen Viertel, der den Banditen Waffen liefert.
-var int BanditTrader_Lieferung_Gelesen;			//= TRUE SC hat den Lieferungsschein gelesen.
-
 // Ornamnet Portal
 var int SCUsed_AllNWTeleporststones;			//= TRUE SC benutzte alle Teleportstationen in der Newworld
 var int SC_SAW_ORNAMENT_MAP;					//= TRUE  SC hat gesehen, wo er hin muss zu den teinkreisen
@@ -112,9 +100,6 @@ var int SC_ADW_ActivatedAllTelePortStones;		//= TRUE Alle ADW Teleporter sind ak
 
 //ADDONWORLD KDW
 var int StPl_nDocID;
-var int 	ENTERED_ADDONWORLD;					//= TRUE war schon in der Addonworld
-var int 	SC_Knows_WeaponInAdanosTempel;		//= TRUE SC weiß vom Schwert im Tempel
-var int 	RavenIsDead;						//= TRUE Raven ist tot und das Hauptziel vom Addon erreicht. 
 var int  	BeliarsWeaponSpecialDamage;			//Grundwert für Speziellen Schaden Beliars Klaue
 var int  	BeliarDamageChance;					//Chance auf Extraschaden
 var int  	SC_FailedToEquipBeliarsWeapon;		//= TRUE SC hat versucht die Waffe anzulegen. -> Blitz in Arsch.
@@ -186,10 +171,6 @@ const int 	GoldMob_20_AmounT_MAX = 19;
 //----------------Piratenlager (Addonwelt) -------------------------------
 var int MIS_KrokoJagd;							// Alligator Jagd mit Jack
 var int TowerBanditsDead;	
-var int Francis_HasProof;						//Player hat Beweise für Schmuggel
-var int MALCOMEXIDENT; //RAUS
-var int Malcom_Accident;
-var int Greg_GaveArmorToBones;
 var int GregIsBack;
 var int Read_JuansText;
 var int Player_KnowsSchnellerHering;
@@ -198,13 +179,6 @@ var int Player_KnowsSchnellerHering;
 var int 	Knows_LousHammer;						//Lous Rezept
 var int 	Knows_Schlafhammer;						//erweitertes Rezept von Lou mit doppelter Menge Rum 
 var int 	Knows_SchnellerHering;					//verbesserte SpeedPotionSchnaps von Samuel 
- 
-//---obligatorisch angelegt -----------------------------
-var int 	Knows_RuebenSchnaps;
-var int 	Knows_VinoSchnaps;
-var int 	Knows_PiratenSchnaps;	//Weißer Rum				
-var int 	Knows_Magierschnaps;
-var int 	Knows_Sumpfkrautschnaps;
 
 //**************
 // Gothic 2
@@ -267,8 +241,6 @@ var int 	ItWr_SCReadsHallsofIrdorath; //SC hat das Buch durchgelesen
 var int 	PlayerGetsAmulettOfDeath;
 var int 	PlayergetsFinalDJGArmor;
 var int 	MIS_SCvisitShip;
-const int 	Max_Crew = 9;				//Max. Crewmitglieder
-const int   Min_Crew = 5;				//Min. Crewmitglieder //Joly: wenn dieser Wert geändert wird, müssen auch die Dialoge angepasst werden!!!!!!!!!
 
 // Crewmembers
 var int 	MIS_ShipIsFree;				//Das Schiff ist frei und SC kann mit seinen Jungs draufgehen.
@@ -285,14 +257,8 @@ var int GornsTreasure;			//Gorns Schatzversteck
 const int DiegosTreasure	= 2000;	//Diegos Schatz!
 const int Gold_BlessSword 	= 5000; //Soviel kostet die erste Segnung deines PalSchwertes (Hoshi: bei Änderung bitte auch in der Text.d ändern!!!!(const string Bless_Sword))
 
-// ------ KAPITEL 4 ------
-var int DragonTalk_Exit_Free;	
-
 // ------ KAPITEL 5 ------
 var int PAL_KnowsAbout_FINAL_BLESSING; //Paladine Sc hat rezept für Finale Waffensegnung gelesen!
-
-// ------ KAPITEL 6 ------
-var int UndeadDragonIsDead;			//UndeadDragon ist tot
 
 //-------------  Sonstige Variablen -------------------------------------
 var int Apple_Bonus;

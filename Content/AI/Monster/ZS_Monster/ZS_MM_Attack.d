@@ -68,15 +68,7 @@ func int ZS_MM_Attack_Loop ()
 			self.aivar[AIV_TAPOSITION] = 0;
 		};
 	};
-		
-	//ADDON>
-	if (RavenIsDead == TRUE)
-	&& (self.guild == GIL_STONEGUARDIAN)
-	{	
-		B_KillNpc (self);
-	};
-	//ADDON<
-		
+	
 	// EXIT LOOP IF...
 	
 	// ------ HACK: Orks nicht in die Burg ------

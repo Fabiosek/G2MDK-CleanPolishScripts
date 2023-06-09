@@ -17,16 +17,7 @@ func void ZS_MM_Rtn_Rest()
 };
 
 func int ZS_MM_Rtn_Rest_Loop ()
-{
-	//ADDON>
-	if (self.guild == GIL_STONEGUARDIAN)
-	&& (RavenIsDead == TRUE)
-	{	
-		B_KillNpc (self);
-	};
-	//ADDON<
-	
-	
+{	
 	if ((!Wld_IsTime (self.aivar[AIV_MM_RestStart],00,self.aivar[AIV_MM_RestEnd],00)) && (self.aivar[AIV_MM_RestStart] != OnlyRoutine))
 	{
 		AI_StartState (self, ZS_MM_AllScheduler, 1, "");
