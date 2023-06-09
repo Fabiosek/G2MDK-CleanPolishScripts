@@ -1,8 +1,6 @@
 _INTERN\CONSTANTS.D
 _INTERN\CLASSES.D
 
-
-
 AI\AI_INTERN\AI_CONSTANTS.D
 AI\AI_INTERN\BODYSTATES.D
 AI\AI_INTERN\FOCUS.D
@@ -18,12 +16,10 @@ STORY\NPC_Globals.d
 STORY\svm.d
 STORY\Text.d
 
-
 STORY\B_Story\C_NpcIsInQuarter.d
 STORY\B_Story\C_DiegoTooFar.d
 STORY\B_Story\B_AddFightSkill.d
 STORY\B_Story\B_RaiseFightTalent.d
-
 
 STORY\Npc_Scripts\B_SetFightSkills.d
 
@@ -50,11 +46,9 @@ STORY\Log_Entries\B_Checklog.d
 STORY\B_Story\B_GivePlayerXP.d
 STORY\B_Content\B_SCUsesRake.d
 
-
 STORY\B_Story\B_KillNpc.d
 STORY\B_Story\B_RemoveNpc.d
 STORY\B_Content\B_PlayerFindItem.d
-
 
 ITEMS\Tuning_*.d
 ITEMS\Einhand_EquipBonus.d
@@ -67,11 +61,8 @@ AI\MAGIC\B_MagicHurtNpc.d
 STORY\B_Content\B_ScHasBeliarsWeapon.d
 STORY\B_Content\B_BeliarsWeaponSpecialDamage.d
 
-
 AI\MONSTER\B_Monster\B_MM_WispDetect.d
 AI\MONSTER\B_Monster\B_MM_DeSynchronize.d
-
-
 
 AI\HUMAN\C_Human\C_NpcIsGateGuard.d
 
@@ -93,7 +84,6 @@ AI\HUMAN\C_Human\C_PlayerIsFakePirate.d
 AI\HUMAN\C_Human\C_PlayerHasFakeGuild.d
 AI\HUMAN\C_Human\C_BanditHelpsStoryBandit.d
 AI\HUMAN\C_Human\C_BanditAttackBandit.d
-
 
 AI\HUMAN\B_Human\B_LookAtNpc.d 
 AI\HUMAN\B_Human\B_ResetAll.d 
@@ -143,10 +133,8 @@ AI\HUMAN\C_Human\C_WantToAttackThief.d
 AI\HUMAN\C_Human\C_WantToAttackRoomIntruder.d
 AI\HUMAN\C_Human\C_WantToReactToSneaker.d
 
-
 AI\MAGIC\B_ReadySpell.d
 AI\MAGIC\B_SelectSpell.d
-
 
 AI\HUMAN\B_Human\B_FinishingMove.d
 AI\HUMAN\B_Human\B_SelectWeapon.d
@@ -176,14 +164,11 @@ STORY\B_Content\B_Beklauen.d
 STORY\B_AssignAmbientInfos\B_Announce_Herold.d
 STORY\B_AssignAmbientInfos\B_Preach_Vatras.d
 
-
 STORY\B_AssignAmbientInfos\B_AssignAmbientInfos.d
 STORY\B_AssignAmbientInfos\B_AssignAmbientNEWS.d
 STORY\B_AssignAmbientInfos\B_AssignToughGuyNEWS.d
 STORY\B_AssignAmbientInfos\B_AssignCityGuide.d
 STORY\B_AssignAmbientInfos\B_AssignAmbientInfos.d
-
-
 
 AI\MAGIC\C_Spell_Proto.d
 
@@ -191,7 +176,6 @@ AI\MAGIC\B_AssessMagic.d
 AI\MAGIC\C_CanNpcCollideWithSpell.d
 
 AI\MAGIC\Spells\Spell_*.d
-
 
 AI\MAGIC\Spell_ProcessMana.d
 AI\MAGIC\Spell_ProcessMana_Release.d
@@ -237,13 +221,10 @@ AI\HUMAN\ZS_Human\ZS_Unconscious.d
 AI\HUMAN\ZS_Human\ZS_WatchFight.d
 AI\HUMAN\ZS_Human\ZS_Attack.d
 
-
 STORY\G_Functions\G_CanNotCast.d
 STORY\G_Functions\G_CanNotUse.d
 STORY\G_Functions\G_CanSteal.d
 STORY\G_Functions\G_PickLock.d
-
-
 
 STORY\B_Story\B_GetLearnCostTalent.d
 STORY\B_Story\B_GetLearnCostAttribute.d
@@ -268,12 +249,8 @@ STORY\B_Story\B_ENTER_ADDONWORLD.d
 
 STORY\B_Story\B_KapitelWechsel.d
 
-STORY\B_Content\C_ADDON_KNOWS_SCHNAPS.d
-
-
 STORY\DIALOGE\DIA*.d
 STORY\B_AssignAmbientInfos\B_*.d
-
 
 AI\MONSTER\C_Monster\C_*.d
 
@@ -291,13 +268,10 @@ AI\MONSTER\Rtn_Monster\ZS_MM_AllScheduler.d
 
 AI\MONSTER\ZS_Monster\ZS_MM_*.d
 
-
 STORY\Events\*.d
 AI\Test_Skripts\*.d
 
-
 STORY\Startup.d
-
 
 
 
