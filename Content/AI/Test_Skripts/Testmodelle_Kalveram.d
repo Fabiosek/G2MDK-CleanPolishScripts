@@ -1491,30 +1491,3 @@ func void UsePatrickHelper ()
 	CreateInvItem(self,ItRu_Swarm);
 	CreateInvItem(self,ItRu_Waterfist);
 };
-
-INSTANCE Hosh4 (C_ITEM) 
-{	
-	name 					=	"Greg ist Back";
-
-	mainflag 				=	ITEM_KAT_DOCS;
-	flags 					=	ITEM_MISSION;
-
-	value 					=	0;
-
-	visual 					=	"ItWr_Book_01.3ds";  					//BUCH VARIATIONEN: ItWr_Book_01.3DS , ItWr_Book_02_01.3DS, ItWr_Book_02_02.3DS, ItWr_Book_02_03.3DS, ItWr_Book_02_04.3DS, ItWr_Book_02_05.3DS
-	material 				=	MAT_LEATHER;
-
-	scemeName				=	"MAP";
-	description				= 	"Tagebuch";
-	TEXT	[0]				=	"Das Tagebuch von Hoshi";
-	TEXT[5]					= 	NAME_Value;
-	COUNT[5]				= 	value;
-	on_state[0]				=	UseHoshiTagebuch;
-};
-
-FUNC VOID UseHoshiTagebuch()
-{   
-	GregIsBack_S1 ();
-};
-
-

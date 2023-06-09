@@ -169,9 +169,6 @@ const int 	GoldMob_19_AmounT_MAX = 18;
 const int 	GoldMob_20_AmounT_MAX = 19;
 
 //----------------Piratenlager (Addonwelt) -------------------------------
-var int MIS_KrokoJagd;							// Alligator Jagd mit Jack
-var int TowerBanditsDead;	
-var int GregIsBack;
 var int Read_JuansText;
 var int Player_KnowsSchnellerHering;
 
