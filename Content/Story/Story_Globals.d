@@ -79,20 +79,6 @@ var int Leather02_Equipped;
 var int MC_Equipped;
 //---------------------------------------------------
 
-//Teleportsteine
-var int SCUsed_TELEPORTER;						//= TRUE SC benutzte irgendeinen Teleporter
-var int SCUsed_NW_TELEPORTSTATION_CITY;			//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_NW_TELEPORTSTATION_TAVERNE;		//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_NW_TELEPORTSTATION_MAYA;			//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_PORTALTEMPEL;//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_ADANOSTEMPEL;//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_SOUTHEAST;	//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_SOUTHWEST;	//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_PIRATES;		//= TRUE SC benutzte die Teleportstation bei...
-var int SCUsed_ADW_TELEPORTSTATION_RAVENTELEPORT_OUT;		//= TRUE RAUS AUS aDANOSTEMPEL
-var int SCUsed_ADW_TELEPORTSTATION_PIRATES_JACKSMONSTER;//= TRUE Monster gespawnt, die bei AlligatorJack stören
-var int SC_ADW_ActivatedAllTelePortStones;		//= TRUE Alle ADW Teleporter sind aktiviert.
-
 //ADDONWORLD KDW
 var int  	BeliarsWeaponSpecialDamage;			//Grundwert für Speziellen Schaden Beliars Klaue
 var int  	BeliarDamageChance;					//Chance auf Extraschaden
@@ -192,23 +178,12 @@ var int TheftGoldGlob; //Gold Anzahl die NSC in der Tasche hat
 //*******************
 //	Missionsvariablen		//sollten alle mit "MIS_" anfangen
 //*******************
-
-var int 	Player_IsApprentice;
-const int 	APP_NONE 			= 0;
-
-var int 	Charm_Test;
-var int 	MIS_Ignaz_Charm;
-
 //----------Diebesgilde--------------------
 var int 	Sld_Duelle_gewonnen;	//In ZS_Unconscious 
-var int 	SOLD;
 
 //---------------------------
 //	KLOSTER
 //---------------------------
-var int 	Fire_Contest;
-var	int		KNOWS_FIRE_CONTEST;			//Spieler kennt das alte Gesetz 
-var int		MIS_Torlof_BengarMilizKlatschen; 	//SC soll Hof 4 von den Milizen befeien.
 var int 	Hammer_Taken;				//Spieler hat Hammer Innos geklaut
 
 // ------ KAPITEL 3 ------
@@ -221,9 +196,6 @@ var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefäl
 // ------ KAPITEL 5 ------
 var int 	MIS_Xardas_SCCanOpenIrdorathBook; //SC kann Buch "Die Hallen von Irdorath" lesen
 var int 	MIS_SCKnowsWayToIrdorath;	//SC weiß jetzt, dass er das Schiff braucht und kennt den Weg zur Dracheninsel
-var int 	MIS_PyrokarClearDemonTower;	//Pyrokar will, dass SC dem DT aufräumt, als Tribut für Jorgens freilassung.->==LOG_SUCCESS Jorgen kann nun als Kapitän angeheuert werden.
-var int 	ItWr_HallsofIrdorathIsOpen;	//SC hat das Buch geöffnet
-var int 	ItWr_SCReadsHallsofIrdorath; //SC hat das Buch durchgelesen
 var int 	PlayerGetsAmulettOfDeath;
 var int 	PlayergetsFinalDJGArmor;
 var int 	MIS_SCvisitShip;
