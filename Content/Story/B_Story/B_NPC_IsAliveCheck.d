@@ -4,17 +4,13 @@
 
 FUNC VOID B_NPC_IsAliveCheck (var int Zen)
 {
-	if (Zen == NEWWORLD_ZEN )
+	if (Zen == NEWWORLD_ZEN)
 	{
 		if (Kapitel >= 2)
 		{
 		};
 		
 		if (Kapitel >= 3)
-		{
-		};
-		
-		if (MIS_ReadyforChapter4 == TRUE)	//Joly: letzter Pyrokar Dialog im 3. Kapitel
 		{
 		};
 		
@@ -27,7 +23,7 @@ FUNC VOID B_NPC_IsAliveCheck (var int Zen)
 		};
 	};
 
-	if (Zen == OLDWORLD_ZEN )
+	if (Zen == OLDWORLD_ZEN)
 	{
 		if (Kapitel >= 2)
 		{

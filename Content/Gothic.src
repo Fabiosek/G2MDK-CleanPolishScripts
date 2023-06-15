@@ -151,7 +151,6 @@ AI\HUMAN\B_Human\B_AssessTheft.d
 AI\HUMAN\B_Human\B_AssessThreat.d
 AI\HUMAN\B_Human\B_AssessUseMob.d
 AI\HUMAN\B_Human\B_AssessWarn.d
-STORY\B_AssignAmbientInfos\B_AssignSchiffswachenTalk.d
 AI\HUMAN\B_Human\B_AssessPlayer.d
 AI\HUMAN\B_Human\B_MoveMob.d
 

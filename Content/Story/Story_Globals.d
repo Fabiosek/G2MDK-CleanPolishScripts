@@ -85,8 +85,7 @@ var int  	BeliarDamageChance;					//Chance auf Extraschaden
 var int  	SC_FailedToEquipBeliarsWeapon;		//= TRUE SC hat versucht die Waffe anzulegen. -> Blitz in Arsch.
 var int  	BeliarsWeaponUpgrated;				//= TRUE SC hat die Waffe wenigstens einmal verbessert!
 
-//--------------Banditenlager (Addonwelt)------------------
-var int 	Player_HasTalkedToBanditCamp;				//Spieler war schon mal im BDT Camp			
+//--------------Banditenlager (Addonwelt)------------------	
 var int 	Knows_MCELIXIER;
 
 //----Fortuno-----
@@ -186,10 +185,6 @@ var int 	Sld_Duelle_gewonnen;	//In ZS_Unconscious
 //---------------------------
 var int 	Hammer_Taken;				//Spieler hat Hammer Innos geklaut
 
-// ------ KAPITEL 3 ------
-var int 	MIS_ReadyforChapter4; 				//Mit dieser Varible in den Levelchange zur OW -> Kapitel 4
-var int 	MIS_RescueBennet;					//Berfreie Bennet aus dem Knast
-
 //Gildenabhängig
 var int		MIS_Serpentes_MinenAnteil_KDF;		//Serpentes schickt dich los die gefälschten Minenanteile einzusammeln. KDF
 
@@ -199,10 +194,6 @@ var int 	MIS_SCKnowsWayToIrdorath;	//SC weiß jetzt, dass er das Schiff braucht 
 var int 	PlayerGetsAmulettOfDeath;
 var int 	PlayergetsFinalDJGArmor;
 var int 	MIS_SCvisitShip;
-
-// Crewmembers
-var int 	MIS_ShipIsFree;				//Das Schiff ist frei und SC kann mit seinen Jungs draufgehen.
-var int 	MIS_OCGateOpen;				//== TRUE -> Das Tor vom OC ist geöffnet worden (ORCSturm)
 
 //**************************
 // Allgemeine Hilfsvariablen

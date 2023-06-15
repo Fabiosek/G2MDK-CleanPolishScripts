@@ -1343,26 +1343,6 @@ func void UseHosh1 ()
 	CreateInvItems (self,ItRu_SummonGuardian,1);
 };
 
-INSTANCE EnterBanditCamp (C_Item)
-{	
-	name 				=	"Komm ins BanditCamp";
-
-	mainflag 			=	ITEM_KAT_DOCS;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	0;
-
-	visual 				=	"ItWr_Scroll_01.3DS";
-	material 			=	MAT_LEATHER;
-	on_state[0]			=   UseHosh2;
-	scemeName			=	"MAP";
-	description			=   "Setzt Player_HasTalkedToBanditCamp";
-};
-func void UseHosh2 ()
-{   
-	Player_HasTalkedToBanditCamp = TRUE;
-};
-
 INSTANCE PH (C_Item)
 {	
 	name 				=	"Gimme Magic";

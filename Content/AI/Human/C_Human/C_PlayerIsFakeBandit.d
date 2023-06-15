@@ -2,44 +2,39 @@ func int C_PlayerIsFakeBandit (var C_NPC slf, var C_NPC oth)
 {
 	var C_Item itm; 
 
-	if (slf.aivar [AIV_IgnoresArmor] == TRUE)
+	if (slf.aivar [AIV_IgnoresArmor] == true)
 	{
-		return FALSE;
+		return false;
 	};
 	
-	if (slf.aivar [AIV_IgnoresFakeGuild] == TRUE)
+	if (slf.aivar [AIV_IgnoresFakeGuild] == true)
 	{
-		return FALSE;
+		return false;
 	};
 	
-	if slf.guild == GIL_PIR
+	if (slf.guild == GIL_PIR)
 	{
-		return FALSE;
+		return false;
 	};	
 	
-
-	if (Npc_HasEquippedArmor (oth) == TRUE)
+	if (Npc_HasEquippedArmor (oth) == true)
 	{
 		itm = Npc_GetEquippedArmor(oth);
-		if ((Hlp_IsItem(itm, ITAR_BDT_M) == TRUE)
-		|| (Hlp_IsItem (itm, ItAR_Thorus_Addon) == TRUE)
-		|| (Hlp_IsItem (itm, ITAR_BDT_H) == TRUE))
+		if ((Hlp_IsItem(itm, ITAR_BDT_M) == true)
+		|| (Hlp_IsItem (itm, ItAR_Thorus_Addon) == true)
+		|| (Hlp_IsItem (itm, ITAR_BDT_H) == true))
 		{
-			return TRUE;
+			return true;
 		}
+		
 		else
 		{
-			RETURN FALSE;
+			return false;
 		};
 	}
-	else if slf.guild == GIL_BDT
-	&&	CurrentLevel == ADDONWORLD_ZEN
-	&&  Player_HasTalkedToBanditCamp == TRUE
-	{
-		return TRUE;
-	}
+		
 	else
 	{
-		return FALSE;
+		return false;
 	};	
 };
