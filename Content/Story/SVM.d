@@ -123,13 +123,6 @@ CLASS C_SVM
 	var string THEFT_CRIME;					//Geh mir aus den Augen, dreckiger Dieb!
 	var string MURDER_CRIME;				//Mit gemeinen Mördern rede ich nicht.
 	// ---------------------------------
-	var string PAL_CITY_CRIME; 				//Du bist eine Schande für deinen Orden! Lord Hagen wird toben vor Wut!
-	var string MIL_CITY_CRIME;				//Du bist eine Schande für die Stadtwache! Lord Andre wird dir das sicher austreiben!
-	var string CITY_CRIME;					//Lord Andre wird von deiner Tat erfahren!
-	// ---------------------------------
-	var string MONA_CRIME;					//Dein Frevel wird Vater Parlan sicherlich nicht erfreuen!
-	var string FARM_CRIME; 					//Lee wird dir die Hammelbeine langziehen! Wirst schon sehen, was du davon hast!
-	var string OC_CRIME; 					//Kommandant Garond wird dich zur Rechenschaft ziehen!
 
 	// ------ B_Say_ToughGuyNews ------
 	var string TOUGHGUY_ATTACKLOST;			//Spieler hat einen ToughGuy angegriffen und gewonnen
@@ -400,14 +393,6 @@ instance SVM_1 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_1_SHEEPKILLER_CRIME"				;//Tak po prostu zaszlachtowaæ nasze owce... Wynoœ siê!
 	ATTACK_CRIME				= "SVM_1_ATTACK_CRIME"					;//Z takimi jak ty nie bêdê rozmawiaæ!
 	THEFT_CRIME					= "SVM_1_THEFT_CRIME"					;//ZejdŸ mi z oczu, parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_1_PAL_CITY_CRIME"				;//Jesteœ zaka³¹ swojego zakonu! Lord Hagen bêdzie wœciek³y!
-	MIL_CITY_CRIME				= "SVM_1_MIL_CITY_CRIME"				;//Jesteœ zaka³¹ stra¿y miejskiej! Lord Andre na pewno da ci nauczkê!
-	CITY_CRIME					= "SVM_1_CITY_CRIME"					;//Lord Andre dowie siê o wszystkim!
-	// -------------------------
-	MONA_CRIME					= "SVM_1_MONA_CRIME"					;//Twoje czyny z pewnoœci¹ nie uciesz¹ Ojca Parlana!
-	FARM_CRIME					= "SVM_1_FARM_CRIME"					;//Dostanie ci siê za to od Lee! I na co ci to by³o?!
-	OC_CRIME					= "SVM_1_OC_CRIME"						;//Kapitan Garond rozliczy ciê z tego!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_1_TOUGHGUY_ATTACKLOST"			;//No ju¿ dobrze, wygra³eœ. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_1_TOUGHGUY_ATTACKWON"			;//Mam ci jeszcze raz pokazaæ, kto tu rz¹dzi?
@@ -627,14 +612,6 @@ instance SVM_3 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_3_SHEEPKILLER_CRIME"			;//Tak po prostu zaszlachtowaæ nasze owce!
 	ATTACK_CRIME				= "SVM_3_ATTACK_CRIME"				;//Zostaw mnie w spokoju, bydlaku!
 	THEFT_CRIME					= "SVM_3_THEFT_CRIME"				;//Zostaw mnie w spokoju, ty parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_3_PAL_CITY_CRIME"			;//Jesteœ hañb¹ dla swojego zakonu! Poczekaj tylko, a¿ Lord Hagen siê o tym dowie!
-	MIL_CITY_CRIME				= "SVM_3_MIL_CITY_CRIME"			;//Hañbisz dobre imiê stra¿y miejskiej! Poczekaj, a¿ dowie siê o tym Lord Andre!
-	CITY_CRIME					= "SVM_3_CITY_CRIME"				;//Poczekaj tylko, a¿ Lord Andre siê o tym dowie.
-	// -------------------------
-	MONA_CRIME					= "SVM_3_MONA_CRIME"				;//Poczekaj tylko, a¿ dowie siê o tym Ojciec Parlan!
-	FARM_CRIME					= "SVM_3_FARM_CRIME"				;//Poczekaj tylko, a¿ Lee siê o tym dowie...
-	OC_CRIME					= "SVM_3_OC_CRIME"					;//Poczekaj, a¿ dowie siê o tym kapitan Garond!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_3_TOUGHGUY_ATTACKLOST"		;//Dobrze, dobrze. Jesteœ lepszy ode mnie. Czego chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_3_TOUGHGUY_ATTACKWON"		;//Wiesz ju¿ chyba, który z nas jest tym silniejszym... Czego chcesz?
@@ -850,14 +827,6 @@ instance SVM_4 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_4_SHEEPKILLER_CRIME"   				;//Szlachtowanie owiec to ju¿ przesada! Wynoœ siê!
 	ATTACK_CRIME     = "SVM_4_ATTACK_CRIME"    						;//Jesteœ jakimœ oprychem - lepiej st¹d odejdŸ!
  	THEFT_CRIME      = "SVM_4_THEFT_CRIME"    						;//Przeklêty z³odziej! Gardzê takimi jak ty!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_4_PAL_CITY_CRIME"   					;//Wydawa³o mi siê, ¿e od paladyna mo¿na spodziewaæ siê czegoœ wiêcej. Lord Hagen bêdzie niepocieszony.
- 	MIL_CITY_CRIME     = "SVM_4_MIL_CITY_CRIME"   					;//¯e takich jak ty w ogóle przyjmuj¹ do stra¿y miejskiej! Odpowiesz za to przed Lordem Andre!
- 	CITY_CRIME       = "SVM_4_CITY_CRIME"    						;//Lord Andre dowie siê o twoim zachowaniu!
-	// -------------------------
-	MONA_CRIME       = "SVM_4_MONA_CRIME"    						;//Ojciec Parlan bêdzie wœciek³y!
-	FARM_CRIME       = "SVM_4_FARM_CRIME"   						;//Odpowiesz za to przed Lee!
-	OC_CRIME       = "SVM_4_OC_CRIME"     							;//Kapitan Garond nie bêdzie zadowolony, kiedy o tym us³yszy! Zap³acisz za to!
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_4_TOUGHGUY_ATTACKLOST"		;//Masz ca³kiem niez³e uderzenie... Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_4_TOUGHGUY_ATTACKWON"		;//Jeszcze jakieœ pytania?
@@ -1072,14 +1041,6 @@ instance SVM_5 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_5_SHEEPKILLER_CRIME"				;//Tak po prostu szlachtowaæ nasze owce! Zabieraj siê st¹d!
 	ATTACK_CRIME				= "SVM_5_ATTACK_CRIME"					;//Nie rozmawiam z takimi opryszkami jak ty!
 	THEFT_CRIME					= "SVM_5_THEFT_CRIME"					;//ZejdŸ mi z oczu, parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_5_PAL_CITY_CRIME"				;//Hañbisz dobre imiê swojego zakonu! Lord Hagen bêdzie wœciek³y!
-	MIL_CITY_CRIME				= "SVM_5_MIL_CITY_CRIME"				;//Jesteœ hañb¹ dla stra¿y miejskiej! Lord Andre teraz ci poka¿e!
-	CITY_CRIME					= "SVM_5_CITY_CRIME"					;//Lord Andre dowie siê o twoim czynie!
-	// -------------------------
-	MONA_CRIME					= "SVM_5_MONA_CRIME"					;//Ojciec Parlan bêdzie niepocieszony!
-	FARM_CRIME					= "SVM_5_FARM_CRIME"					;//Lee siê z tob¹ rozprawi! Zobaczysz, czy by³o warto!
-	OC_CRIME					= "SVM_5_OC_CRIME"						;//Kapitan Garond ciê z tego rozliczy!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_5_TOUGHGUY_ATTACKLOST"			;//No ju¿ dobrze, wygra³eœ. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_5_TOUGHGUY_ATTACKWON"			;//Mam ci jeszcze raz pokazaæ, kto tu rz¹dzi?
@@ -1295,14 +1256,6 @@ instance SVM_6 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_6_SHEEPKILLER_CRIME"   ;//Atakujesz owce? Bardziej bezbronnej ofiary nie mog³eœ sobie pewnie znaleŸæ?!
 	ATTACK_CRIME     = "SVM_6_ATTACK_CRIME"    ;//Z takimi jak ty nie chcê mieæ nic wspólnego!
 	THEFT_CRIME      = "SVM_6_THEFT_CRIME"    ;//Ze z³odziejami nie chcê mieæ nic wspólnego!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_6_PAL_CITY_CRIME"   ;//I ty chcesz byæ paladynem? Ciekawe, co na to Lord Hagen!
- 	MIL_CITY_CRIME     = "SVM_6_MIL_CITY_CRIME"   ;//Naprawdê nale¿ysz do stra¿y miejskiej? Lordowi Andre siê to nie spodoba!
- 	CITY_CRIME       = "SVM_6_CITY_CRIME"    ;//IdŸ do Lorda Andre, póki jeszcze mo¿esz.
- 	// -------------------------
-	MONA_CRIME       = "SVM_6_MONA_CRIME"    ;//IdŸ do Ojca Parlana. Otrzymasz od niego pokutê!
-	FARM_CRIME       = "SVM_6_FARM_CRIME"    ;//Lee siê o tym dowie... Zap³acisz za to!
-	OC_CRIME       = "SVM_6_OC_CRIME"     ;//Kapitanowi Garondowi wcale to siê nie spodoba. Porozmawiaj z nim, póki jeszcze mo¿esz!
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_6_TOUGHGUY_ATTACKLOST"		;//Dobrze - wygra³eœ. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_6_TOUGHGUY_ATTACKWON"		;//S¹dzê, ¿e wiesz ju¿, kogo masz przed sob¹. Czego chcesz?
@@ -1518,14 +1471,6 @@ instance SVM_7 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_7_SHEEPKILLER_CRIME"   ;//Szlachtowanie owiec to ju¿ szczyt szczytów! Wynoœ siê!
 	ATTACK_CRIME     = "SVM_7_ATTACK_CRIME"    ;//Jesteœ jakimœ oprychem - lepiej st¹d odejdŸ!
  	THEFT_CRIME      = "SVM_7_THEFT_CRIME"    ;//Przeklêty z³odziej! Gardzê takimi jak ty!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_7_PAL_CITY_CRIME"   ;//Wydawa³o mi siê, ¿e od paladyna mo¿na spodziewaæ siê czegoœ wiêcej. Lord Hagen bêdzie niepocieszony.
- 	MIL_CITY_CRIME     = "SVM_7_MIL_CITY_CRIME"   ;//Jak ty siê w ogóle dosta³eœ do stra¿y?! Odpowiesz za to przed Lordem Andre!
- 	CITY_CRIME       = "SVM_7_CITY_CRIME"    ;//Lord Andre dowie siê o twoim zachowaniu!
-	// -------------------------
-	MONA_CRIME       = "SVM_7_MONA_CRIME"    ;//Ojciec Parlan bêdzie wœciek³y!
-	FARM_CRIME       = "SVM_7_FARM_CRIME"    ;//Lee na pewno ci nie daruje!
-	OC_CRIME       = "SVM_7_OC_CRIME"     ;//Kapitan Garond nie bêdzie zadowolony, kiedy o tym us³yszy! Zap³acisz za to!
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_7_TOUGHGUY_ATTACKLOST"		;//Masz ca³kiem niez³y cios... Czego chcesz ode mnie?
 	TOUGHGUY_ATTACKWON			= "SVM_7_TOUGHGUY_ATTACKWON"		;//Jeszcze jakieœ pytania?
@@ -1740,14 +1685,6 @@ instance SVM_8 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_8_SHEEPKILLER_CRIME"		;//Tak po prostu szlachtowaæ nasze owce!
 	ATTACK_CRIME				= "SVM_8_ATTACK_CRIME"				;//Zostaw mnie w spokoju, draniu!
 	THEFT_CRIME					= "SVM_8_THEFT_CRIME"				;//Zostaw mnie w spokoju, ty parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_8_PAL_CITY_CRIME"			;//Jesteœ zaka³¹ swojego zakonu! Poczekaj tylko, a¿ dowie siê o tym Lord Hagen!
-	MIL_CITY_CRIME				= "SVM_8_MIL_CITY_CRIME"			;//Okrywasz hañb¹ ca³¹ stra¿ miejsk¹! Czekaj tylko, a¿ dowie siê o tym Lord Andre!
-	CITY_CRIME					= "SVM_8_CITY_CRIME"				;//Poczekaj, a¿ dowie siê o tym Lord Andre.
-	// -------------------------
-	MONA_CRIME					= "SVM_8_MONA_CRIME"				;//Poczekaj tylko, a¿ us³yszy o tym Ojciec Parlan!
-	FARM_CRIME					= "SVM_8_FARM_CRIME"				;//Poczekaj, a¿ Lee siê o tym dowie...
-	OC_CRIME					= "SVM_8_OC_CRIME"					;//Poczekaj tylko, a¿ dowie siê o tym kapitan Garond!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_8_TOUGHGUY_ATTACKLOST"		;//Dobrze ju¿, dobrze, jesteœ lepszy ode mnie! Czego chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_8_TOUGHGUY_ATTACKWON"		;//S¹dzê, ¿e wiesz ju¿, który z nas jest tym silniejszym... czego chcesz?
@@ -1966,14 +1903,6 @@ instance SVM_9 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_9_SHEEPKILLER_CRIME"   ;//Podnosisz broñ na owce? Pewnie trudno ci by³o o bardziej bezbronne stworzenie!?
 	ATTACK_CRIME     = "SVM_9_ATTACK_CRIME"    ;//Z takimi jak ty nie chcê mieæ nic wspólnego!
 	THEFT_CRIME      = "SVM_9_THEFT_CRIME"    ;//Nie chcê mieæ nic wspólnego ze z³odziejami!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_9_PAL_CITY_CRIME"   ;//I ty chcesz byæ paladynem? Ciekawe, co na to Lord Hagen!
- 	MIL_CITY_CRIME     = "SVM_9_MIL_CITY_CRIME"   ;//Naprawdê nale¿ysz do stra¿y miejskiej? Lordowi Andre siê to nie spodoba!
- 	CITY_CRIME       = "SVM_9_CITY_CRIME"    ;//IdŸ do Lorda Andre, póki jeszcze mo¿esz.
- 	// -------------------------
-	MONA_CRIME       = "SVM_9_MONA_CRIME"    ;//Udaj siê do Ojca Parlana. Otrzymasz od niego pokutê!
-	FARM_CRIME       = "SVM_9_FARM_CRIME"    ;//Lee siê o tym dowie... Zap³acisz za to!
-	OC_CRIME       = "SVM_9_OC_CRIME"     ;//Kapitan Garond bêdzie bardzo niezadowolony. Lepiej z nim porozmawiaj, zanim stanie siê coœ jeszcze gorszego.
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_9_TOUGHGUY_ATTACKLOST"		;//Dobrze - wygra³eœ zatem. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_9_TOUGHGUY_ATTACKWON"		;//S¹dzê, ¿e wiesz ju¿, kogo masz przed sob¹. Czego chcesz?
@@ -2189,14 +2118,6 @@ instance SVM_10 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_10_SHEEPKILLER_CRIME"   ;//Szlachtowanie owiec to ju¿ po prostu szczyt wszystkiego! Wynoœ siê!
 	ATTACK_CRIME     = "SVM_10_ATTACK_CRIME"    ;//Jesteœ jakimœ oprychem - lepiej st¹d znikaj!
  	THEFT_CRIME      = "SVM_10_THEFT_CRIME"    ;//Przeklêty z³odziej! Gardzê takimi jak ty!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_10_PAL_CITY_CRIME"   ;//Wydawa³o mi siê, ¿e od paladyna mo¿na oczekiwaæ czegoœ wiêcej. Lord Hagen bêdzie niepocieszony.
- 	MIL_CITY_CRIME     = "SVM_10_MIL_CITY_CRIME"   ;//¯e takich jak ty w ogóle przyjmuj¹ do stra¿y miejskiej! Odpowiesz za to przed Lordem Andre!
- 	CITY_CRIME       = "SVM_10_CITY_CRIME"    ;//Lord Andre dowie siê o twoim zachowaniu!
-	// -------------------------
-	MONA_CRIME       = "SVM_10_MONA_CRIME"    ;//Ojciec Parlan bêdzie wœciek³y!
-	FARM_CRIME       = "SVM_10_FARM_CRIME"    ;//Odpowiesz za to przed Lee!
-	OC_CRIME       = "SVM_10_OC_CRIME"     ;//Kapitan Garond nie bêdzie zadowolony, kiedy o tym us³yszy! Zap³acisz za to!
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_10_TOUGHGUY_ATTACKLOST"		;//Masz ca³kiem niez³e uderzenie... Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_10_TOUGHGUY_ATTACKWON"		;//Jeszcze jakieœ pytania?
@@ -2413,14 +2334,6 @@ instance SVM_11 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_11_SHEEPKILLER_CRIME"				;//Tak po prostu szlachtowaæ nasze owce! Spadaj st¹d, gnido!
 	ATTACK_CRIME				= "SVM_11_ATTACK_CRIME"					;//Nie gadam z takimi jak ty!
 	THEFT_CRIME					= "SVM_11_THEFT_CRIME"					;//ZejdŸ mi z oczu, parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_11_PAL_CITY_CRIME"				;//Jesteœ zaka³¹ swojego zakonu! Lord Hagen bêdzie wœciek³y!
-	MIL_CITY_CRIME				= "SVM_11_MIL_CITY_CRIME"				;//Hañbisz dobre imiê stra¿y miejskiej! Lord Andre da ci nauczkê!
-	CITY_CRIME					= "SVM_11_CITY_CRIME"					;//Lord Andre dowie siê o twoich czynach!
-	// -------------------------
-	MONA_CRIME					= "SVM_11_MONA_CRIME"					;//Ojciec Parlan nie bêdzie zbyt szczêœliwy, gdy siê o tym dowie!
-	FARM_CRIME					= "SVM_11_FARM_CRIME"					;//Lee da ci popaliæ! I na co ci to by³o?
-	OC_CRIME					= "SVM_11_OC_CRIME"						;//Kapitan Garond na pewno za¿¹da od ciebie wyjaœnieñ!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_11_TOUGHGUY_ATTACKLOST"			;//Dobrze ju¿, dobrze, wygra³eœ. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_11_TOUGHGUY_ATTACKWON"			;//Mam ci znowu pokazaæ, kto tu jest szefem?
@@ -2636,14 +2549,6 @@ instance SVM_12 (C_SVM)
 	SHEEPKILLER_CRIME   = "SVM_12_SHEEPKILLER_CRIME"   ;//Mordujesz owce? Przypuszczam, ¿e bardziej bezbronnej ofiary nie mog³eœ sobie znaleŸæ?!
 	ATTACK_CRIME     = "SVM_12_ATTACK_CRIME"    ;//Z takimi jak ty nie chcê mieæ nic wspólnego!
 	THEFT_CRIME      = "SVM_12_THEFT_CRIME"    ;//Nie zadajê siê ze z³odziejami!
- 	// -------------------------
- 	PAL_CITY_CRIME     = "SVM_12_PAL_CITY_CRIME"   ;//I ty chcesz byæ paladynem? Ciekawe, co na to Lord Hagen!
- 	MIL_CITY_CRIME     = "SVM_12_MIL_CITY_CRIME"   ;//Naprawdê nale¿ysz do stra¿y miejskiej? Lordowi Andre siê to nie spodoba!
- 	CITY_CRIME       = "SVM_12_CITY_CRIME"    ;//IdŸ do Lorda Andre, póki jeszcze mo¿esz.
- 	// -------------------------
-	MONA_CRIME       = "SVM_12_MONA_CRIME"    ;//IdŸ do Ojca Parlana. Pomo¿e ci zmazaæ twoje grzechy!
-	FARM_CRIME       = "SVM_12_FARM_CRIME"    ;//Lee o tym us³yszy, a wtedy bêdziesz musia³ zap³aciæ...
-	OC_CRIME       = "SVM_12_OC_CRIME"     ;//Kapitan Garond nie bêdzie zadowolony. Lepiej z nim porozmawiaj, zanim bêdzie jeszcze gorzej!
  	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_12_TOUGHGUY_ATTACKLOST"		;//Dobrze - wygra³eœ. Czego ode mnie chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_12_TOUGHGUY_ATTACKWON"		;//Chyba ju¿ wiesz, z kim masz do czynienia. Czego chcesz?
@@ -2858,14 +2763,6 @@ instance SVM_13 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_13_SHEEPKILLER_CRIME"		;//Tak po prostu szlachtowaæ nasze owce!
 	ATTACK_CRIME				= "SVM_13_ATTACK_CRIME"				;//Zostaw mnie w spokoju, ty parszywa gnido!
 	THEFT_CRIME					= "SVM_13_THEFT_CRIME"				;//Zostaw mnie, ty ma³y, nêdzny z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_13_PAL_CITY_CRIME"			;//Jesteœ hañb¹ dla swego zakonu! Czekaj tylko, a¿ dowie siê o tym Lord Hagen!
-	MIL_CITY_CRIME				= "SVM_13_MIL_CITY_CRIME"			;//Hañbisz dobre imiê stra¿y miejskiej! Lord Andre na pewno siê o tym dowie!
-	CITY_CRIME					= "SVM_13_CITY_CRIME"				;//Czekaj, a¿ Lord Andre siê o tym dowie!
-	// -------------------------
-	MONA_CRIME					= "SVM_13_MONA_CRIME"				;//Czekaj, a¿ dowie siê o tym Ojciec Parlan!
-	FARM_CRIME					= "SVM_13_FARM_CRIME"				;//Lee na pewno o tym us³yszy...
-	OC_CRIME					= "SVM_13_OC_CRIME"					;//Kapitan Garond na pewno siê o tym dowie!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_13_TOUGHGUY_ATTACKLOST"		;//Dobrze ju¿, dobrze, jesteœ lepszy ode mnie! Czego chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_13_TOUGHGUY_ATTACKWON"		;//Przypuszczam, ¿e teraz ju¿ wiesz, który z nas jest tym silniejszym... Czego chcesz?
@@ -3081,14 +2978,6 @@ instance SVM_14 (C_SVM)
 	SHEEPKILLER_CRIME			= "SVM_14_SHEEPKILLER_CRIME"				;//Tak po prostu zarzynaæ nasze owce! Spadaj st¹d, gnido!
 	ATTACK_CRIME				= "SVM_14_ATTACK_CRIME"					;//Nie gadam z takimi jak ty!
 	THEFT_CRIME					= "SVM_14_THEFT_CRIME"					;//ZejdŸ mi z oczu, parszywy z³odzieju!
-	// -------------------------
-	PAL_CITY_CRIME				= "SVM_14_PAL_CITY_CRIME"				;//Jesteœ zaka³¹ swego zakonu! Lord Hagen bêdzie wœciek³y!
-	MIL_CITY_CRIME				= "SVM_14_MIL_CITY_CRIME"				;//Hañbisz dobre imiê stra¿y miejskiej! Lord Andre da ci nauczkê!
-	CITY_CRIME					= "SVM_14_CITY_CRIME"					;//Lord Andre dowie siê o twoich czynach!
-	// -------------------------
-	MONA_CRIME					= "SVM_14_MONA_CRIME"					;//Ojciec Parlan bêdzie bardzo niezadowolony!
-	FARM_CRIME					= "SVM_14_FARM_CRIME"					;//Ju¿ Lee ciê nauczy... I po co ci to by³o?
-	OC_CRIME					= "SVM_14_OC_CRIME"						;//Kapitan Garond bêdzie ¿¹da³ wyjaœnieñ!
 	// ----------------------------------------------------------------------------------------------------------------------
 	TOUGHGUY_ATTACKLOST			= "SVM_14_TOUGHGUY_ATTACKLOST"			;//Dobrze ju¿, dobrze, jesteœ lepszy ode mnie! Czego chcesz?
 	TOUGHGUY_ATTACKWON			= "SVM_14_TOUGHGUY_ATTACKWON"			;//Mam ci jeszcze raz pokazaæ, kto tu jest szefem?
@@ -3360,14 +3249,6 @@ instance SVM_16 (C_SVM)
 	SHEEPKILLER_CRIME   		= "SVM_16_SHEEPKILLER_CRIME"   		;//Nie mo¿esz tak po prostu zabijaæ naszych owiec! OdejdŸ!
 	ATTACK_CRIME     			= "SVM_16_ATTACK_CRIME"    			;//Jesteœ brutalnym oprychem. Nie chcê mieæ z tob¹ nic wspólnego.
 	THEFT_CRIME      			= "SVM_16_THEFT_CRIME"    			;//Nie rozmawiam ze z³odziejami - a teraz odejdŸ st¹d!
-	// -------------------------
-	PAL_CITY_CRIME     			= "SVM_16_PAL_CITY_CRIME"   		;//Twoje zachowanie nie jest zbyt honorowe. Lordowi Hagenowi to siê nie spodoba!
-	MIL_CITY_CRIME     			= "SVM_16_MIL_CITY_CRIME"   		;//Twe zachowanie hañbi dobre imiê stra¿y miejskiej! Lord Andre za¿¹da wyjaœnieñ!
-	CITY_CRIME       			= "SVM_16_CITY_CRIME"    			;//Lord Andre dowie siê o twoich czynach!
-	// -------------------------
- 	MONA_CRIME       			= "SVM_16_MONA_CRIME"    			;//Post¹pi³eœ niew³aœciwie. IdŸ do Ojca Parlana i ¿a³uj za swoje grzechy!
-	FARM_CRIME      			= "SVM_16_FARM_CRIME"    			;//Lee siê o tym dowie. Zostaniesz ukarany!
- 	OC_CRIME       				= "SVM_16_OC_CRIME"     			;//Kapitan Garond za¿¹da wyjaœnieñ!
 	// ----------------------------------------------------------------------------------------------------------------------
 	GOLD_1000					= "SVM_16_GOLD_1000"					;//1000 sztuk z³ota.
 	GOLD_950					= "SVM_16_GOLD_950"					;//950 sztuk z³ota.
@@ -3566,14 +3447,6 @@ instance SVM_17 (C_SVM)
 	SHEEPKILLER_CRIME   		= "SVM_17_SHEEPKILLER_CRIME"   		;//Nie mo¿esz tak po prostu zabijaæ naszych owiec! OdejdŸ!
 	ATTACK_CRIME     			= "SVM_17_ATTACK_CRIME"    			;//Jesteœ brutalnym oprychem. Nie chcê mieæ z tob¹ nic wspólnego.
 	THEFT_CRIME      			= "SVM_17_THEFT_CRIME"    			;//Nie rozmawiam ze z³odziejami - wynocha!
-	// -------------------------
-	PAL_CITY_CRIME     			= "SVM_17_PAL_CITY_CRIME"   		;//Twoje zachowanie nie jest zbyt honorowe. Lordowi Hagenowi to siê nie spodoba!
-	MIL_CITY_CRIME     			= "SVM_17_MIL_CITY_CRIME"   		;//Twoje zachowanie hañbi dobre imiê stra¿y miejskiej! Lord Andre za¿¹da wyjaœnieñ!
-	CITY_CRIME       			= "SVM_17_CITY_CRIME"    			;//Lord Andre dowie siê o twych czynach!
-	// -------------------------
- 	MONA_CRIME       			= "SVM_17_MONA_CRIME"    			;//Post¹pi³eœ niew³aœciwie. IdŸ do Ojca Parlana i ¿a³uj za swoje grzechy!
-	FARM_CRIME      			= "SVM_17_FARM_CRIME"    			;//Lee siê o tym dowie. Zostaniesz ukarany!
- 	OC_CRIME       				= "SVM_17_OC_CRIME"     			;//Kapitan Garond za¿¹da wyjaœnieñ!
 	// ----------------------------------------------------------------------------------------------------------------------
 	GOLD_1000					= "SVM_17_GOLD_1000"					;//1000 sztuk z³ota.
 	GOLD_950					= "SVM_17_GOLD_950"					;//950 sztuk z³ota.

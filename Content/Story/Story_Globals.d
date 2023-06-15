@@ -160,13 +160,6 @@ var int 	Knows_SchnellerHering;					//verbesserte SpeedPotionSchnaps von Samuel
 //**************
 var int Kapitel;
 
-// ------ Petzmaster ------
-var int Lee_Schulden;	//wieviel Gold schuldet der SC Lee
-var int Hagen_Schulden;	//wieviel Gold schuldet der SC Hagen
-var int Andre_Schulden;	//wieviel Gold schuldet der SC Andre
-var int Garond_Schulden;	//wieviel Gold schuldet der SC Garond
-var int Parlan_Schulden;	//wieviel Gold schuldet der SC Parlan
-
 // *************************
 // Globalvariablen für Diebstahl 
 // *************************
