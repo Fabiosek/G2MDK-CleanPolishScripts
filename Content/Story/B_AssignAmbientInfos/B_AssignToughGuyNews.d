@@ -8,38 +8,32 @@ instance DIA_ToughGuy_NEWS(C_Info)
 	important = TRUE;
 };
 
-
 func int DIA_ToughGuy_NEWS_Condition()
 {
-	if(Npc_IsInState(self,ZS_Talk) && (self.aivar[AIV_LastFightAgainstPlayer] != FIGHT_NONE) && (self.aivar[AIV_LastFightComment] == FALSE))
+	if(Npc_IsInState (self,ZS_Talk) && (self.aivar[AIV_LastFightAgainstPlayer] != FIGHT_NONE) && (self.aivar[AIV_LastFightComment] == false))
 	{
-		return TRUE;
+		return true;
 	};
 };
 
 func void DIA_ToughGuy_NEWS_Info()
 {
-	if(self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_LOST)
+	if (self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_LOST)
 	{
 		B_Say(self,other,"$TOUGHGUY_ATTACKLOST");
 	}
-	else if(self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_WON)
+	
+	else if (self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_WON)
 	{
 		B_Say(self,other,"$TOUGHGUY_ATTACKWON");
 	}
+	
 	else
 	{
 		B_Say(self,other,"$TOUGHGUY_PLAYERATTACK");
 	};
 	self.aivar[AIV_LastFightComment] = TRUE;
-	
-	/*
-	if(Hlp_GetInstanceID(self) == Hlp_GetInstanceID(Skinner))
-	{
-		AI_Output(self,other,"DIA_Addon_Skinner_ToughguyNews_08_00");	//
-		AI_StopProcessInfos(self);
-		B_Attack(self,other,AR_NONE,1);
-	};*/
+
 };
 
 func void B_AssignToughGuyNEWS(var C_Npc slf)

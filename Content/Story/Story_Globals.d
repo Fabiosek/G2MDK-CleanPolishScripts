@@ -190,9 +190,6 @@ var int 	PlayergetsFinalDJGArmor;
 //**************************
 // Allgemeine Hilfsvariablen
 //**************************
-					
-// ------ KAPITEL 2 ------
-var int GornsTreasure;			//Gorns Schatzversteck
 
 // ------ KAPITEL 5 ------
 var int PAL_KnowsAbout_FINAL_BLESSING; //Paladine Sc hat rezept für Finale Waffensegnung gelesen!

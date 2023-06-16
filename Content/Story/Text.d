@@ -13,8 +13,8 @@ const string MOBNAME_BARBQ_SHEEP	= "";						//Schafe am	Spiess
 const string MOBNAME_BENCH			= "";						//Bank
 const string MOBNAME_ANVIL			= "Kowad³o";				//Amboss
 const string MOBNAME_BUCKET			= "Wiadro wody";			//Wassereimer
-const string MOBNAME_FORGE			= "Ogieñ w kuŸni";			//Schmiede
-const string MOBNAME_GRINDSTONE		= "Ose³ka";					//Schleifstein
+const string MOBNAME_FORGE			= "Piec kowalski";			//Schmiede
+const string MOBNAME_GRINDSTONE		= "Kamieñ szlifierski";		//Schleifstein
 const string MOBNAME_WHEEL			= "Ko³owrót";				//Winde
 const string MOBNAME_LAB			= "Stó³ alchemiczny";		//Alchemietisch
 const string MOBNAME_BOOKSTAND		= "Rega³ na ksi¹¿ki";		//Buchständer
@@ -25,7 +25,7 @@ const string MOBNAME_SEAT			= "";						//Sessel
 const string MOBNAME_THRONE			= "";						//Thron
 const string MOBNAME_PAN			= "Patelnia";				//Lagerfeuer mit Pfanne
 const string MOBNAME_REPAIR			= "";						//Repair Mobsi
-const string MOBNAME_WATERPIPE		= "Rura";					//Blubber
+const string MOBNAME_WATERPIPE		= "Fajka wodna";			//Blubber
 const string MOBNAME_SWITCH			= "Prze³¹cznik";			//alle Schalter
 const string MOBNAME_ORE			= "Bry³ka rudy";			//Erzmobsi
 const string MOBNAME_WINEMAKER		= "";						//Weinstampfe
@@ -40,7 +40,6 @@ const string MOBNAME_SECRETSWITCH	= "";
 const string MOBNAME_BIBLIOTHEK		= "Biblioteka";
 const string MOBNAME_VORRATSKAMMER	= "Spi¿arnia";
 const string MOBNAME_SCHATZKAMMER	= "Skarbiec";
-const string MOBNAME_IGARAZ			= "Kufer Igaraza";
 const string MOBNAME_ALMANACH		= "Almanach";
 
 //Wegweiser
@@ -251,29 +250,29 @@ const string TXT_SPELLS[MAX_SPELL] =
 	"Do gospody",				// 16	SPL_TeleportTaverne
 	"TXT_SPL_TELEPORT_3",		// 17	SPL_Teleport_3
 
-	// Kreis 1
+	// Kr¹g 1
 	"Œwiat³o",					// 18	SPL_Light
 	"Ognista strza³a",			// 19	SPL_Firebolt
 
-	// Kreis 2
+	// Kr¹g 2
 	"Lodowa strza³a",			// 20	SPL_Icebolt
 
-	// Kreis 1
+	// Kr¹g 1
 	"Leczenie lekkich ran",		// 21	SPL_LightHeal
 	"Szkielet-goblin",			// 22	SPL_SummonGoblinSkeleton
 
-	// Kreis 2
+	// Kr¹g 2
 	"Kula ognia",				// 23	SPL_InstantFireball
 
-	// Kreis 1
+	// Kr¹g 1
 	"Ma³a b³yskawica",			// 24	SPL_Zap
 
-	// Kreis 2
+	// Kr¹g 2
 	"Przyzwanie wilka",			// 25	SPL_SummonWolf
 	"Piêœæ wichru",				// 26	SPL_WindFist
 	"Sen",						// 27	SPL_Sleep
 
-	// Kreis 3
+	// Kr¹g 3
 	"Leczenie œrednich ran",	// 28	SPL_MediumHeal
 	"B³yskawica",				// 29	SPL_LightningFlash
 	"Du¿a kula ognia",			// 30	SPL_ChargeFireball
@@ -282,18 +281,18 @@ const string TXT_SPELLS[MAX_SPELL] =
 	"Bry³a lodu",				// 33	SPL_IceCube
 	"Piorun kulisty",			// 34	SPL_ChargeZap
 
-	// Kreis 4
+	// Kr¹g 4
 	"Tworzenie golema",			// 35	SPL_SummonGolem
 	"Zniszczenie o¿ywieñca",	// 36	SPL_DestroyUndead
 	"Du¿a burza ognista",		// 37	SPL_Pyrokinesis
 
-	// Kreis 5
+	// Kr¹g 5
 	"Ma³a burza ognista",		// 38	SPL_Firestorm
 	"Lodowa fala",				// 39	SPL_IceWave
 	"Demon",					// 40	SPL_SummonDemon
 	"Uleczenie ca³kowite",		// 41	SPL_FullHeal
 
-	// Kreis 6
+	// Kr¹g 6
 	"Ognisty deszcz",			// 42	SPL_Firerain
 	"Tchnienie œmierci",		// 43	SPL_BreathOfDeath
 	"Masowe zniszczenie",		// 44	SPL_MassDeath
@@ -315,7 +314,7 @@ const string TXT_SPELLS[MAX_SPELL] =
 	"Smoczy zêbacz",			// 58	SPL_TrfDragonSnapper
 	"Niepamiêæ"	,				// 59	SPL_Charm
 
-	// Kreis 5
+	// Kr¹g 5
 	"Œwiêty pocisk",			// 60	SPL_MasterOfDisaster
 
 	// ???
@@ -393,29 +392,29 @@ const string NAME_SPL_TeleportOWDemonTower	= "Teleportacja do starej wie¿y demon
 const string NAME_SPL_TeleportTaverne		= "Teleportacja do tawerny";
 const string NAME_SPL_Teleport_3			= "NAME_SPL_TELEPORT_3";
 
-// Kreis 1
+// Kr¹g 1
 const string NAME_SPL_LIGHT					= "Œwiat³o";
 const string NAME_SPL_Firebolt				= "Ognista strza³a";
 
-// Kreis 2
+// Kr¹g 2
 const string NAME_SPL_Icebolt				= "Lodowa strza³a";
 
-// Kreis 1
+// Kr¹g 1
 const string NAME_SPL_LightHeal				= "Leczenie lekkich ran";
 const string NAME_SPL_SummonGoblinSkeleton	= "Tworzenie szkieletu-goblina";
 
-// Kreis 2
+// Kr¹g 2
 const string NAME_SPL_InstantFireball		= "Kula ognia";
 
-// Kreis 1
+// Kr¹g 1
 const string NAME_SPL_Zap					= "B³yskawica";
 
-// Kreis 2
+// Kr¹g 2
 const string NAME_SPL_SummonWolf			= "Przyzwanie wilka";
 const string NAME_SPL_WINDFIST				= "Piêœæ wichru";
 const string NAME_SPL_Sleep					= "Sen";
 
-// Kreis 3
+// Kr¹g 3
 const string NAME_SPL_MediumHeal			= "Leczenie œrednich ran";
 const string NAME_SPL_Firestorm				= "Ma³a burza ognista";
 const string NAME_SPL_SummonSkeleton		= "Tworzenie szkieletu";
@@ -423,19 +422,19 @@ const string NAME_SPL_Fear					= "Strach";
 const string NAME_SPL_IceCube				= "Bry³a lodu";
 const string NAME_SPL_ChargeZap				= "Piorun kulisty";
 
-// Kreis 4
+// Kr¹g 4
 const string NAME_SPL_LightningFlash		= "B³yskawica";
 const string NAME_SPL_SummonGolem			= "Obudzenie golema";
 const string NAME_SPL_DestroyUndead			= "Zniszczenie o¿ywieñca";
 const string NAME_SPL_ChargeFireball		= "Du¿a kula ognia";
 
-// Kreis 5
+// Kr¹g 5
 const string NAME_SPL_Pyrokinesis			= "Du¿a burza ognista";
 const string NAME_SPL_IceWave				= "Lodowa fala";
 const string NAME_SPL_SummonDemon			= "Przyzwanie demona";
 const string NAME_SPL_FullHeal				= "Leczenie ciê¿kich ran";
 
-// Kreis 6
+// Kr¹g 6
 const string NAME_SPL_Firerain				= "Deszcz ognia";
 const string NAME_SPL_BreathOfDeath			= "Tchnienie œmierci";
 const string NAME_SPL_MassDeath				= "Œmiertelna fala";
@@ -457,7 +456,7 @@ const string NAME_SPL_TrfShadowbeast		= "Przemiana w cieniostwora";
 const string NAME_SPL_TrfDragonSnapper		= "Przemiana w smoczego zêbacza";
 const string NAME_SPL_Charm					= "Niepamiêæ";
 
-// Kreis 5
+// Kr¹g 5
 const string NAME_SPL_MasterOfDisaster		= "Œwiêty pocisk";
 
 // ???
@@ -548,7 +547,7 @@ const string TXT_TALENTS_SKILLS	[NPC_TALENT_MAX] =
 	"Zielony|Wojownik|Mistrz",									//NPC_TALENT_CROSSBOW			= 4;
 	"-|Uczony|-",												//NPC_TALENT_PICKLOCK			= 5;	//wird jetzt per DEX geregelt UND es gibt nur noch Level 0 und 1 (nicht	mehr 2)
 	"0|1|2",													//altes	Pickpocket aus Gothic 1	- NICHT	benutzen! Bleibt als Relikt	im Code	= 6;
-	"0|1|2|3|4|5|6",											//NPC_TALENT_MAGE				= 7;	// Magiekreis
+	"0|1|2|3|4|5|6",											//NPC_TALENT_MAGE				= 7;	// MagieKr¹g
 	"-|Uczony",													//NPC_TALENT_SNEAK				= 8;
 	"-|-",														//raus //NPC_TALENT_REGENERATE	= 9;
 	"-|-",														//raus //NPC_TALENT_FIREMASTER	= 10;
@@ -820,7 +819,7 @@ const string PRINT_LearnMANA_MAX			= "Mana + ";
 const string PRINT_Learnhitpoints_MAX		= "Punkty trafieñ + ";
 const string PRINT_LearnLP					= "Punkty nauki + ";
 
-// ------ Kreise der Magie -----------------------------------------------------------------------
+// ------ Kr¹ge der Magie -----------------------------------------------------------------------
 const string PRINT_LearnCircle_1			= "Nauka: pierwszy kr¹g magii";
 const string PRINT_LearnCircle_2			= "Nauka: drugi kr¹g magii";
 const string PRINT_LearnCircle_3			= "Nauka: trzeci kr¹g magii";
@@ -962,9 +961,6 @@ const string PRINT_Eat3							= "Czujesz si³ê, czujesz moc!";
 const string Print_ReadAstronomy				= "Przepe³nia ciê wra¿enie obcowania z istot¹ bosk¹.";
 
 // ------ spezielle	-------
-const string PRINT_GornsTreasure				= "Otrzyma³eœ 100 szt. z³ota.";
-const string PRINT_KerolothsGeldBeutel			= "Otrzyma³eœ 300 szt. z³ota.";
-const string PRINT_MalethBanditsGold			= "Otrzyma³eœ 300 szt. z³ota.";
 const string PRINT_IrdorathBookDoesntOpen		= "Nie mo¿na otworzyæ ok³adki tej ksiêgi.";
 const string PRINT_IrdorathBookHiddenKey		= "W ok³adce tej ksiêgi schowano klucz!";
 
@@ -972,7 +968,6 @@ const string PRINT_GotFourItems					= "Otrzyma³eœ 4 przedmioty ";
 const string PRINT_OrcEliteRingEquip			= "Czujesz siê os³abiony.";
 const string PRINT_ClearSCObsession				= "Czujesz ulgê.";
 const string PRINT_NumberLeft					= "  pozosta³o";
-const string PRINT_NovizenLeft					= "  nowicjuszy pozosta³o";
 
 // ------ Smith	Weapon ------
 const string PRINT_Smith_1H_Special_01			= " (1 bry³ka rudy)";
