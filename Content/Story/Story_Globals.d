@@ -186,7 +186,6 @@ var int 	MIS_Xardas_SCCanOpenIrdorathBook; //SC kann Buch "Die Hallen von Irdora
 var int 	MIS_SCKnowsWayToIrdorath;	//SC weiß jetzt, dass er das Schiff braucht und kennt den Weg zur Dracheninsel
 var int 	PlayerGetsAmulettOfDeath;
 var int 	PlayergetsFinalDJGArmor;
-var int 	MIS_SCvisitShip;
 
 //**************************
 // Allgemeine Hilfsvariablen

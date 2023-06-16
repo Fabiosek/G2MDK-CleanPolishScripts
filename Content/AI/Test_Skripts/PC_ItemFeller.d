@@ -650,28 +650,7 @@ INSTANCE PC_Itemfeller(NPC_DEFAULT)
 //----------------------------------------
 //	MissionItems_2.d
 //----------------------------------------
-	CreateInvItems (self, ItMi_StoneOfKnowlegde_MIS,1);
 	CreateInvItems (self, ItRu_TeleportOWDemonTower,1);
-	CreateInvItems (self, ItWr_PaladinLetter_MIS,1);
-	CreateInvItems (self, ItWr_LetterForGorn_MIS,1);
-	CreateInvItems (self, ItKe_PrisonKey_MIS,1);
-	CreateInvItems (self, ItKe_OC_Store,1);
-	CreateInvItems (self, ITKE_ErzBaronFlur,1);
-	CreateInvItems (self, ITKE_ErzBaronRaum,1);
-	CreateInvItems (self, ItMi_GornsTreasure_MIS,1);
-	CreateInvItems (self, ItWr_Silvestro_MIS,1);
-	CreateInvItems (self, ItAt_ClawLeader,1);
-	CreateInvItems (self, ItSe_Olav,1);
-	CreateInvItems (self, ItMi_GoldPlate_MIS,1);
-	CreateInvItems (self, ItKe_Pass_MIS,1);
-	CreateInvItems (self, ItKe_Bromor,1);
-	CreateInvItems (self, ITKE_RUNE_MIS,1);
-	CreateInvItems (self, ItWr_Bloody_MIS,1);
-	CreateInvItems (self, ItWr_Pfandbrief_MIS,1);
-	CreateInvItems (self, ItWr_Map_OldWorld_Oremines_MIS,1);
-	CreateInvItems (self, ItWr_Manowar,1);
-	CreateInvItems (self, ItWr_KDWLetter,1);
-	CreateInvItems (self, ItWr_GilbertLetter,1);
 //----------------------------------------
 //	MissionItems_3.d
 //----------------------------------------

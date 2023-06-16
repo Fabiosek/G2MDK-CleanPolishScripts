@@ -799,28 +799,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,Holy_Hammer_MIS,1);
 	CreateInvItems(self,ItRw_Bow_L_03_MIS,1);
 	CreateInvItems(self,ItPl_Sagitta_Herb_MIS,1);
-	CreateInvItems(self,ItMi_StoneOfKnowlegde_MIS,1);
-	CreateInvItems(self,ItWr_PaladinLetter_MIS,1);
-	CreateInvItems(self,ItWr_LetterForGorn_MIS,1);
-	CreateInvItems(self,ItKe_PrisonKey_MIS,1);
-	CreateInvItems(self,ItKe_OC_Store,1);
-	CreateInvItems(self,ITKE_ErzBaronFlur,1);
-	CreateInvItems(self,ITKE_ErzBaronRaum,1);
-	CreateInvItems(self,ItMi_GornsTreasure_MIS,1);
-	CreateInvItems(self,ItWr_Silvestro_MIS,1);
-	CreateInvItems(self,ItAt_ClawLeader,1);
-	CreateInvItems(self,ItSe_Olav,1);
-	CreateInvItems(self,ItMi_GoldPlate_MIS,1);
-	CreateInvItems(self,ItKe_Pass_MIS,1);
-	CreateInvItems(self,ItKe_Bromor,1);
-	CreateInvItems(self,ITKE_RUNE_MIS,1);
-	CreateInvItems(self,ItWr_Bloody_MIS,1);
-	CreateInvItems(self,ItWr_Pfandbrief_MIS,1);
-	CreateInvItems(self,ItWr_Map_OldWorld_Oremines_MIS,1);
-	CreateInvItems(self,ItWr_Manowar,1);
-	CreateInvItems(self,ItWr_KDWLetter,1);
-	CreateInvItems(self,ItWr_GilbertLetter,1);
-	CreateInvItems(self,ItRi_Tengron,1);
 	CreateInvItems(self,ItMi_Moleratlubric_MIS,1);
 	CreateInvItems(self,ItMi_KarrasBlessedStone_Mis,1);
 //Addon
