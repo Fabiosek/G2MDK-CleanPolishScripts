@@ -405,7 +405,6 @@ instance Itemhoshi (Npc_Default)
 	CreateInvItems(self,ItSe_GoldPocket25,1);
 	CreateInvItems(self,ItSe_GoldPocket50,1);
 	CreateInvItems(self,ItSe_GoldPocket100,1);
-	CreateInvItems(self,ItSe_HannasBeutel,1);
 //------------------------------------------------------------
 //	Alle Written
 //------------------------------------------------------------
