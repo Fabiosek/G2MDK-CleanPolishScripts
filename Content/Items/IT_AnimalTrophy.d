@@ -46,9 +46,9 @@ const int	Value_DragonScale			=	200;
 
 const int	Value_Keilerfur				= 	 15;	
 /*****************ADDON*************************************************************************/
-INSTANCE ItAt_Addon_BCKopf (C_Item)
+instance ItAt_Addon_BCKopf (C_Item)
 {
-	name 				=	"G?owa";
+	name 				=	"G³owa";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -59,16 +59,16 @@ INSTANCE ItAt_Addon_BCKopf (C_Item)
 	material 			=	MAT_LEATHER;
 	
 
-	description			= 	"G?owa polnego pe?zacza";
+	description			= 	"G³owa polnego pe³zacza";
 	TEXT[0]				= 	"";
 	TEXT[2]				= 	"";
 	TEXT[3]				= 	"";
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_Meatbugflesh (C_Item)
+instance ItAt_Meatbugflesh (C_Item)
 {
-	name 				=	"Owadzie mi?so";
+	name 				=	"Owadzie miêso";
 
 	mainflag 			=	ITEM_KAT_FOOD;
 	flags 				=	ITEM_MULTI;
@@ -88,15 +88,15 @@ INSTANCE ItAt_Meatbugflesh (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 
-	FUNC VOID Use_Meatbugflesh()
+	func void Use_Meatbugflesh()
 	{
 		Npc_ChangeAttribute	(self,	ATR_HITPOINTS, 10);
 	};
 
 /******************************************************************************************/
-INSTANCE ItAt_SheepFur (C_Item)
+instance ItAt_SheepFur (C_Item)
 {
-	name 				=	"Owcza skora";
+	name 				=	"Owcza skóra";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -114,9 +114,9 @@ INSTANCE ItAt_SheepFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_WolfFur (C_Item)
+instance ItAt_WolfFur (C_Item)
 {
-	name 				=	"Skora wilka";
+	name 				=	"Skóra wilka";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -134,9 +134,9 @@ INSTANCE ItAt_WolfFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_BugMandibles (C_Item)
+instance ItAt_BugMandibles (C_Item)
 {
-	name 				=	"?uwaczki polnej bestii";
+	name 				=	"¯uwaczki polnej bestii";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -154,7 +154,7 @@ INSTANCE ItAt_BugMandibles (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_Claw (C_Item)
+instance ItAt_Claw (C_Item)
 {
 	name 				=	"Pazury";
 
@@ -174,7 +174,7 @@ INSTANCE ItAt_Claw (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_LurkerClaw (C_Item)
+instance ItAt_LurkerClaw (C_Item)
 {
 	name 				=	"Pazur topielca";
 
@@ -194,9 +194,9 @@ INSTANCE ItAt_LurkerClaw (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_Teeth (C_Item)
+instance ItAt_Teeth (C_Item)
 {
-	name 				=	"K?y";
+	name 				=	"K³y";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -214,9 +214,9 @@ INSTANCE ItAt_Teeth (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_CrawlerMandibles (C_Item)
+instance ItAt_CrawlerMandibles (C_Item)
 {
-	name 				=	"?uwaczki pe?zacza";
+	name 				=	"¯uwaczki pe³zacza";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -230,13 +230,14 @@ INSTANCE ItAt_CrawlerMandibles (C_Item)
 	
 	description			= 	name;
 	
-	TEXT[0]				= 	"Mo?na je otworzy? w celu";
+	TEXT[0]				= 	"Mo¿na je otworzyæ w celu";
 	TEXT[1]				= 	"wypicia zawartej w nich wydzieliny,";
-	TEXT[2]				= 	"ktora pozwala zregenerowa? man?";
+	TEXT[2]				= 	"która pozwala zregenerowaæ manê";
 	TEXT[3]				= 	"Efekt z czasem przemija.";
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
-FUNC VOID Use_Mandibles()
+
+func void Use_Mandibles()
 {
 	if (Mandibles_Bonus <= 9)
 	{
@@ -251,9 +252,9 @@ FUNC VOID Use_Mandibles()
 };
 
 /******************************************************************************************/
-INSTANCE ItAt_Wing (C_Item)
+instance ItAt_Wing (C_Item)
 {
-	name 				=	"Skrzyd?a";
+	name 				=	"Skrzyd³a";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -271,9 +272,9 @@ INSTANCE ItAt_Wing (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_Sting (C_Item)
+instance ItAt_Sting (C_Item)
 {
-	name 				=	"??d?o";
+	name 				=	"¯¹d³o";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -289,11 +290,11 @@ INSTANCE ItAt_Sting (C_Item)
 	description			= 	name;
 	TEXT[0]				= 	"";
 	TEXT[1]				= 	"Zawiera";
-	TEXT[2]				= 	"truj?c? wydzielin?";
+	TEXT[2]				= 	"truj¹c¹ wydzielinê";
 	TEXT[3]				= 	"";
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
-FUNC VOID Use_Sting()
+func void Use_Sting()
 {
 	if (Knows_Bloodfly == TRUE)
 	{
@@ -321,9 +322,9 @@ FUNC VOID Use_Sting()
 };
 
 /******************************************************************************************/
-INSTANCE itat_LurkerSkin (C_Item) //REPTILE Skin
+instance itat_LurkerSkin (C_Item) //REPTILE Skin
 {
-	name 				=	"Skora topielca";
+	name 				=	"Skóra topielca";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -333,7 +334,7 @@ INSTANCE itat_LurkerSkin (C_Item) //REPTILE Skin
 	visual 				=	"ItAt_LurkerSkin.3DS";
 	material 			=	MAT_LEATHER;
 
-	description			= 	"Skora topielca";
+	description			= 	"Skóra topielca";
 	TEXT[0]				= 	"";
 	TEXT[1]				= 	"";
 	TEXT[2]				= 	"";
@@ -341,9 +342,9 @@ INSTANCE itat_LurkerSkin (C_Item) //REPTILE Skin
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_WargFur (C_Item)
+instance ItAt_WargFur (C_Item)
 {
-	name 				=	"Skora warga";
+	name 				=	"Skóra warga";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -361,9 +362,9 @@ INSTANCE ItAt_WargFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_Addon_KeilerFur (C_Item)
+instance ItAt_Addon_KeilerFur (C_Item)
 {
-	name 				=	"Skora dzika";
+	name 				=	"Skóra dzika";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -381,9 +382,9 @@ INSTANCE ItAt_Addon_KeilerFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_DrgSnapperHorn (C_Item)
+instance ItAt_DrgSnapperHorn (C_Item)
 {
-	name 				=	"Rog smoczego z?bacza";
+	name 				=	"Róg smoczego zêbacza";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -401,9 +402,9 @@ INSTANCE ItAt_DrgSnapperHorn (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_CrawlerPlate (C_Item)
+instance ItAt_CrawlerPlate (C_Item)
 {
-	name 				=	"P?yty pancerza pe?zacza";
+	name 				=	"P³yty pancerza pe³zacza";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -421,9 +422,9 @@ INSTANCE ItAt_CrawlerPlate (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_ShadowFur (C_Item)
+instance ItAt_ShadowFur (C_Item)
 {
-	name 				=	"Skora cieniostwora";
+	name 				=	"Skóra cieniostwora";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -441,9 +442,9 @@ INSTANCE ItAt_ShadowFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_SharkSkin (C_Item)
+instance ItAt_SharkSkin (C_Item)
 {
-	name 				=	"Skora b?otnego w??a";
+	name 				=	"Skóra b³otnego wê¿a";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -461,9 +462,9 @@ INSTANCE ItAt_SharkSkin (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_TrollFur (C_Item)
+instance ItAt_TrollFur (C_Item)
 {
-	name 				=	"Skora trolla";
+	name 				=	"Skóra trolla";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -481,9 +482,9 @@ INSTANCE ItAt_TrollFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_TrollBlackFur (C_Item)
+instance ItAt_TrollBlackFur (C_Item)
 {
-	name 				=	"Skora czarnego trolla";
+	name 				=	"Skóra czarnego trolla";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -501,9 +502,9 @@ INSTANCE ItAt_TrollBlackFur (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_WaranFiretongue (C_Item)
+instance ItAt_WaranFiretongue (C_Item)
 {
-	name 				=	"J?zyk ognistego jaszczura";
+	name 				=	"Jêzyk ognistego jaszczura";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -521,9 +522,9 @@ INSTANCE ItAt_WaranFiretongue (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_ShadowHorn (C_Item)
+instance ItAt_ShadowHorn (C_Item)
 {
-	name 				=	"Rog cieniostwora";
+	name 				=	"Róg cieniostwora";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -541,9 +542,9 @@ INSTANCE ItAt_ShadowHorn (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_SharkTeeth (C_Item)
+instance ItAt_SharkTeeth (C_Item)
 {
-	name 				=	"K?y b?otnego w??a";
+	name 				=	"K³y b³otnego wê¿a";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -561,9 +562,9 @@ INSTANCE ItAt_SharkTeeth (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_TrollTooth (C_Item)
+instance ItAt_TrollTooth (C_Item)
 {
-	name 				=	"Kie? trolla";
+	name 				=	"Kie³ trolla";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -584,7 +585,7 @@ INSTANCE ItAt_TrollTooth (C_Item)
 	
 };
 /******************************************************************************************/
-INSTANCE ItAt_StoneGolemHeart (C_Item)
+instance ItAt_StoneGolemHeart (C_Item)
 {
 	name 				=	"Serce kamiennego golema";
 
@@ -606,7 +607,7 @@ INSTANCE ItAt_StoneGolemHeart (C_Item)
 };
 
 /******************************************************************************************/
-INSTANCE ItAt_FireGolemHeart (C_Item)
+instance ItAt_FireGolemHeart (C_Item)
 {
 	name 				=	"Serce ognistego golema";
 
@@ -628,7 +629,7 @@ INSTANCE ItAt_FireGolemHeart (C_Item)
 };
 
 /******************************************************************************************/
-INSTANCE ItAt_IceGolemHeart (C_Item)
+instance ItAt_IceGolemHeart (C_Item)
 {
 	name 				=	"Serce lodowego golema";
 
@@ -649,9 +650,9 @@ INSTANCE ItAt_IceGolemHeart (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_GoblinBone (C_Item)
+instance ItAt_GoblinBone (C_Item)
 {
-	name 				=	"Ko?? goblina";
+	name 				=	"Koœæ goblina";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -669,9 +670,9 @@ INSTANCE ItAt_GoblinBone (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_SkeletonBone (C_Item)
+instance ItAt_SkeletonBone (C_Item)
 {
-	name 				=	"Ko?? szkieletu";
+	name 				=	"Koœæ szkieletu";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
@@ -689,7 +690,7 @@ INSTANCE ItAt_SkeletonBone (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_DemonHeart (C_Item)
+instance ItAt_DemonHeart (C_Item)
 {
 	name 				=	"Serce demona";
 
@@ -712,9 +713,9 @@ INSTANCE ItAt_DemonHeart (C_Item)
 //**************************************************************************
 //					Drachentrophäen		
 //**************************************************************************
-INSTANCE ItAt_UndeadDragonSoulStone (C_Item)
+instance ItAt_UndeadDragonSoulStone (C_Item)
 {
-	name 				=	"Kamie? duszy smoka-o?ywie?ca";
+	name 				=	"Kamieñ duszy smoka-o¿ywieñca";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI|ITEM_MISSION;
@@ -735,7 +736,7 @@ INSTANCE ItAt_UndeadDragonSoulStone (C_Item)
 	
 };
 /******************************************************************************************/
-INSTANCE ItAt_IcedragonHeart (C_Item)
+instance ItAt_IcedragonHeart (C_Item)
 {
 	name 				=	"Serce lodowego smoka";
 
@@ -755,7 +756,7 @@ INSTANCE ItAt_IcedragonHeart (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_RockdragonHeart (C_Item)
+instance ItAt_RockdragonHeart (C_Item)
 {
 	name 				=	"Serce kamiennego smoka";
 
@@ -775,9 +776,9 @@ INSTANCE ItAt_RockdragonHeart (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_SwampdragonHeart (C_Item)
+instance ItAt_SwampdragonHeart (C_Item)
 {
-	name 				=	"Serce b?otnego smoka";
+	name 				=	"Serce b³otnego smoka";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI|ITEM_MISSION; 
@@ -795,7 +796,7 @@ INSTANCE ItAt_SwampdragonHeart (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_FiredragonHeart (C_Item)
+instance ItAt_FiredragonHeart (C_Item)
 {
 	name 				=	"Serce ognistego smoka";
 
@@ -815,7 +816,7 @@ INSTANCE ItAt_FiredragonHeart (C_Item)
 	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 /******************************************************************************************/
-INSTANCE ItAt_DragonBlood (C_Item)
+instance ItAt_DragonBlood (C_Item)
 {
 	name 				=	"Smocza krew";
 
@@ -837,9 +838,9 @@ INSTANCE ItAt_DragonBlood (C_Item)
 	INV_ZBIAS				= INVCAM_ENTF_MISC_STANDARD;
 };
 /******************************************************************************************/
-INSTANCE ItAt_DragonScale (C_Item)
+instance ItAt_DragonScale (C_Item)
 {
-	name 				=	"Smocze ?uski";
+	name 				=	"Smocze ³uski";
 
 	mainflag 			=	ITEM_KAT_NONE;
 	flags 				=	ITEM_MULTI;
